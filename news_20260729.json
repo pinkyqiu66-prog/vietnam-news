@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-29T16:29:33.371767",
+  "scraped_at": "2026-07-29T16:31:29.592552",
   "date": "29/07/2026",
   "general": [
     {
@@ -28,7 +28,7 @@
       "url": "https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-to-lam-chuyen-nhan-thuc-thanh-hanh-dong-quyet-tam-thanh-ket-qua-d656133.html",
       "source": "Báo Đầu Tư",
       "is_drone": false,
-      "title_zh": "林郑月娥总书记、国家主席：把认识转化为行动，把决心转化为结果"
+      "title_zh": "林郑月娥总书记、国家主席：化认识为行动、化决心为成果"
     },
     {
       "title": "Tạo dư địa cho chu kỳ tăng trưởng 2 con số",
@@ -213,18 +213,18 @@
       "title_zh": "一名越南人在日本地震中丧生"
     },
     {
+      "title": "Thống nhất lộ trình khai thác sân bay Long Thành theo ba giai đoạn",
+      "url": "https://vnexpress.net/thong-nhat-lo-trinh-khai-thac-san-bay-long-thanh-theo-ba-giai-doan-5102790.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "统一路线图，分三个阶段开发隆城机场"
+    },
+    {
       "title": "Xoay xở trong những căn nhà siêu mỏng ven rạch Xuyên Tâm",
       "url": "https://vnexpress.net/xoay-xo-trong-nhung-can-nha-sieu-mong-ven-rach-xuyen-tam-5102639.html",
       "source": "VnExpress",
       "is_drone": false,
       "title_zh": "Xuyen Tam 运河沿岸超薄房屋的管理"
-    },
-    {
-      "title": "Diễn viên 'Trái tim mùa thu' kết hôn",
-      "url": "https://vnexpress.net/dien-vien-trai-tim-mua-thu-ket-hon-5102768.html",
-      "source": "VnExpress",
-      "is_drone": false,
-      "title_zh": "演员“我心中的秋天”结婚"
     },
     {
       "title": "Kim Soo Hyun vô tội",
@@ -234,18 +234,32 @@
       "title_zh": "金秀贤是无辜的"
     },
     {
+      "title": "Hai ảnh chân dung trong mộ liệt sĩ chưa biết tên",
+      "url": "https://vnexpress.net/hai-anh-chan-dung-trong-mo-liet-si-chua-biet-ten-5102892.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "无名烈士墓中的两幅肖像"
+    },
+    {
+      "title": "Diễn viên 'Trái tim mùa thu' kết hôn",
+      "url": "https://vnexpress.net/dien-vien-trai-tim-mua-thu-ket-hon-5102768.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "演员“我心中的秋天”结婚"
+    },
+    {
+      "title": "Nghiêm cấm lợi dụng sắp xếp bộ máy để 'cài cắm người thân tín'",
+      "url": "https://vnexpress.net/nghiem-cam-loi-dung-sap-xep-bo-may-de-cai-cam-nguoi-than-tin-5102842.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "严禁利用装置布置‘安插信任人’"
+    },
+    {
       "title": "Sinh viên Trung Quốc luyện cách ứng phó với bắt cóc và ICE trước khi du học Mỹ",
       "url": "https://vnexpress.net/sinh-vien-trung-quoc-luyen-cach-ung-pho-voi-bat-coc-va-ice-truoc-khi-du-hoc-my-5102413.html",
       "source": "VnExpress",
       "is_drone": false,
       "title_zh": "中国学生赴美留学前练习如何应对绑架和ICE"
-    },
-    {
-      "title": "Thống nhất lộ trình khai thác sân bay Long Thành theo ba giai đoạn",
-      "url": "https://vnexpress.net/thong-nhat-lo-trinh-khai-thac-san-bay-long-thanh-theo-ba-giai-doan-5102790.html",
-      "source": "VnExpress",
-      "is_drone": false,
-      "title_zh": "统一路线图，分三个阶段开发隆城机场"
     },
     {
       "title": "Boeing mất hơn 3 tỷ USD vì dự án chuyên cơ Không lực Một mới",
@@ -255,32 +269,18 @@
       "title_zh": "波音公司因新空军一号项目损失超过30亿美元"
     },
     {
-      "title": "Hai ảnh chân dung trong mộ liệt sĩ chưa biết tên",
-      "url": "https://vnexpress.net/hai-anh-chan-dung-trong-mo-liet-si-chua-biet-ten-5102892.html",
+      "title": "Ít nhất 13 người đã chết vì động đất 7,1 độ ở Nhật Bản",
+      "url": "https://vnexpress.net/it-nhat-13-nguoi-da-chet-vi-dong-dat-7-1-do-o-nhat-ban-5102821.html",
       "source": "VnExpress",
       "is_drone": false,
-      "title_zh": "无名烈士墓中的两幅肖像"
+      "title_zh": "日本7.1级地震 至少13人死亡"
     },
     {
-      "title": "Ôtô chở 40 khách cháy trên đường ven biển Nha Trang",
-      "url": "https://vnexpress.net/oto-cho-40-khach-chay-tren-duong-ven-bien-nha-trang-5102894.html",
+      "title": "Mỹ cấm nhập khẩu robot hình người mới từ Trung Quốc",
+      "url": "https://vnexpress.net/my-cam-nhap-khau-robot-hinh-nguoi-moi-tu-trung-quoc-5102820.html",
       "source": "VnExpress",
       "is_drone": false,
-      "title_zh": "一辆载有40名乘客的汽车在芽庄沿海公路上起火"
-    },
-    {
-      "title": "Nam điều dưỡng Mỹ tự đi bộ 16 km xuống núi với chiếc gậy đâm xuyên cơ thể",
-      "url": "https://vnexpress.net/nam-dieu-duong-my-tu-di-bo-16-km-xuong-nui-voi-chiec-gay-dam-xuyen-co-the-5102797.html",
-      "source": "VnExpress",
-      "is_drone": false,
-      "title_zh": "美国男护士用棍子刺穿身体步行16公里下山"
-    },
-    {
-      "title": "Mảnh vải dù ghi bút tích tìm thấy trong mộ liệt sĩ",
-      "url": "https://vnexpress.net/manh-vai-du-ghi-but-tich-tim-thay-trong-mo-liet-si-5102896.html",
-      "source": "VnExpress",
-      "is_drone": false,
-      "title_zh": "在烈士墓中发现一块带有亲笔签名的降落伞布"
+      "title_zh": "美国禁止从中国进口新型人形机器人"
     },
     {
       "title": "Danh sách phường ở Huế có thể phải sáp nhập xã phường tiếp do chưa đạt tiêu chuẩn này",
@@ -700,7 +700,7 @@
       "url": "https://tuoitre.vn/ong-dinh-van-noi-thi-cong-du-an-apec-2027-dam-bao-an-toan-khong-de-ngap-nuoc-anh-huong-den-dan-100260729130231607.htm",
       "source": "Tuoi Tre",
       "is_drone": false,
-      "title_zh": "丁文诺先生：APEC 2027项目建设确保安全，不让洪水影响人民"
+      "title_zh": "丁文内先生：APEC 2027项目建设确保安全，不让洪水影响人民"
     },
     {
       "title": "Điều chuyển xăng dầu bảo đảm nguồn cung tiêu thụ",
@@ -938,7 +938,7 @@
       "url": "https://thanhnien.vn/biet-phai-pho-giam-doc-cong-an-hai-phong-cong-tac-tai-van-phong-thanh-uy-hai-phong-185260729120116445.htm",
       "source": "Thanh Nien",
       "is_drone": false,
-      "title_zh": "借调海防市警察局副局长到海防市委办公室工作"
+      "title_zh": "借调海防市警察局副局长到海防市党委办公室工作"
     },
     {
       "title": "Một công dân Việt Nam thiệt mạng trong vụ động đất tại Nhật Bản",
