@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>越南新闻监控 27/07/2026</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --g:#1a7a4a;--gm:#22a05f;--gl:#e8f7ee;--gbd:#b8dfc8;
+  --gold:#c49010;--goldb:#fffbf0;--goldbd:#f0d080;
+  --bg:#f4f8f5;--w:#fff;--bd:#d4e8db;--bd2:#c0d8ca;
+  --tx:#1a2e22;--txm:#3d6b50;--txd:#7aaa8c;
+  --ec:#1a6fa8;--ecb:#eef6fc;--ecd:#b0d8f0;
+  --sh:0 1px 4px rgba(26,122,74,.08);--shm:0 4px 14px rgba(26,122,74,.13);
+}
+body{background:var(--bg);color:var(--tx);font-family:'Microsoft YaHei','微软雅黑','PingFang SC',sans-serif;line-height:1.7;}
+.hd{background:var(--g);}
+.hd-top{background:rgba(0,0,0,.18);padding:5px 32px;display:flex;align-items:center;gap:8px;}
+.hd-top span{font-size:.65rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.6);}
+.dot{width:5px;height:5px;border-radius:50%;background:#5de89a;animation:blink 2s infinite;flex-shrink:0;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:.25;}}
+.hd-body{max-width:1200px;margin:0 auto;padding:20px 32px 24px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;}
+.site-title{font-size:clamp(1.5rem,3vw,2.3rem);font-weight:700;color:#fff;line-height:1.1;}
+.site-title b{color:#a8f0c4;}
+.site-sub{font-size:.7rem;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.06em;margin-top:5px;}
+.hd-r{text-align:right;}
+.hd-date{font-size:1.4rem;font-weight:700;color:#fff;}
+.hd-time{font-size:.63rem;color:rgba(255,255,255,.5);margin-top:2px;}
+.stats{background:var(--w);border-bottom:1px solid var(--bd);box-shadow:var(--sh);}
+.stats-in{max-width:1200px;margin:0 auto;padding:8px 32px;display:flex;align-items:center;flex-wrap:wrap;}
+.si{display:flex;align-items:center;gap:7px;padding:4px 18px 4px 0;margin-right:18px;border-right:1px solid var(--bd);font-size:.75rem;color:var(--txd);}
+.si:last-child{border-right:none;margin-right:0;margin-left:auto;}
+.sn{font-size:1rem;font-weight:700;} .sn.g{color:var(--g);} .sn.gm{color:var(--gm);} .sn.go{color:var(--gold);}
+.mnav{background:var(--w);border-bottom:2px solid var(--gbd);position:sticky;top:0;z-index:100;box-shadow:0 2px 5px rgba(26,122,74,.06);}
+.mnav-in{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;}
+.mt{padding:12px 20px;font-size:.86rem;font-weight:600;color:var(--txd);background:none;border:none;border-bottom:3px solid transparent;margin-bottom:-2px;cursor:pointer;transition:color .15s;white-space:nowrap;}
+.mt:hover{color:var(--g);} .mt.on{color:var(--g);border-bottom-color:var(--g);background:var(--gl);} .mt.on-gold{color:var(--gold);border-bottom-color:var(--gold);background:var(--goldb);}
+.tdiv{width:1px;background:var(--bd);margin:8px 0;}
+.snav{background:var(--w);border-bottom:1px solid var(--bd);}
+.snav-in{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;overflow-x:auto;}
+.st{padding:9px 15px;font-size:.77rem;font-weight:500;color:var(--txd);background:none;border:none;border-bottom:2px solid transparent;margin-bottom:-1px;cursor:pointer;white-space:nowrap;}
+.st:hover{color:var(--g);} .st.s-drone{color:var(--gold);border-bottom-color:var(--gold);} .st.s-gen{color:var(--g);border-bottom-color:var(--g);} .st.s-agr{color:var(--gm);border-bottom-color:var(--gm);} .st.s-all{color:var(--txm);border-bottom-color:var(--bd2);}
+.panel{display:none;} .panel.on{display:block;}
+.mc{max-width:1200px;margin:0 auto;padding:26px 32px 56px;}
+.sec{display:none;} .sec.on{display:block;margin-bottom:36px;}
+.sec-hd{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--gbd);}
+.sec-tag{font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:20px;}
+.tag-g{background:var(--gl);color:var(--g);border:1px solid var(--gbd);} .tag-a{background:#eaf7ef;color:var(--gm);border:1px solid #b0d8be;} .tag-d{background:var(--goldb);color:var(--gold);border:1px solid var(--goldbd);}
+.sec-title{font-size:1.3rem;font-weight:700;color:var(--tx);} .sec-cnt{font-size:.67rem;color:var(--txd);margin-left:auto;}
+.drone-banner{display:flex;align-items:center;gap:14px;background:var(--goldb);border:1px solid var(--goldbd);border-radius:8px;padding:14px 20px;margin-bottom:16px;}
+.drone-banner h2{font-size:1.15rem;font-weight:700;color:var(--gold);} .drone-banner p{font-size:.73rem;color:#8a7040;margin-top:2px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:11px;}
+.card{background:var(--w);border:1px solid var(--bd);border-radius:6px;padding:14px 16px;position:relative;overflow:hidden;box-shadow:var(--sh);transition:border-color .15s,transform .15s,box-shadow .15s;}
+.card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gbd);border-radius:6px 0 0 6px;transition:background .15s;}
+.card:hover{border-color:var(--gm);transform:translateY(-2px);box-shadow:var(--shm);} .card:hover::before{background:var(--g);}
+.card.drone{background:var(--goldb);border-color:var(--goldbd);} .card.drone::before{background:var(--gold)!important;} .card.drone:hover{border-color:var(--gold);}
+.cmeta{display:flex;align-items:center;gap:5px;margin-bottom:6px;flex-wrap:wrap;}
+.src{font-size:.59rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--txd);background:var(--gl);padding:2px 6px;border-radius:3px;border:1px solid var(--gbd);}
+.card.drone .src{background:#fff8e0;border-color:var(--goldbd);color:#8a6800;}
+.dbadge{font-size:.57rem;font-weight:700;background:var(--gold);color:#fff;padding:2px 6px;border-radius:3px;}
+.ctitle{font-size:.85rem;line-height:1.55;} .ctitle a{color:var(--tx);text-decoration:none;} .ctitle a:hover{color:var(--g);text-decoration:underline;text-underline-offset:3px;}
+.card.drone .ctitle a:hover{color:var(--gold);}
+.cvi{font-size:.7rem;color:var(--txd);margin-top:3px;font-style:italic;line-height:1.4;}
+.feat{background:var(--w);border:1px solid var(--bd);border-radius:8px;padding:18px 22px;margin-bottom:11px;position:relative;overflow:hidden;box-shadow:var(--sh);}
+.feat::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--g);border-radius:8px 0 0 8px;}
+.feat-hd{display:flex;align-items:center;gap:6px;margin-bottom:9px;flex-wrap:wrap;}
+.fnum{font-size:1.3rem;font-weight:700;color:var(--gbd);line-height:1;margin-right:2px;}
+.pill{font-size:.59rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:20px;}
+.pill-g{background:var(--ecb);color:var(--ec);border:1px solid var(--ecd);} .pill-a{background:var(--gl);color:var(--g);border:1px solid var(--gbd);} .pill-d{background:var(--goldb);color:var(--gold);border:1px solid var(--goldbd);}
+.chip{font-size:.59rem;color:var(--txd);background:var(--gl);padding:2px 6px;border-radius:3px;border:1px solid var(--gbd);}
+.ftitle{font-size:1rem;font-weight:700;color:var(--tx);line-height:1.42;} .ftitle a{color:inherit;text-decoration:none;} .ftitle a:hover{color:var(--g);text-decoration:underline;text-underline-offset:3px;}
+.fvi{font-size:.72rem;color:var(--txd);margin-top:3px;font-style:italic;}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:9px;margin-bottom:9px;}
+.mcard{background:var(--w);border:1px solid var(--bd);border-radius:6px;padding:12px 14px;position:relative;overflow:hidden;box-shadow:var(--sh);}
+.mcard::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gbd);border-radius:6px 0 0 6px;}
+.mcard:hover{border-color:var(--gm);box-shadow:var(--shm);} .mcard:hover::before{background:var(--g);}
+.mtitle{font-size:.83rem;font-weight:500;line-height:1.5;} .mtitle a{color:var(--tx);text-decoration:none;} .mtitle a:hover{color:var(--g);text-decoration:underline;text-underline-offset:3px;}
+.mvi{font-size:.68rem;color:var(--txd);margin-top:3px;font-style:italic;}
+.day-hd{display:flex;align-items:center;gap:12px;margin-bottom:18px;padding-top:8px;flex-wrap:wrap;}
+.date-badge{flex-shrink:0;background:var(--g);border-radius:6px;padding:6px 11px;text-align:center;min-width:52px;}
+.date-day{font-size:1.6rem;font-weight:700;color:#fff;line-height:1;} .date-mon{font-size:.56rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.65);margin-top:1px;}
+.day-info{flex:1;min-width:120px;} .day-wd{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--txd);margin-bottom:2px;} .day-name{font-size:1.1rem;font-weight:700;color:var(--tx);}
+.day-div{flex:1;height:1px;background:linear-gradient(90deg,var(--gbd),transparent);min-width:20px;}
+.day-chip{font-size:.58rem;color:var(--txd);background:var(--w);border:1px solid var(--bd);padding:2px 8px;border-radius:20px;flex-shrink:0;}
+.sep{margin:20px 0;display:flex;align-items:center;gap:10px;}
+.sep-line{flex:1;height:1px;background:var(--gbd);} .sep-dot{width:5px;height:5px;border-radius:50%;background:var(--gbd);}
+.hl-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px;}
+.hb{padding:5px 13px;font-size:.76rem;font-weight:500;background:var(--w);border:1px solid var(--bd);border-radius:20px;cursor:pointer;color:var(--txd);transition:all .15s;}
+.hb:hover{color:var(--g);border-color:var(--g);} .hb.on{background:var(--g);color:#fff;border-color:var(--g);}
+.hb-cnt{font-size:.64rem;background:rgba(255,255,255,.2);padding:0 4px;border-radius:10px;margin-left:2px;}
+.hb:not(.on) .hb-cnt{background:var(--gl);color:var(--g);}
+.day-block.hidden{display:none;}
+.src-stats{display:flex;background:var(--w);border:1px solid var(--bd);border-radius:8px;overflow:hidden;margin-bottom:24px;box-shadow:var(--sh);flex-wrap:wrap;}
+.ss{flex:1;min-width:120px;padding:13px 16px;border-right:1px solid var(--bd);}
+.ss:last-child{border-right:none;}
+.ss-n{font-size:1.2rem;font-weight:700;color:var(--g);} .ss-n.b{color:var(--ec);}
+.ss span:last-child{font-size:.72rem;color:var(--txd);display:block;margin-top:2px;}
+.src-sh{display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;}
+.src-sh h3{font-size:1.05rem;font-weight:700;}
+.sbadge{font-size:.58rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:20px;}
+.sbadge.g{background:var(--ecb);color:var(--ec);border:1px solid var(--ecd);} .sbadge.a{background:var(--gl);color:var(--g);border:1px solid var(--gbd);}
+.sc-cnt{margin-left:auto;font-size:.7rem;color:var(--txd);}
+.tbl{width:100%;border-collapse:separate;border-spacing:0;background:var(--w);border:1px solid var(--bd);border-radius:8px;overflow:hidden;box-shadow:var(--sh);}
+.tbl thead tr{background:var(--gl);} .tbl th{padding:9px 14px;text-align:left;font-size:.65rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--g);border-bottom:2px solid var(--gbd);white-space:nowrap;}
+.tbl td{padding:10px 14px;font-size:.82rem;vertical-align:middle;} .tbl tbody tr:not(:last-child) td{border-bottom:1px solid var(--bd);} .tbl tbody tr:hover{background:var(--gl);}
+.cn{width:40px;color:var(--txd);font-size:.7rem;font-weight:600;} .cnm{width:170px;font-weight:600;} .cf{color:var(--txm);font-size:.8rem;} .cu{width:240px;}
+.tpill{display:inline-flex;align-items:center;gap:3px;font-size:.65rem;font-weight:500;padding:2px 7px;border-radius:20px;}
+.url-link{color:var(--g);text-decoration:none;font-size:.77rem;word-break:break-all;} .url-link:hover{text-decoration:underline;}
+.src-tb{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:18px;flex-wrap:wrap;}
+.tb-l,.tb-r{display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
+.btn-add{padding:5px 13px;font-size:.78rem;font-weight:500;background:var(--g);color:#fff;border:none;border-radius:6px;cursor:pointer;} .btn-add:hover{background:var(--gm);} .btn-add.a{background:#2f8f5a;}
+.btn-save{padding:5px 13px;font-size:.78rem;font-weight:500;background:var(--g);color:#fff;border:none;border-radius:6px;cursor:pointer;} .btn-save:hover{background:var(--gm);}
+.btn-rst{padding:5px 11px;font-size:.78rem;background:var(--w);color:var(--txd);border:1px solid var(--bd);border-radius:6px;cursor:pointer;}
+.save-tip{font-size:.73rem;color:var(--g);font-weight:500;opacity:0;transition:opacity .3s;} .save-tip.on{opacity:1;}
+.eb{background:none;border:none;cursor:pointer;padding:2px 5px;border-radius:4px;font-size:.74rem;color:var(--txd);margin:0 1px;} .eb:hover{background:var(--gl);color:var(--g);}
+.db{background:none;border:none;cursor:pointer;padding:2px 5px;border-radius:4px;font-size:.74rem;color:#c0392b;opacity:.4;margin:0 1px;} .db:hover{background:#fde8e8;opacity:1;}
+.erow td{background:#f0faf4!important;padding:4px 8px!important;}
+.url-hidden{display:none;} .erow .url-hidden{display:inline;} .erow .url-vis{display:none;}
+.note{margin-top:22px;background:var(--w);border:1px solid var(--bd);border-left:4px solid var(--g);border-radius:6px;padding:13px 16px;font-size:.8rem;color:var(--txm);line-height:1.65;box-shadow:var(--sh);}
+.no-data{color:var(--txd);font-style:italic;padding:22px;text-align:center;background:var(--w);border:1px solid var(--bd);border-radius:6px;font-size:.82rem;}
+.ft{background:var(--g);padding:16px 32px;text-align:center;font-size:.66rem;color:rgba(255,255,255,.6);}
+.ft-srcs{display:flex;flex-wrap:wrap;justify-content:center;gap:3px 11px;margin-top:7px;font-size:.58rem;}
+.ft-srcs a{color:rgba(255,255,255,.42);text-decoration:none;} .ft-srcs a:hover{color:#fff;}
+#loading{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:12px;}
+.spin{width:32px;height:32px;border:3px solid var(--gbd);border-top-color:var(--g);border-radius:50%;animation:spin .65s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+#loading p{font-size:.82rem;color:var(--txd);}
+@media(max-width:768px){
+  .hd-body{padding:14px 18px;} .stats-in{padding:7px 18px;}
+  .mnav-in,.snav-in{padding:0 18px;overflow-x:auto;}
+  .mc{padding:18px 14px 48px;} .grid,.sgrid{grid-template-columns:1fr;}
+  .tbl .cf{display:none;} .src-stats{flex-wrap:wrap;} .ss{min-width:50%;}
+  .ft{padding:12px 18px;} .day-div{display:none;}
+}
+</style>
+</head>
+<body>
+<div id="loading"><div class="spin"></div><p>正在加载今日新闻…</p></div>
+
+<header class="hd">
+  <div class="hd-top"><span class="dot"></span><span>越南新闻监控 · 每日自动更新</span></div>
+  <div class="hd-body">
+    <div>
+      <div class="site-title">越南新闻 <b>监控看板</b></div>
+      <div class="site-sub">综合 · 农业 · 无人机专题 · 来源目录</div>
+    </div>
+    <div class="hd-r">
+      <div class="hd-date" id="hd-date">27/07/2026</div>
+      <div class="hd-time" id="hd-time">更新于 19:52</div>
+    </div>
+  </div>
+</header>
+
+<div class="stats"><div class="stats-in">
+  <div class="si"><span class="dot"></span><span>实时</span></div>
+  <div class="si"><span class="sn g" id="sn-g">140</span><span>综合</span></div>
+  <div class="si"><span class="sn gm" id="sn-a">58</span><span>农业</span></div>
+  <div class="si"><span class="sn go" id="sn-d">0</span><span>无人机</span></div>
+  <div class="si"><span style="font-size:.67rem;color:var(--txd)">7 综合 · 3 农业 · 共10个监控源</span></div>
+</div></div>
+
+<nav class="mnav"><div class="mnav-in">
+  <button class="mt on"   onclick="pg('news',this)">📰 今日新闻</button>
+  <div class="tdiv"></div>
+  <button class="mt"      onclick="pg('hl',this)">★ 事件概要</button>
+  <div class="tdiv"></div>
+  <button class="mt"      onclick="pg('src',this)">📋 来源目录</button>
+</div></nav>
+
+<div class="panel on" id="p-news">
+  <nav class="snav"><div class="snav-in">
+    <button class="st s-drone" onclick="sub('drone',this)">🚁 无人机</button>
+    <button class="st"         onclick="sub('gen',this)">综合新闻</button>
+    <button class="st"         onclick="sub('agr',this)">农业新闻</button>
+    <button class="st"         onclick="sub('all',this)">全部</button>
+  </div></nav>
+  <div class="mc">
+    <div class="sec on" id="s-drone">
+      <div class="drone-banner"><span style="font-size:1.7rem">🚁</span>
+        <div><h2>无人机 &amp; UAV 专题</h2><p>含无人机、植保机、UAV、DJI 等关键词报道</p></div>
+      </div>
+      <div class="grid" id="g-drone"></div>
+    </div>
+    <div class="sec" id="s-gen">
+      <div class="sec-hd"><span class="sec-tag tag-g">综合</span><h2 class="sec-title">综合新闻</h2><span class="sec-cnt" id="cnt-gen"></span></div>
+      <div class="grid" id="g-gen"></div>
+    </div>
+    <div class="sec" id="s-agr">
+      <div class="sec-hd"><span class="sec-tag tag-a">农业</span><h2 class="sec-title">农业新闻</h2><span class="sec-cnt" id="cnt-agr"></span></div>
+      <div class="grid" id="g-agr"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="p-hl">
+  <div class="mc">
+    <div class="hl-bar" id="hl-bar"></div>
+    <div id="hl-content"></div>
+  </div>
+</div>
+
+<div class="panel" id="p-src">
+  <div class="mc">
+    <div class="src-stats">
+      <div class="ss"><span class="ss-n" id="ss-tot">10</span><span>监控来源总数</span></div>
+      <div class="ss"><span class="ss-n b" id="ss-gen">7</span><span>综合类</span></div>
+      <div class="ss"><span class="ss-n" id="ss-agr">3</span><span>农业类</span></div>
+      <div class="ss"><span style="font-size:.7rem;color:var(--txd)">每日 08:30 自动抓取</span></div>
+    </div>
+    <div class="src-tb">
+      <div class="tb-l">
+        <button class="btn-add"   onclick="addRow('g')">＋ 新增综合</button>
+        <button class="btn-add a" onclick="addRow('a')">＋ 新增农业</button>
+      </div>
+      <div class="tb-r">
+        <span class="save-tip" id="stip"></span>
+        <button class="btn-save" onclick="saveSrc()">💾 保存</button>
+        <button class="btn-rst"  onclick="resetSrc()">↺ 恢复默认</button>
+      </div>
+    </div>
+    <div style="margin-bottom:28px">
+      <div class="src-sh"><span style="font-size:1.2rem">🗞️</span><h3>综合类新闻</h3><span class="sbadge g">综合</span><span class="sc-cnt" id="sc-g">7 个来源</span></div>
+      <table class="tbl"><thead><tr><th>#</th><th>名称</th><th>类型</th><th>报道重点</th><th>网址</th><th style="width:68px;text-align:center">操作</th></tr></thead><tbody id="tb-g"></tbody></table>
+    </div>
+    <div>
+      <div class="src-sh"><span style="font-size:1.2rem">🌿</span><h3>农业类新闻</h3><span class="sbadge a">农业</span><span class="sc-cnt" id="sc-a">3 个来源</span></div>
+      <table class="tbl"><thead><tr><th>#</th><th>名称</th><th>类型</th><th>报道重点</th><th>网址</th><th style="width:68px;text-align:center">操作</th></tr></thead><tbody id="tb-a"></tbody></table>
+    </div>
+    <div class="note"><strong>说明：</strong>编辑保存在浏览器本地（localStorage），刷新后依然保留。如需同步到抓取程序，请修改 <code style="background:#f0f5f2;padding:1px 4px;border-radius:3px;color:var(--g)">scraper.py</code> 的 SOURCES 配置。</div>
+  </div>
+</div>
+
+<footer class="ft">
+  <div>越南新闻监控系统 · 每日 08:30 自动更新</div>
+  <div class="ft-srcs" id="ft-srcs"></div>
+</footer>
+
+<script>
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+
+fetch('data.json?v='+Date.now())
+  .then(r=>r.json())
+  .then(d=>{
+    document.getElementById('loading').style.display='none';
+    document.getElementById('hd-date').textContent=d.date;
+    document.getElementById('hd-time').textContent='更新于 '+d.updated;
+    document.getElementById('sn-g').textContent=d.general.length;
+    document.getElementById('sn-a').textContent=d.agri.length;
+    document.getElementById('sn-d').textContent=d.drone.length;
+    renderNews(d); renderHL(d); renderFt(d);
+  })
+  .catch(()=>{
+    document.getElementById('loading').innerHTML='<p style="color:#c0392b;padding:20px;text-align:center">⚠ 无法加载 data.json，请确认两个文件在同一文件夹内</p>';
+  });
+
+function card(a){
+  const dc=a.d?' drone':'',db=a.d?'<span class="dbadge">🚁 无人机</span>':'';
+  return `<div class="card${dc}"><div class="cmeta"><span class="src">${esc(a.s)}</span>${db}</div>
+    <div class="ctitle"><a href="${esc(a.u)}" target="_blank">${esc(a.t)}</a></div>
+    ${a.tv!==a.t?`<div class="cvi">${esc(a.tv)}</div>`:''}</div>`;
+}
+
+function renderNews(d){
+  document.getElementById('g-gen').innerHTML=d.general.map(card).join('')||'<p class="no-data">今日暂无综合新闻</p>';
+  document.getElementById('g-agr').innerHTML=d.agri.map(card).join('')||'<p class="no-data">今日暂无农业新闻</p>';
+  document.getElementById('g-drone').innerHTML=d.drone.map(card).join('')||'<p class="no-data">今日暂无无人机相关报道（关键词：drone/UAV/飞行器/植保机/DJI）</p>';
+  document.getElementById('cnt-gen').textContent=d.general.length+' 篇';
+  document.getElementById('cnt-agr').textContent=d.agri.length+' 篇';
+}
+
+function renderHL(d){
+  const all=[...d.general,...d.agri];
+  document.getElementById('hl-bar').innerHTML=
+    [['all','全部',all.length],['drone','🚁 无人机',d.drone.length],['econ','综合',d.general.length],['agri','农业',d.agri.length]]
+    .map(([k,l,n])=>`<button class="hb${k==='all'?' on':''}" onclick="hlFilter('${k}',this)">${l}<span class="hb-cnt">${n}</span></button>`).join('');
+  
+  const dateP=d.date.split('/');
+  let h=`<div class="day-block" id="hl-today"><div class="day-hd">
+    <div class="date-badge"><div class="date-day">${dateP[0]}</div><div class="date-mon">${dateP[1]}月</div></div>
+    <div class="day-info"><div class="day-wd">${d.weekday} · ${dateP[2]}</div><div class="day-name">今日大事件汇总</div></div>
+    <div class="day-div"></div><div class="day-chip">${all.length} 条新闻</div></div>`;
+
+  if(all.length>0){
+    const f=all[0],fp=d.general.includes(f)?'pill-g':'pill-a',fl=d.general.includes(f)?'综合':'农业';
+    h+=`<div class="feat" data-cat="${d.general.includes(f)?'econ':'agri'}">
+      <div class="feat-hd"><span class="fnum">01</span><span class="pill ${fp}">${fl}</span><span class="chip">${esc(f.s)}</span></div>
+      <div class="ftitle"><a href="${esc(f.u)}" target="_blank">${esc(f.t)}</a></div>
+      ${f.tv!==f.t?`<div class="fvi">${esc(f.tv)}</div>`:''}</div>`;
+    h+='<div class="sgrid">';
+    all.slice(1,7).forEach(a=>{
+      const cat=d.general.includes(a)?'econ':'agri',lbl=cat==='econ'?'综合':'农业';
+      h+=`<div class="mcard" data-cat="${cat}">
+        <div class="cmeta"><span class="pill pill-${cat==='econ'?'g':'a'}">${lbl}</span><span class="chip">${esc(a.s)}</span></div>
+        <div class="mtitle"><a href="${esc(a.u)}" target="_blank">${esc(a.t)}</a></div>
+        ${a.tv!==a.t?`<div class="mvi">${esc(a.tv)}</div>`:''}</div>`;
+    });
+    h+='</div>';
+  }
+  h+='</div>';
+
+  h+=`<div class="sep"><div class="sep-line"></div><div class="sep-dot"></div><div class="sep-line"></div></div>
+  <div class="day-block" id="hl-drone">
+    <div class="day-hd"><div class="date-badge" style="background:var(--gold)"><div class="date-day">🚁</div><div class="date-mon">无人机</div></div>
+    <div class="day-info"><div class="day-wd">无人机 / UAV 专项监控</div><div class="day-name">无人机相关报道</div></div>
+    <div class="day-div"></div><div class="day-chip">${d.drone.length} 条</div></div>
+    <div class="sgrid">`;
+  if(d.drone.length){
+    d.drone.forEach(a=>{h+=`<div class="mcard" data-cat="drone">
+      <div class="cmeta"><span class="pill pill-d">无人机</span><span class="chip">${esc(a.s)}</span></div>
+      <div class="mtitle"><a href="${esc(a.u)}" target="_blank">${esc(a.t)}</a></div>
+      ${a.tv!==a.t?`<div class="mvi">${esc(a.tv)}</div>`:''}</div>`;
+    });
+  }else h+='<p class="no-data">今日暂无无人机相关报道</p>';
+  h+='</div></div>';
+
+  h+=`<div class="sep"><div class="sep-line"></div><div class="sep-dot"></div><div class="sep-line"></div></div>
+  <div class="day-block" id="hl-agri">
+    <div class="day-hd"><div class="date-badge"><div class="date-day">🌿</div><div class="date-mon">农业</div></div>
+    <div class="day-info"><div class="day-wd">农业新闻专区</div><div class="day-name">农业专题报道</div></div>
+    <div class="day-div"></div><div class="day-chip">${d.agri.length} 条</div></div>
+    <div class="sgrid">`;
+  if(d.agri.length){
+    d.agri.slice(0,6).forEach(a=>{h+=`<div class="mcard" data-cat="agri">
+      <div class="cmeta"><span class="pill pill-a">农业</span><span class="chip">${esc(a.s)}</span></div>
+      <div class="mtitle"><a href="${esc(a.u)}" target="_blank">${esc(a.t)}</a></div>
+      ${a.tv!==a.t?`<div class="mvi">${esc(a.tv)}</div>`:''}</div>`;
+    });
+  }
+  h+='</div></div>';
+  document.getElementById('hl-content').innerHTML=h;
+}
+
+function renderFt(d){
+  const srcs=[...new Set([...d.general,...d.agri,...d.drone].map(a=>a.s))];
+  document.getElementById('ft-srcs').innerHTML=srcs.map(s=>`<span><a href="#">${esc(s)}</a></span>`).join('');
+}
+
+function pg(name,btn){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
+  document.getElementById('p-'+name).classList.add('on');
+  document.querySelectorAll('.mt').forEach(b=>b.classList.remove('on','on-gold'));
+  btn.classList.add(name==='hl'?'on-gold':'on');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function sub(name,btn){
+  document.querySelectorAll('#p-news .sec').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('.st').forEach(b=>b.className='st');
+  if(name==='all'){document.querySelectorAll('#p-news .sec').forEach(s=>s.classList.add('on'));btn.className='st s-all';}
+  else{document.getElementById('s-'+name).classList.add('on');btn.className='st s-'+name;}
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function hlFilter(cat,btn){
+  document.querySelectorAll('.hb').forEach(b=>b.classList.remove('on'));btn.classList.add('on');
+  const cards=document.querySelectorAll('#hl-content [data-cat]'),blocks=document.querySelectorAll('#hl-content .day-block');
+  if(cat==='all'){blocks.forEach(b=>b.classList.remove('hidden'));cards.forEach(c=>c.style.display='');}
+  else{
+    cards.forEach(c=>c.style.display=c.dataset.cat===cat?'':'none');
+    blocks.forEach(b=>{const v=[...b.querySelectorAll('[data-cat]')].some(c=>c.dataset.cat===cat);b.classList.toggle('hidden',!v);});
+  }
+}
+
+const DEF={
+  g:[
+    {n:"Báo Đầu Tư",u:"https://baodautu.vn/",f:"经济、投资、金融、政策"},
+    {n:"VnExpress",u:"https://vnexpress.net/",f:"时事、经济、社会、国际"},
+    {n:"Dân Việt",u:"https://danviet.vn/nha-nong/",f:"农民、农村、民生、社会"},
+    {n:"Báo Chính Phủ",u:"https://baochinhphu.vn/",f:"政府政策、官方公告、法规"},
+    {n:"Tuổi Trẻ",u:"https://tuoitre.vn/",f:"时事、社会、经济、教育"},
+    {n:"VTV Kinh Tế",u:"https://vtv.vn/kinh-te.htm",f:"经济、财经、市场动态"},
+    {n:"Thanh Niên",u:"https://thanhnien.vn/thoi-su.htm",f:"时事、政治、社会、国际"},
+  ],
+  a:[
+    {n:"Nông Nghiệp Hữu Cơ",u:"https://nongnghiephuuco.vn/",f:"有机农业、种植技术、出口农产品"},
+    {n:"Nông Thôn Việt",u:"https://nongthonviet.vn/",f:"农村发展、农业市场、粮食价格"},
+    {n:"Nông Nghiệp Môi Trường",u:"https://nongnghiepmoitruong.vn/nong-nghiep/",f:"农业环保、生态种植、气候影响"},
+  ]
+};
+const SK='vn_src_v1';
+function loadSrc(){try{const r=localStorage.getItem(SK);return r?JSON.parse(r):JSON.parse(JSON.stringify(DEF));}catch(e){return JSON.parse(JSON.stringify(DEF));}}
+function saveSrc(){
+  const d={g:collectRows('g'),a:collectRows('a')};
+  localStorage.setItem(SK,JSON.stringify(d));updateSS(d);
+  const t=document.getElementById('stip');t.textContent='✓ 已保存';t.classList.add('on');setTimeout(()=>t.classList.remove('on'),2500);
+}
+function resetSrc(){if(!confirm('确定恢复默认？'))return;localStorage.removeItem(SK);renderSrc(JSON.parse(JSON.stringify(DEF)));}
+function collectRows(cat){return[...document.querySelectorAll('#tb-'+cat+' tr')].map(tr=>{return{n:tr.querySelector('[data-f=n]').textContent.trim(),u:tr.querySelector('[data-f=u]').textContent.trim(),f:tr.querySelector('[data-f=f]').textContent.trim()};}).filter(r=>r.n&&r.u);}
+function updateSS(d){document.getElementById('ss-tot').textContent=d.g.length+d.a.length;document.getElementById('ss-gen').textContent=d.g.length;document.getElementById('ss-agr').textContent=d.a.length;document.getElementById('sc-g').textContent=d.g.length+' 个来源';document.getElementById('sc-a').textContent=d.a.length+' 个来源';}
+function makeRow(item,i,cat){
+  const pill=cat==='g'?'<span class="tpill tag-g">综合</span>':'<span class="tpill tag-a">农业</span>';
+  const ud=item.u.replace(/^https?:\/\//,'').replace(/\/$/,'');
+  const tr=document.createElement('tr');
+  tr.innerHTML=`<td class="cn">${String(i).padStart(2,'0')}</td>
+    <td class="cnm" data-f="n" contenteditable="false">${esc(item.n)}</td>
+    <td>${pill}</td><td class="cf" data-f="f" contenteditable="false">${esc(item.f)}</td>
+    <td class="cu"><span data-f="u" contenteditable="false" class="url-hidden">${esc(item.u)}</span><a href="${esc(item.u)}" target="_blank" class="url-link url-vis">↗ ${esc(ud)}</a></td>
+    <td style="text-align:center;white-space:nowrap"><button class="eb" onclick="toggleEdit(this)">✏️</button><button class="db" onclick="delRow(this)">🗑</button></td>`;
+  return tr;
+}
+function toggleEdit(btn){
+  const tr=btn.closest('tr'),ed=tr.classList.contains('erow');
+  if(ed){
+    tr.querySelectorAll('[contenteditable]').forEach(el=>{el.contentEditable='false';el.style.cssText='';});
+    const uv=tr.querySelector('[data-f=u]').textContent.trim(),al=tr.querySelector('.url-vis');
+    al.href=uv;al.textContent='↗ '+uv.replace(/^https?:\/\//,'').replace(/\/$/,'');
+    tr.classList.remove('erow');btn.textContent='✏️';renum(tr.closest('tbody'));
+  }else{
+    tr.classList.add('erow');
+    tr.querySelectorAll('[data-f]').forEach(el=>{el.contentEditable='true';el.style.border='1px solid var(--gbd)';el.style.padding='2px 6px';el.style.borderRadius='4px';});
+    tr.querySelector('[data-f=n]').focus();btn.textContent='✔';
+  }
+}
+function delRow(btn){if(!confirm('确定删除？'))return;const tr=btn.closest('tr'),tb=tr.closest('tbody');tr.style.transition='opacity .2s';tr.style.opacity='0';setTimeout(()=>{tr.remove();renum(tb);},220);}
+function renum(tb){[...tb.querySelectorAll('tr')].forEach((tr,i)=>{const n=tr.querySelector('.cn');if(n)n.textContent=String(i+1).padStart(2,'0');});}
+function addRow(cat){const tb=document.getElementById('tb-'+cat),tr=makeRow({n:'新来源名称',u:'https://',f:'报道重点'},tb.querySelectorAll('tr').length+1,cat);tb.appendChild(tr);toggleEdit(tr.querySelector('.eb'));tr.scrollIntoView({behavior:'smooth',block:'center'});}
+function renderSrc(d){['g','a'].forEach(cat=>{const tb=document.getElementById('tb-'+cat);tb.innerHTML='';(d[cat]||[]).forEach((it,i)=>tb.appendChild(makeRow(it,i+1,cat)));}); updateSS(d);}
+renderSrc(loadSrc());
+</script>
+</body>
+</html>

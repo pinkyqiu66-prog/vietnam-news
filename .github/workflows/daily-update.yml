@@ -1,0 +1,40 @@
+name: Daily News Update
+
+on:
+  schedule:
+    # Run every day at 00:30 UTC = 08:30 Beijing time
+    - cron: '30 0 * * *'
+  workflow_dispatch:   # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Commit and push updated index.html
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html data.json news_*.html news_*.json
+          git diff --staged --quiet || git commit -m "chore: daily news update $(date +'%Y-%m-%d')"
+          git push

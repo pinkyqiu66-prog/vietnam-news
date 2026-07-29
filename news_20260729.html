@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>越南新闻监控 29/07/2026</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --g:#1a7a4a;--gm:#22a05f;--gl:#e8f7ee;--gbd:#b8dfc8;
+  --gold:#c49010;--goldb:#fffbf0;--goldbd:#f0d080;
+  --bg:#f4f8f5;--w:#fff;--bd:#d4e8db;--bd2:#c0d8ca;
+  --tx:#1a2e22;--txm:#3d6b50;--txd:#7aaa8c;
+  --ec:#1a6fa8;--ecb:#eef6fc;--ecd:#b0d8f0;
+  --sh:0 1px 4px rgba(26,122,74,.08);--shm:0 4px 14px rgba(26,122,74,.13);
+}
+body{background:var(--bg);color:var(--tx);font-family:'Microsoft YaHei','微软雅黑','PingFang SC',sans-serif;line-height:1.7;}
+.hd{background:var(--g);}
+.hd-top{background:rgba(0,0,0,.18);padding:5px 32px;display:flex;align-items:center;gap:8px;}
+.hd-top span{font-size:.65rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.6);}
+.dot{width:5px;height:5px;border-radius:50%;background:#5de89a;animation:blink 2s infinite;flex-shrink:0;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:.25;}}
+.hd-body{max-width:1200px;margin:0 auto;padding:20px 32px 24px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;}
+.site-title{font-size:clamp(1.5rem,3vw,2.3rem);font-weight:700;color:#fff;line-height:1.1;}
+.site-title b{color:#a8f0c4;}
+.site-sub{font-size:.7rem;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.06em;margin-top:5px;}
+.hd-r{text-align:right;}
+.hd-date{font-size:1.4rem;font-weight:700;color:#fff;}
+.hd-time{font-size:.63rem;color:rgba(255,255,255,.5);margin-top:2px;}
+.stats{background:var(--w);border-bottom:1px solid var(--bd);box-shadow:var(--sh);}
+.stats-in{max-width:1200px;margin:0 auto;padding:8px 32px;display:flex;align-items:center;flex-wrap:wrap;}
+.si{display:flex;align-items:center;gap:7px;padding:4px 18px 4px 0;margin-right:18px;border-right:1px solid var(--bd);font-size:.75rem;color:var(--txd);}
+.si:last-child{border-right:none;margin-right:0;margin-left:auto;}
+.sn{font-size:1rem;font-weight:700;} .sn.g{color:var(--g);} .sn.gm{color:var(--gm);} .sn.go{color:var(--gold);}
+.mnav{background:var(--w);border-bottom:2px solid var(--gbd);position:sticky;top:0;z-index:100;box-shadow:0 2px 5px rgba(26,122,74,.06);}
+.mnav-in{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;}
+.mt{padding:12px 20px;font-size:.86rem;font-weight:600;color:var(--txd);background:none;border:none;border-bottom:3px solid transparent;margin-bottom:-2px;cursor:pointer;transition:color .15s;white-space:nowrap;}
+.mt:hover{color:var(--g);} .mt.on{color:var(--g);border-bottom-color:var(--g);background:var(--gl);} .mt.on-gold{color:var(--gold);border-bottom-color:var(--gold);background:var(--goldb);} .mt.on-arc{color:#6a3da8;border-bottom-color:#6a3da8;background:#f4f0fc;}
+.tdiv{width:1px;background:var(--bd);margin:8px 0;}
+.snav{background:var(--w);border-bottom:1px solid var(--bd);}
+.snav-in{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;overflow-x:auto;}
+.st{padding:9px 15px;font-size:.77rem;font-weight:500;color:var(--txd);background:none;border:none;border-bottom:2px solid transparent;margin-bottom:-1px;cursor:pointer;white-space:nowrap;}
+.st:hover{color:var(--g);} .st.s-drone{color:var(--gold);border-bottom-color:var(--gold);} .st.s-gen{color:var(--g);border-bottom-color:var(--g);} .st.s-agr{color:var(--gm);border-bottom-color:var(--gm);} .st.s-all{color:var(--txm);border-bottom-color:var(--bd2);}
+.panel{display:none;} .panel.on{display:block;}
+.mc{max-width:1200px;margin:0 auto;padding:26px 32px 56px;}
+.sec{display:none;} .sec.on{display:block;margin-bottom:36px;}
+.sec-hd{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--gbd);}
+.sec-tag{font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:20px;}
+.tag-g{background:var(--gl);color:var(--g);border:1px solid var(--gbd);} .tag-a{background:#eaf7ef;color:var(--gm);border:1px solid #b0d8be;} .tag-d{background:var(--goldb);color:var(--gold);border:1px solid var(--goldbd);}
+.sec-title{font-size:1.3rem;font-weight:700;color:var(--tx);} .sec-cnt{font-size:.67rem;color:var(--txd);margin-left:auto;}
+.drone-banner{display:flex;align-items:center;gap:14px;background:var(--goldb);border:1px solid var(--goldbd);border-radius:8px;padding:14px 20px;margin-bottom:16px;}
+.drone-banner h2{font-size:1.15rem;font-weight:700;color:var(--gold);} .drone-banner p{font-size:.73rem;color:#8a7040;margin-top:2px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:11px;}
+.card{background:var(--w);border:1px solid var(--bd);border-radius:6px;padding:14px 16px;position:relative;overflow:hidden;box-shadow:var(--sh);transition:border-color .15s,transform .15s,box-shadow .15s;}
+.card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gbd);border-radius:6px 0 0 6px;transition:background .15s;}
+.card:hover{border-color:var(--gm);transform:translateY(-2px);box-shadow:var(--shm);} .card:hover::before{background:var(--g);}
+.card.drone{background:var(--goldb);border-color:var(--goldbd);} .card.drone::before{background:var(--gold)!important;} .card.drone:hover{border-color:var(--gold);}
+.cmeta{display:flex;align-items:center;gap:5px;margin-bottom:6px;flex-wrap:wrap;}
+.src{font-size:.59rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--txd);background:var(--gl);padding:2px 6px;border-radius:3px;border:1px solid var(--gbd);}
+.card.drone .src{background:#fff8e0;border-color:var(--goldbd);color:#8a6800;}
+.dbadge{font-size:.57rem;font-weight:700;background:var(--gold);color:#fff;padding:2px 6px;border-radius:3px;}
+.ctitle{font-size:.85rem;line-height:1.55;} .ctitle a{color:var(--tx);text-decoration:none;} .ctitle a:hover{color:var(--g);text-decoration:underline;text-underline-offset:3px;}
+.card.drone .ctitle a:hover{color:var(--gold);}
+.cvi{font-size:.7rem;color:var(--txd);margin-top:3px;font-style:italic;line-height:1.4;}
+.feat{background:var(--w);border:1px solid var(--bd);border-radius:8px;padding:18px 22px;margin-bottom:11px;position:relative;overflow:hidden;box-shadow:var(--sh);}
+.feat::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--g);border-radius:8px 0 0 8px;}
+.feat-hd{display:flex;align-items:center;gap:6px;margin-bottom:9px;flex-wrap:wrap;}
+.fnum{font-size:1.3rem;font-weight:700;color:var(--gbd);line-height:1;margin-right:2px;}
+.pill{font-size:.59rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:20px;}
+.pill-g{background:var(--ecb);color:var(--ec);border:1px solid var(--ecd);} .pill-a{background:var(--gl);color:var(--g);border:1px solid var(--gbd);} .pill-d{background:var(--goldb);color:var(--gold);border:1px solid var(--goldbd);}
+.chip{font-size:.59rem;color:var(--txd);background:var(--gl);padding:2px 6px;border-radius:3px;border:1px solid var(--gbd);}
+.ftitle{font-size:1rem;font-weight:700;color:var(--tx);line-height:1.42;} .ftitle a{color:inherit;text-decoration:none;} .ftitle a:hover{color:var(--g);text-decoration:underline;text-underline-offset:3px;}
+.fvi{font-size:.72rem;color:var(--txd);margin-top:3px;font-style:italic;}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:9px;margin-bottom:9px;}
+.mcard{background:var(--w);border:1px solid var(--bd);border-radius:6px;padding:12px 14px;position:relative;overflow:hidden;box-shadow:var(--sh);}
+.mcard::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gbd);border-radius:6px 0 0 6px;}
+.mcard:hover{border-color:var(--gm);box-shadow:var(--shm);} .mcard:hover::before{background:var(--g);}
+.mtitle{font-size:.83rem;font-weight:500;line-height:1.5;} .mtitle a{color:var(--tx);text-decoration:none;} .mtitle a:hover{color:var(--g);text-decoration:underline;text-underline-offset:3px;}
+.mvi{font-size:.68rem;color:var(--txd);margin-top:3px;font-style:italic;}
+.day-hd{display:flex;align-items:center;gap:12px;margin-bottom:18px;padding-top:8px;flex-wrap:wrap;}
+.date-badge{flex-shrink:0;background:var(--g);border-radius:6px;padding:6px 11px;text-align:center;min-width:52px;}
+.date-day{font-size:1.6rem;font-weight:700;color:#fff;line-height:1;} .date-mon{font-size:.56rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.65);margin-top:1px;}
+.day-info{flex:1;min-width:120px;} .day-wd{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--txd);margin-bottom:2px;} .day-name{font-size:1.1rem;font-weight:700;color:var(--tx);}
+.day-div{flex:1;height:1px;background:linear-gradient(90deg,var(--gbd),transparent);min-width:20px;}
+.day-chip{font-size:.58rem;color:var(--txd);background:var(--w);border:1px solid var(--bd);padding:2px 8px;border-radius:20px;flex-shrink:0;}
+.sep{margin:20px 0;display:flex;align-items:center;gap:10px;}.drone-sub-hd{font-size:.8rem;font-weight:600;color:var(--gold);margin:14px 0 8px;padding:6px 10px;background:var(--goldb);border-radius:4px;border-left:3px solid var(--gold);}
+.sep-line{flex:1;height:1px;background:var(--gbd);} .sep-dot{width:5px;height:5px;border-radius:50%;background:var(--gbd);}
+.hl-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px;}
+.hb{padding:5px 13px;font-size:.76rem;font-weight:500;background:var(--w);border:1px solid var(--bd);border-radius:20px;cursor:pointer;color:var(--txd);transition:all .15s;}
+.hb:hover{color:var(--g);border-color:var(--g);} .hb.on{background:var(--g);color:#fff;border-color:var(--g);}
+.hb-cnt{font-size:.64rem;background:rgba(255,255,255,.2);padding:0 4px;border-radius:10px;margin-left:2px;}
+.hb:not(.on) .hb-cnt{background:var(--gl);color:var(--g);}
+.day-block.hidden{display:none;}
+.src-stats{display:flex;background:var(--w);border:1px solid var(--bd);border-radius:8px;overflow:hidden;margin-bottom:24px;box-shadow:var(--sh);flex-wrap:wrap;}
+.ss{flex:1;min-width:120px;padding:13px 16px;border-right:1px solid var(--bd);}
+.ss:last-child{border-right:none;}
+.ss-n{font-size:1.2rem;font-weight:700;color:var(--g);} .ss-n.b{color:var(--ec);}
+.ss span:last-child{font-size:.72rem;color:var(--txd);display:block;margin-top:2px;}
+.src-sh{display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;}
+.src-sh h3{font-size:1.05rem;font-weight:700;}
+.sbadge{font-size:.58rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:20px;}
+.sbadge.g{background:var(--ecb);color:var(--ec);border:1px solid var(--ecd);} .sbadge.a{background:var(--gl);color:var(--g);border:1px solid var(--gbd);}
+.sc-cnt{margin-left:auto;font-size:.7rem;color:var(--txd);}
+.tbl{width:100%;border-collapse:separate;border-spacing:0;background:var(--w);border:1px solid var(--bd);border-radius:8px;overflow:hidden;box-shadow:var(--sh);}
+.tbl thead tr{background:var(--gl);} .tbl th{padding:9px 14px;text-align:left;font-size:.65rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--g);border-bottom:2px solid var(--gbd);white-space:nowrap;}
+.tbl td{padding:10px 14px;font-size:.82rem;vertical-align:middle;} .tbl tbody tr:not(:last-child) td{border-bottom:1px solid var(--bd);} .tbl tbody tr:hover{background:var(--gl);}
+.cn{width:40px;color:var(--txd);font-size:.7rem;font-weight:600;} .cnm{width:170px;font-weight:600;} .cf{color:var(--txm);font-size:.8rem;} .cu{width:240px;}
+.tpill{display:inline-flex;align-items:center;gap:3px;font-size:.65rem;font-weight:500;padding:2px 7px;border-radius:20px;}
+.url-link{color:var(--g);text-decoration:none;font-size:.77rem;word-break:break-all;} .url-link:hover{text-decoration:underline;}
+.src-tb{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:18px;flex-wrap:wrap;}
+.tb-l,.tb-r{display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
+.btn-add{padding:5px 13px;font-size:.78rem;font-weight:500;background:var(--g);color:#fff;border:none;border-radius:6px;cursor:pointer;} .btn-add:hover{background:var(--gm);} .btn-add.a{background:#2f8f5a;}
+.btn-save{padding:5px 13px;font-size:.78rem;font-weight:500;background:var(--g);color:#fff;border:none;border-radius:6px;cursor:pointer;} .btn-save:hover{background:var(--gm);}
+.btn-rst{padding:5px 11px;font-size:.78rem;background:var(--w);color:var(--txd);border:1px solid var(--bd);border-radius:6px;cursor:pointer;}
+.save-tip{font-size:.73rem;color:var(--g);font-weight:500;opacity:0;transition:opacity .3s;} .save-tip.on{opacity:1;}
+.eb{background:none;border:none;cursor:pointer;padding:2px 5px;border-radius:4px;font-size:.74rem;color:var(--txd);margin:0 1px;} .eb:hover{background:var(--gl);color:var(--g);}
+.db{background:none;border:none;cursor:pointer;padding:2px 5px;border-radius:4px;font-size:.74rem;color:#c0392b;opacity:.4;margin:0 1px;} .db:hover{background:#fde8e8;opacity:1;}
+.erow td{background:#f0faf4!important;padding:4px 8px!important;}
+.url-hidden{display:none;} .erow .url-hidden{display:inline;} .erow .url-vis{display:none;}
+.note{margin-top:22px;background:var(--w);border:1px solid var(--bd);border-left:4px solid var(--g);border-radius:6px;padding:13px 16px;font-size:.8rem;color:var(--txm);line-height:1.65;box-shadow:var(--sh);}
+.no-data{color:var(--txd);font-style:italic;padding:22px;text-align:center;background:var(--w);border:1px solid var(--bd);border-radius:6px;font-size:.82rem;}
+.ft{background:var(--g);padding:16px 32px;text-align:center;font-size:.66rem;color:rgba(255,255,255,.6);}
+.ft-srcs{display:flex;flex-wrap:wrap;justify-content:center;gap:3px 11px;margin-top:7px;font-size:.58rem;}
+.ft-srcs a{color:rgba(255,255,255,.42);text-decoration:none;} .ft-srcs a:hover{color:#fff;}
+#loading{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:12px;}
+.spin{width:32px;height:32px;border:3px solid var(--gbd);border-top-color:var(--g);border-radius:50%;animation:spin .65s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+#loading p{font-size:.82rem;color:var(--txd);}
+@media(max-width:768px){
+  .hd-body{padding:14px 18px;} .stats-in{padding:7px 18px;}
+  .mnav-in,.snav-in{padding:0 18px;overflow-x:auto;}
+  .mc{padding:18px 14px 48px;} .grid,.sgrid{grid-template-columns:1fr;}
+  .tbl .cf{display:none;} .src-stats{flex-wrap:wrap;} .ss{min-width:50%;}
+  .ft{padding:12px 18px;} .day-div{display:none;}
+}
+</style>
+</head>
+<body>
+<div id="loading"><div class="spin"></div><p>正在加载今日新闻…</p></div>
+
+<header class="hd">
+  <div class="hd-top"><span class="dot"></span><span>越南新闻监控 · 每日自动更新</span></div>
+  <div class="hd-body">
+    <div>
+      <div class="site-title">越南新闻 <b>监控看板</b></div>
+      <div class="site-sub">综合 · 农业 · 无人机专题 · 来源目录</div>
+    </div>
+    <div class="hd-r">
+      <div class="hd-date" id="hd-date">29/07/2026</div>
+      <div class="hd-time" id="hd-time">更新于 16:01</div>
+    </div>
+  </div>
+</header>
+
+<div class="stats"><div class="stats-in">
+  <div class="si"><span class="dot"></span><span>实时</span></div>
+  <div class="si"><span class="sn g" id="sn-g">140</span><span>综合</span></div>
+  <div class="si"><span class="sn gm" id="sn-a">60</span><span>农业</span></div>
+  <div class="si"><span class="sn go" id="sn-d">0</span><span>无人机</span></div>
+  <div class="si"><span style="font-size:.67rem;color:var(--txd)">7 综合 · 3 农业 · 共10个监控源</span></div>
+</div></div>
+
+<nav class="mnav"><div class="mnav-in">
+  <button class="mt on"   onclick="pg('news',this)">📰 今日新闻</button>
+  <div class="tdiv"></div>
+  <button class="mt"      onclick="pg('hl',this)">★ 事件概要</button>
+  <div class="tdiv"></div>
+  <button class="mt"      onclick="pg('arc',this)">📅 历史汇总</button>
+  <div class="tdiv"></div>
+  <button class="mt"      onclick="pg('src',this)">📋 来源目录</button>
+</div></nav>
+
+<div class="panel on" id="p-news">
+  <nav class="snav"><div class="snav-in">
+    <button class="st s-drone" onclick="sub('drone',this)">🚁 无人机</button>
+    <button class="st"         onclick="sub('gen',this)">综合新闻</button>
+    <button class="st"         onclick="sub('agr',this)">农业新闻</button>
+    <button class="st"         onclick="sub('all',this)">全部</button>
+  </div></nav>
+  <div class="mc">
+    <div class="sec on" id="s-drone">
+      <div class="drone-banner"><span style="font-size:1.7rem">🚁</span>
+        <div><h2>无人机 &amp; UAV 专题</h2><p>含无人机、植保机、UAV、DJI 等关键词报道</p></div>
+      </div>
+      <div class="grid" id="g-drone"></div>
+    </div>
+    <div class="sec" id="s-gen">
+      <div class="sec-hd"><span class="sec-tag tag-g">综合</span><h2 class="sec-title">综合新闻</h2><span class="sec-cnt" id="cnt-gen"></span></div>
+      <div class="grid" id="g-gen"></div>
+    </div>
+    <div class="sec" id="s-agr">
+      <div class="sec-hd"><span class="sec-tag tag-a">农业</span><h2 class="sec-title">农业新闻</h2><span class="sec-cnt" id="cnt-agr"></span></div>
+      <div class="grid" id="g-agr"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="p-hl">
+  <div class="mc">
+    <div class="hl-bar" id="hl-bar"></div>
+    <div id="hl-content"></div>
+  </div>
+</div>
+
+<div class="panel" id="p-arc">
+  <div class="mc">
+    <div class="hl-bar" id="arc-bar"></div>
+    <div id="arc-content"></div>
+  </div>
+</div>
+
+<div class="panel" id="p-src">
+  <div class="mc">
+    <div class="src-stats">
+      <div class="ss"><span class="ss-n" id="ss-tot">10</span><span>监控来源总数</span></div>
+      <div class="ss"><span class="ss-n b" id="ss-gen">7</span><span>综合类</span></div>
+      <div class="ss"><span class="ss-n" id="ss-agr">3</span><span>农业类</span></div>
+      <div class="ss"><span style="font-size:.7rem;color:var(--txd)">每日 08:30 自动抓取</span></div>
+    </div>
+    <div class="src-tb">
+      <div class="tb-l">
+        <button class="btn-add"   onclick="addRow('g')">＋ 新增综合</button>
+        <button class="btn-add a" onclick="addRow('a')">＋ 新增农业</button>
+      </div>
+      <div class="tb-r">
+        <span class="save-tip" id="stip"></span>
+        <button class="btn-save" onclick="saveSrc()">💾 保存</button>
+        <button class="btn-rst"  onclick="resetSrc()">↺ 恢复默认</button>
+      </div>
+    </div>
+    <div style="margin-bottom:28px">
+      <div class="src-sh"><span style="font-size:1.2rem">🗞️</span><h3>综合类新闻</h3><span class="sbadge g">综合</span><span class="sc-cnt" id="sc-g">7 个来源</span></div>
+      <table class="tbl"><thead><tr><th>#</th><th>名称</th><th>类型</th><th>报道重点</th><th>网址</th><th style="width:68px;text-align:center">操作</th></tr></thead><tbody id="tb-g"></tbody></table>
+    </div>
+    <div>
+      <div class="src-sh"><span style="font-size:1.2rem">🌿</span><h3>农业类新闻</h3><span class="sbadge a">农业</span><span class="sc-cnt" id="sc-a">3 个来源</span></div>
+      <table class="tbl"><thead><tr><th>#</th><th>名称</th><th>类型</th><th>报道重点</th><th>网址</th><th style="width:68px;text-align:center">操作</th></tr></thead><tbody id="tb-a"></tbody></table>
+    </div>
+    <div class="note"><strong>说明：</strong>编辑保存在浏览器本地（localStorage），刷新后依然保留。如需同步到抓取程序，请修改 <code style="background:#f0f5f2;padding:1px 4px;border-radius:3px;color:var(--g)">scraper.py</code> 的 SOURCES 配置。</div>
+  </div>
+</div>
+
+<footer class="ft">
+  <div>越南新闻监控系统 · 每日 08:30 自动更新</div>
+  <div class="ft-srcs" id="ft-srcs"></div>
+</footer>
+
+<script>
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+
+(function(){
+  const d = {"date":"29/07/2026","weekday":"周三","updated":"16:01","general":[{"t":"总书记、国家主席：越南坚定不移地实现两位数增长目标","tv":"Tổng Bí thư, Chủ tịch nước: Việt Nam kiên định mục tiêu tăng trưởng 2 con số","u":"https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-viet-nam-kien-dinh-muc-tieu-tang-truong-2-con-so-d608008.html","s":"Báo Đầu Tư","d":0},{"t":"越南愿为地区和平稳定作出贡献","tv":"Việt Nam sẵn sàng đóng góp cho hòa bình, ổn định khu vực","u":"https://baodautu.vn/viet-nam-san-sang-dong-gop-cho-hoa-binh-on-dinh-khu-vuc-d607376.html","s":"Báo Đầu Tư","d":0},{"t":"T&T集团携手VDB，为一系列基础设施和能源项目开辟更多资本渠道","tv":"Tập đoàn T&T bắt tay VDB, mở thêm kênh vốn cho loạt dự án hạ tầng và năng lượng","u":"https://baodautu.vn/tap-doan-tt-bat-tay-vdb-mo-them-kenh-von-cho-loat-du-an-ha-tang-va-nang-luong-d656060.html","s":"Báo Đầu Tư","d":0},{"t":"林郑月娥总书记、国家主席：把认识转化为行动，把决心转化为结果","tv":"Tổng Bí thư, Chủ tịch nước Tô Lâm: Chuyển nhận thức thành hành động, quyết tâm thành kết quả","u":"https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-to-lam-chuyen-nhan-thuc-thanh-hanh-dong-quyet-tam-thanh-ket-qua-d656133.html","s":"Báo Đầu Tư","d":0},{"t":"为两位数增长周期创造空间","tv":"Tạo dư địa cho chu kỳ tăng trưởng 2 con số","u":"https://baodautu.vn/tao-du-dia-cho-chu-ky-tang-truong-2-con-so-d654116.html","s":"Báo Đầu Tư","d":0},{"t":"公共投资支出：胡志明市仍有加速空间","tv":"Giải ngân đầu tư công: TP.HCM còn dư địa bứt tốc","u":"https://baodautu.vn/giai-ngan-dau-tu-cong-tphcm-con-du-dia-but-toc-d650646.html","s":"Báo Đầu Tư","d":0},{"t":"城市。芹苴市承诺为规模150亿越盾海上风电项目创造有利条件","tv":"TP. Cần Thơ cam kết tạo điều kiện thuận lợi cho dự án điện gió ngoài khơi quy mô 1,5 triệu tỷ đồng","u":"https://baodautu.vn/tp-can-tho-cam-ket-tao-dieu-kien-thuan-loi-cho-du-an-dien-gio-ngoai-khoi-quy-mo-15-trieu-ty-dong-d655472.html","s":"Báo Đầu Tư","d":0},{"t":"警告一个新伎俩导致银行卡留在钱包里但客户的钱仍然被提取","tv":"Cảnh báo thủ đoạn mới khiến thẻ ngân hàng nằm trong ví nhưng khách hàng vẫn bị rút sạch tiền","u":"https://baodautu.vn/canh-bao-thu-doan-moi-khien-the-ngan-hang-nam-trong-vi-nhung-khach-hang-van-bi-rut-sach-tien-d655392.html","s":"Báo Đầu Tư","d":0},{"t":"统一认识、创新思维，为实现国家发展目标贡献力量","tv":"Thống nhất nhận thức, đổi mới tư duy, đóng góp thực hiện mục tiêu phát triển đất nước","u":"https://baodautu.vn/thong-nhat-nhan-thuc-doi-moi-tu-duy-dong-gop-thuc-hien-muc-tieu-phat-trien-dat-nuoc-d655302.html","s":"Báo Đầu Tư","d":0},{"t":"土地价格确定与补偿、支持和安置机制分开","tv":"Tách bạch xác định giá đất với cơ chế bồi thường, hỗ trợ, tái định cư","u":"https://baodautu.vn/tach-bach-xac-dinh-gia-dat-voi-co-che-boi-thuong-ho-tro-tai-dinh-cu-d655250.html","s":"Báo Đầu Tư","d":0},{"t":"市场罕见：五星级豪华公寓交付，售价仅5000万越南盾/平方米起","tv":"Hiếm có trên thị trường: Căn hộ cao cấp bàn giao chuẩn 5 sao, giá chỉ từ 50 triệu đồng/m²","u":"https://baodautu.vn/batdongsan/hiem-co-tren-thi-truong-can-ho-cao-cap-ban-giao-chuan-5-sao-gia-chi-tu-50-trieu-dongm-d655070.html","s":"Báo Đầu Tư","d":0},{"t":"苏林总书记、主席在越南红十字会全国代表大会上的指示","tv":"Chỉ đạo của Tổng Bí thư, Chủ tịch nước Tô Lâm tại Đại hội toàn quốc Hội Chữ thập đỏ Việt Nam","u":"https://baodautu.vn/chi-dao-cua-tong-bi-thu-chu-tich-nuoc-to-lam-tai-dai-hoi-toan-quoc-hoi-chu-thap-do-viet-nam-d655218.html","s":"Báo Đầu Tư","d":0},{"t":"关于提高住宅用地拍卖土地使用权保证金比例的议案","tv":"Đề xuất nâng tỷ lệ tiền đặt trước trong đấu giá quyền sử dụng đất để giao đất ở","u":"https://baodautu.vn/de-xuat-nang-ty-le-tien-dat-truoc-trong-dau-gia-quyen-su-dung-dat-de-giao-dat-o-d654933.html","s":"Báo Đầu Tư","d":0},{"t":"阳光豪宅珍藏即将交房，拿房即交红本优势引起轰动","tv":"Bộ sưu tập dinh thự của Sunshine chuẩn bị bàn giao, gây sốt với lợi thế sổ đỏ trao tay ngay khi nhận nhà","u":"https://baodautu.vn/batdongsan/bo-suu-tap-dinh-thu-cua-sunshine-chuan-bi-ban-giao-gay-sot-voi-loi-the-so-do-trao-tay-ngay-khi-nhan-nha-d656367.html","s":"Báo Đầu Tư","d":0},{"t":"流动性缺口达270亿越盾","tv":"Khoảng trống thanh khoản đã lên tới 2,7 triệu tỷ đồng","u":"https://baodautu.vn/khoang-trong-thanh-khoan-da-len-toi-27-trieu-ty-dong-d656107.html","s":"Báo Đầu Tư","d":0},{"t":"从河畔公寓到豪宅、海滨公寓：阳光集团三大项目同步直播NobleX Live","tv":"Từ căn hộ bên sông đến dinh thự hàng hiệu và căn hộ biển: Bộ ba dự án của Sunshine Group đồng loạt lên sóng NobleX Live","u":"https://baodautu.vn/batdongsan/tu-can-ho-ben-song-den-dinh-thu-hang-hieu-va-can-ho-bien-bo-ba-du-an-cua-sunshine-group-dong-loat-len-song-noblex-live-d655988.html","s":"Báo Đầu Tư","d":0},{"t":"[洞察] 高增长必须伴随可持续发展","tv":"[Insight] Tăng trưởng cao phải đi cùng bền vững","u":"https://baodautu.vn/insight-tang-truong-cao-phai-di-cung-ben-vung-m656085.html","s":"Báo Đầu Tư","d":0},{"t":"【洞察】利用杠杆投资黄金需观望复苏降低比例","tv":"[Insight] Những người đang dùng đòn bẩy để đầu tư vào vàng cần canh nhịp hồi để hạ tỷ trọng","u":"https://baodautu.vn/insight-nhung-nguoi-dang-dung-don-bay-de-dau-tu-vao-vang-can-canh-nhip-hoi-de-ha-ty-trong-m654942.html","s":"Báo Đầu Tư","d":0},{"t":"[洞察]建设发展越南成为海洋强国","tv":"[Insight] Xây dựng và phát triển Việt Nam trở thành quốc gia biển mạnh","u":"https://baodautu.vn/insight-xay-dung-va-phat-trien-viet-nam-tro-thanh-quoc-gia-bien-manh-m651905.html","s":"Báo Đầu Tư","d":0},{"t":"【洞察】修改土地法必须一致、正确、有效，开放资源，不搞土地私有化","tv":"[Insight] Sửa luật Đất đai phải đồng bộ, đúng, trúng, khơi thông nguồn lực nhưng không tư nhân hoá đất đai","u":"https://baodautu.vn/insight-sua-luat-dat-dai-phai-dong-bo-dung-trung-khoi-thong-nguon-luc-nhung-khong-tu-nhan-hoa-dat-dai-m651896.html","s":"Báo Đầu Tư","d":0}],"agri":[{"t":"胡志明市部署2026年越南发展有机农业先进范例提名","tv":"TP.HCM triển khai đề cử điển hình tiên tiến phát triển nông nghiệp hữu cơ Việt Nam năm 2026","u":"https://nongnghiephuuco.vn/tphcm-trien-khai-de-cu-dien-hinh-tien-tien-phat-trien-nong-nghiep-huu-co-viet-nam-nam-2026-16171.html","s":"NN Huu Co","d":0},{"t":"复制生态学校花园改善学校营养","tv":"Nhân rộng vườn trường sinh thái để nâng cao dinh dưỡng học đường","u":"https://nongnghiephuuco.vn/nhan-rong-vuon-truong-sinh-thai-de-nang-cao-dinh-duong-hoc-duong-16154.html","s":"NN Huu Co","d":0},{"t":"美国斥资3500万美元控制野猪保护农业生产","tv":"Hoa Kỳ chi 35 triệu USD kiểm soát lợn rừng hoang dã, bảo vệ sản xuất nông nghiệp","u":"https://nongnghiephuuco.vn/hoa-ky-chi-35-trieu-usd-kiem-soat-lon-rung-hoang-da-bao-ve-san-xuat-nong-nghiep-16147.html","s":"NN Huu Co","d":0},{"t":"活动","tv":"SỰ KIỆN","u":"https://nongnghiephuuco.vn/su-kien","s":"NN Huu Co","d":0},{"t":"视频","tv":"Video","u":"https://nongnghiephuuco.vn/multimedia/video","s":"NN Huu Co","d":0},{"t":"印刷杂志","tv":"TẠP CHÍ IN","u":"https://nongnghiephuuco.vn/tap-chi-in","s":"NN Huu Co","d":0},{"t":"885计划","tv":"ĐỀ ÁN 885","u":"https://nongnghiephuuco.vn/de-an-885","s":"NN Huu Co","d":0},{"t":"绿色农业","tv":"NÔNG NGHIỆP XANH","u":"https://nongnghiephuuco.vn/nong-nghiep-xanh","s":"NN Huu Co","d":0},{"t":"科学技术","tv":"KHOA HỌC CÔNG NGHỆ","u":"https://nongnghiephuuco.vn/khoa-hoc-cong-nghe","s":"NN Huu Co","d":0},{"t":"多媒体","tv":"MULTIMEDIA","u":"https://nongnghiephuuco.vn/multimedia","s":"NN Huu Co","d":0},{"t":"有机与生命","tv":"HỮU CƠ VÀ ĐỜI SỐNG","u":"https://nongnghiephuuco.vn/huu-co-va-doi-song","s":"NN Huu Co","d":0},{"t":"农业经济","tv":"KINH TẾ NÔNG NGHIỆP","u":"https://nongnghiephuuco.vn/kinh-te-nong-nghiep","s":"NN Huu Co","d":0},{"t":"绿色环境","tv":"MÔI TRƯỜNG XANH","u":"https://nongnghiephuuco.vn/moi-truong-xanh","s":"NN Huu Co","d":0},{"t":"对读者来说是有机的","tv":"HỮU CƠ VỚI BẠN ĐỌC","u":"https://nongnghiephuuco.vn/huu-co-voi-ban-doc","s":"NN Huu Co","d":0},{"t":"企业-企业家","tv":"DOANH NGHIỆP - DOANH NHÂN","u":"https://nongnghiephuuco.vn/doanh-nghiep-doanh-nhan","s":"NN Huu Co","d":0},{"t":"林同：支持顺安乡农民发展农作物生产","tv":"Lâm Đồng: Hỗ trợ nông dân phát triển sản xuất trồng trọt tại xã Thuận An","u":"https://nongnghiephuuco.vn/lam-dong-ho-tro-nong-dan-phat-trien-san-xuat-trong-trot-tai-xa-thuan-an-16175.html","s":"NN Huu Co","d":0},{"t":"岘港：成立商业协会 - 创业创新","tv":"Đà Nẵng: Thành lập Hội Doanh Nghiệp - Khởi nghiệp Đổi mới sáng tạo","u":"https://nongnghiephuuco.vn/da-nang-thanh-lap-hoi-doanh-nghiep-khoi-nghiep-doi-moi-sang-tao-16157.html","s":"NN Huu Co","d":0},{"t":"越南在APEC部长级会议上提出林业合作4项重点","tv":"Việt Nam đề xuất 4 ưu tiên hợp tác về lâm nghiệp tại Hội nghị Bộ trưởng APEC","u":"https://nongnghiephuuco.vn/viet-nam-de-xuat-4-uu-tien-hop-tac-ve-lam-nghiep-tai-hoi-nghi-bo-truong-apec-16170.html","s":"NN Huu Co","d":0},{"t":"2026年萨海大王黄达吞节开幕","tv":"Khai mạc Lễ hội Đền thờ Sát Hải Đại vương Hoàng Tá Thốn năm 2026","u":"https://nongnghiephuuco.vn/khai-mac-le-hoi-den-tho-sat-hai-dai-vuong-hoang-ta-thon-nam-2026-16164.html","s":"NN Huu Co","d":0},{"t":"Dak Lak：建立Ea So国家公园","tv":"Đắk Lắk: Thành lập Vườn quốc gia Ea Sô","u":"https://nongnghiephuuco.vn/dak-lak-thanh-lap-vuon-quoc-gia-ea-so-16165.html","s":"NN Huu Co","d":0}],"drone":[]};
+  const HIST = [{"date":"29/07/2026","date_iso":"2026-07-29","weekday":"周三","general":[{"t":"总书记、国家主席：越南坚定不移地实现两位数增长目标","tv":"Tổng Bí thư, Chủ tịch nước: Việt Nam kiên định mục tiêu tăng trưởng 2 con số","u":"https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-viet-nam-kien-dinh-muc-tieu-tang-truong-2-con-so-d608008.html","s":"Báo Đầu Tư","d":0},{"t":"越南愿为地区和平稳定作出贡献","tv":"Việt Nam sẵn sàng đóng góp cho hòa bình, ổn định khu vực","u":"https://baodautu.vn/viet-nam-san-sang-dong-gop-cho-hoa-binh-on-dinh-khu-vuc-d607376.html","s":"Báo Đầu Tư","d":0},{"t":"T&T集团携手VDB，为一系列基础设施和能源项目开辟更多资本渠道","tv":"Tập đoàn T&T bắt tay VDB, mở thêm kênh vốn cho loạt dự án hạ tầng và năng lượng","u":"https://baodautu.vn/tap-doan-tt-bat-tay-vdb-mo-them-kenh-von-cho-loat-du-an-ha-tang-va-nang-luong-d656060.html","s":"Báo Đầu Tư","d":0},{"t":"林郑月娥总书记、国家主席：把认识转化为行动，把决心转化为结果","tv":"Tổng Bí thư, Chủ tịch nước Tô Lâm: Chuyển nhận thức thành hành động, quyết tâm thành kết quả","u":"https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-to-lam-chuyen-nhan-thuc-thanh-hanh-dong-quyet-tam-thanh-ket-qua-d656133.html","s":"Báo Đầu Tư","d":0},{"t":"为两位数增长周期创造空间","tv":"Tạo dư địa cho chu kỳ tăng trưởng 2 con số","u":"https://baodautu.vn/tao-du-dia-cho-chu-ky-tang-truong-2-con-so-d654116.html","s":"Báo Đầu Tư","d":0},{"t":"公共投资支出：胡志明市仍有加速空间","tv":"Giải ngân đầu tư công: TP.HCM còn dư địa bứt tốc","u":"https://baodautu.vn/giai-ngan-dau-tu-cong-tphcm-con-du-dia-but-toc-d650646.html","s":"Báo Đầu Tư","d":0},{"t":"城市。芹苴市承诺为规模150亿越盾海上风电项目创造有利条件","tv":"TP. Cần Thơ cam kết tạo điều kiện thuận lợi cho dự án điện gió ngoài khơi quy mô 1,5 triệu tỷ đồng","u":"https://baodautu.vn/tp-can-tho-cam-ket-tao-dieu-kien-thuan-loi-cho-du-an-dien-gio-ngoai-khoi-quy-mo-15-trieu-ty-dong-d655472.html","s":"Báo Đầu Tư","d":0},{"t":"警告一个新伎俩导致银行卡留在钱包里但客户的钱仍然被提取","tv":"Cảnh báo thủ đoạn mới khiến thẻ ngân hàng nằm trong ví nhưng khách hàng vẫn bị rút sạch tiền","u":"https://baodautu.vn/canh-bao-thu-doan-moi-khien-the-ngan-hang-nam-trong-vi-nhung-khach-hang-van-bi-rut-sach-tien-d655392.html","s":"Báo Đầu Tư","d":0},{"t":"统一认识、创新思维，为实现国家发展目标贡献力量","tv":"Thống nhất nhận thức, đổi mới tư duy, đóng góp thực hiện mục tiêu phát triển đất nước","u":"https://baodautu.vn/thong-nhat-nhan-thuc-doi-moi-tu-duy-dong-gop-thuc-hien-muc-tieu-phat-trien-dat-nuoc-d655302.html","s":"Báo Đầu Tư","d":0},{"t":"土地价格确定与补偿、支持和安置机制分开","tv":"Tách bạch xác định giá đất với cơ chế bồi thường, hỗ trợ, tái định cư","u":"https://baodautu.vn/tach-bach-xac-dinh-gia-dat-voi-co-che-boi-thuong-ho-tro-tai-dinh-cu-d655250.html","s":"Báo Đầu Tư","d":0},{"t":"市场罕见：五星级豪华公寓交付，售价仅5000万越南盾/平方米起","tv":"Hiếm có trên thị trường: Căn hộ cao cấp bàn giao chuẩn 5 sao, giá chỉ từ 50 triệu đồng/m²","u":"https://baodautu.vn/batdongsan/hiem-co-tren-thi-truong-can-ho-cao-cap-ban-giao-chuan-5-sao-gia-chi-tu-50-trieu-dongm-d655070.html","s":"Báo Đầu Tư","d":0},{"t":"苏林总书记、主席在越南红十字会全国代表大会上的指示","tv":"Chỉ đạo của Tổng Bí thư, Chủ tịch nước Tô Lâm tại Đại hội toàn quốc Hội Chữ thập đỏ Việt Nam","u":"https://baodautu.vn/chi-dao-cua-tong-bi-thu-chu-tich-nuoc-to-lam-tai-dai-hoi-toan-quoc-hoi-chu-thap-do-viet-nam-d655218.html","s":"Báo Đầu Tư","d":0},{"t":"关于提高住宅用地拍卖土地使用权保证金比例的议案","tv":"Đề xuất nâng tỷ lệ tiền đặt trước trong đấu giá quyền sử dụng đất để giao đất ở","u":"https://baodautu.vn/de-xuat-nang-ty-le-tien-dat-truoc-trong-dau-gia-quyen-su-dung-dat-de-giao-dat-o-d654933.html","s":"Báo Đầu Tư","d":0},{"t":"阳光豪宅珍藏即将交房，拿房即交红本优势引起轰动","tv":"Bộ sưu tập dinh thự của Sunshine chuẩn bị bàn giao, gây sốt với lợi thế sổ đỏ trao tay ngay khi nhận nhà","u":"https://baodautu.vn/batdongsan/bo-suu-tap-dinh-thu-cua-sunshine-chuan-bi-ban-giao-gay-sot-voi-loi-the-so-do-trao-tay-ngay-khi-nhan-nha-d656367.html","s":"Báo Đầu Tư","d":0},{"t":"流动性缺口达270亿越盾","tv":"Khoảng trống thanh khoản đã lên tới 2,7 triệu tỷ đồng","u":"https://baodautu.vn/khoang-trong-thanh-khoan-da-len-toi-27-trieu-ty-dong-d656107.html","s":"Báo Đầu Tư","d":0},{"t":"从河畔公寓到豪宅、海滨公寓：阳光集团三大项目同步直播NobleX Live","tv":"Từ căn hộ bên sông đến dinh thự hàng hiệu và căn hộ biển: Bộ ba dự án của Sunshine Group đồng loạt lên sóng NobleX Live","u":"https://baodautu.vn/batdongsan/tu-can-ho-ben-song-den-dinh-thu-hang-hieu-va-can-ho-bien-bo-ba-du-an-cua-sunshine-group-dong-loat-len-song-noblex-live-d655988.html","s":"Báo Đầu Tư","d":0},{"t":"[洞察] 高增长必须伴随可持续发展","tv":"[Insight] Tăng trưởng cao phải đi cùng bền vững","u":"https://baodautu.vn/insight-tang-truong-cao-phai-di-cung-ben-vung-m656085.html","s":"Báo Đầu Tư","d":0},{"t":"【洞察】利用杠杆投资黄金需观望复苏降低比例","tv":"[Insight] Những người đang dùng đòn bẩy để đầu tư vào vàng cần canh nhịp hồi để hạ tỷ trọng","u":"https://baodautu.vn/insight-nhung-nguoi-dang-dung-don-bay-de-dau-tu-vao-vang-can-canh-nhip-hoi-de-ha-ty-trong-m654942.html","s":"Báo Đầu Tư","d":0},{"t":"[洞察]建设发展越南成为海洋强国","tv":"[Insight] Xây dựng và phát triển Việt Nam trở thành quốc gia biển mạnh","u":"https://baodautu.vn/insight-xay-dung-va-phat-trien-viet-nam-tro-thanh-quoc-gia-bien-manh-m651905.html","s":"Báo Đầu Tư","d":0},{"t":"【洞察】修改土地法必须一致、正确、有效，开放资源，不搞土地私有化","tv":"[Insight] Sửa luật Đất đai phải đồng bộ, đúng, trúng, khơi thông nguồn lực nhưng không tư nhân hoá đất đai","u":"https://baodautu.vn/insight-sua-luat-dat-dai-phai-dong-bo-dung-trung-khoi-thong-nguon-luc-nhung-khong-tu-nhan-hoa-dat-dai-m651896.html","s":"Báo Đầu Tư","d":0}],"agri":[{"t":"胡志明市部署2026年越南发展有机农业先进范例提名","tv":"TP.HCM triển khai đề cử điển hình tiên tiến phát triển nông nghiệp hữu cơ Việt Nam năm 2026","u":"https://nongnghiephuuco.vn/tphcm-trien-khai-de-cu-dien-hinh-tien-tien-phat-trien-nong-nghiep-huu-co-viet-nam-nam-2026-16171.html","s":"NN Huu Co","d":0},{"t":"复制生态学校花园改善学校营养","tv":"Nhân rộng vườn trường sinh thái để nâng cao dinh dưỡng học đường","u":"https://nongnghiephuuco.vn/nhan-rong-vuon-truong-sinh-thai-de-nang-cao-dinh-duong-hoc-duong-16154.html","s":"NN Huu Co","d":0},{"t":"美国斥资3500万美元控制野猪保护农业生产","tv":"Hoa Kỳ chi 35 triệu USD kiểm soát lợn rừng hoang dã, bảo vệ sản xuất nông nghiệp","u":"https://nongnghiephuuco.vn/hoa-ky-chi-35-trieu-usd-kiem-soat-lon-rung-hoang-da-bao-ve-san-xuat-nong-nghiep-16147.html","s":"NN Huu Co","d":0},{"t":"活动","tv":"SỰ KIỆN","u":"https://nongnghiephuuco.vn/su-kien","s":"NN Huu Co","d":0},{"t":"视频","tv":"Video","u":"https://nongnghiephuuco.vn/multimedia/video","s":"NN Huu Co","d":0},{"t":"印刷杂志","tv":"TẠP CHÍ IN","u":"https://nongnghiephuuco.vn/tap-chi-in","s":"NN Huu Co","d":0},{"t":"885计划","tv":"ĐỀ ÁN 885","u":"https://nongnghiephuuco.vn/de-an-885","s":"NN Huu Co","d":0},{"t":"绿色农业","tv":"NÔNG NGHIỆP XANH","u":"https://nongnghiephuuco.vn/nong-nghiep-xanh","s":"NN Huu Co","d":0},{"t":"科学技术","tv":"KHOA HỌC CÔNG NGHỆ","u":"https://nongnghiephuuco.vn/khoa-hoc-cong-nghe","s":"NN Huu Co","d":0},{"t":"多媒体","tv":"MULTIMEDIA","u":"https://nongnghiephuuco.vn/multimedia","s":"NN Huu Co","d":0},{"t":"有机与生命","tv":"HỮU CƠ VÀ ĐỜI SỐNG","u":"https://nongnghiephuuco.vn/huu-co-va-doi-song","s":"NN Huu Co","d":0},{"t":"农业经济","tv":"KINH TẾ NÔNG NGHIỆP","u":"https://nongnghiephuuco.vn/kinh-te-nong-nghiep","s":"NN Huu Co","d":0},{"t":"绿色环境","tv":"MÔI TRƯỜNG XANH","u":"https://nongnghiephuuco.vn/moi-truong-xanh","s":"NN Huu Co","d":0},{"t":"对读者来说是有机的","tv":"HỮU CƠ VỚI BẠN ĐỌC","u":"https://nongnghiephuuco.vn/huu-co-voi-ban-doc","s":"NN Huu Co","d":0},{"t":"企业-企业家","tv":"DOANH NGHIỆP - DOANH NHÂN","u":"https://nongnghiephuuco.vn/doanh-nghiep-doanh-nhan","s":"NN Huu Co","d":0},{"t":"林同：支持顺安乡农民发展农作物生产","tv":"Lâm Đồng: Hỗ trợ nông dân phát triển sản xuất trồng trọt tại xã Thuận An","u":"https://nongnghiephuuco.vn/lam-dong-ho-tro-nong-dan-phat-trien-san-xuat-trong-trot-tai-xa-thuan-an-16175.html","s":"NN Huu Co","d":0},{"t":"岘港：成立商业协会 - 创业创新","tv":"Đà Nẵng: Thành lập Hội Doanh Nghiệp - Khởi nghiệp Đổi mới sáng tạo","u":"https://nongnghiephuuco.vn/da-nang-thanh-lap-hoi-doanh-nghiep-khoi-nghiep-doi-moi-sang-tao-16157.html","s":"NN Huu Co","d":0},{"t":"越南在APEC部长级会议上提出林业合作4项重点","tv":"Việt Nam đề xuất 4 ưu tiên hợp tác về lâm nghiệp tại Hội nghị Bộ trưởng APEC","u":"https://nongnghiephuuco.vn/viet-nam-de-xuat-4-uu-tien-hop-tac-ve-lam-nghiep-tai-hoi-nghi-bo-truong-apec-16170.html","s":"NN Huu Co","d":0},{"t":"2026年萨海大王黄达吞节开幕","tv":"Khai mạc Lễ hội Đền thờ Sát Hải Đại vương Hoàng Tá Thốn năm 2026","u":"https://nongnghiephuuco.vn/khai-mac-le-hoi-den-tho-sat-hai-dai-vuong-hoang-ta-thon-nam-2026-16164.html","s":"NN Huu Co","d":0},{"t":"Dak Lak：建立Ea So国家公园","tv":"Đắk Lắk: Thành lập Vườn quốc gia Ea Sô","u":"https://nongnghiephuuco.vn/dak-lak-thanh-lap-vuon-quoc-gia-ea-so-16165.html","s":"NN Huu Co","d":0}],"drone":[]},{"date":"28/07/2026","date_iso":"2026-07-28","weekday":"周二","general":[{"t":"总书记、国家主席：越南坚定不移地实现两位数增长目标","tv":"Tổng Bí thư, Chủ tịch nước: Việt Nam kiên định mục tiêu tăng trưởng 2 con số","u":"https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-viet-nam-kien-dinh-muc-tieu-tang-truong-2-con-so-d608008.html","s":"Báo Đầu Tư","d":0},{"t":"越南愿为地区和平稳定作出贡献","tv":"Việt Nam sẵn sàng đóng góp cho hòa bình, ổn định khu vực","u":"https://baodautu.vn/viet-nam-san-sang-dong-gop-cho-hoa-binh-on-dinh-khu-vuc-d607376.html","s":"Báo Đầu Tư","d":0},{"t":"资金长期浸入风险：现金流悄然“远离”贵金属","tv":"Nguy cơ bị ngâm vốn dài hạn: Dòng tiền âm thầm \"quay lưng\" với kim loại quý","u":"https://baodautu.vn/nguy-co-bi-ngam-von-dai-han-dong-tien-am-tham-quay-lung-voi-kim-loai-quy-d654090.html","s":"Báo Đầu Tư","d":0},{"t":"EVFTA实施6年后越南与欧盟关系","tv":"Quan hệ Việt Nam - EU sau 6 năm thực thi EVFTA","u":"https://baodautu.vn/quan-he-viet-nam---eu-sau-6-nam-thuc-thi-evfta-d650612.html","s":"Báo Đầu Tư","d":0},{"t":"同意向国会直接下放权力给胡志明市和特别城市地区","tv":"Thống nhất trình Quốc hội phân quyền trực tiếp cho TP.HCM và các đô thị đặc biệt","u":"https://baodautu.vn/thong-nhat-trinh-quoc-hoi-phan-quyen-truc-tiep-cho-tphcm-va-cac-do-thi-dac-biet-d654825.html","s":"Báo Đầu Tư","d":0},{"t":"构建同步统一的公共财政管理机制","tv":"Xây dựng một cơ chế quản lý tài chính công đồng bộ, thống nhất","u":"https://baodautu.vn/xay-dung-mot-co-che-quan-ly-tai-chinh-cong-dong-bo-thong-nhat-d654120.html","s":"Báo Đầu Tư","d":0},{"t":"召开第十六届国会第一次临时会议","tv":"Triệu tập Kỳ họp không thường lệ thứ nhất, Quốc hội Khóa XVI","u":"https://baodautu.vn/trieu-tap-ky-hop-khong-thuong-le-thu-nhat-quoc-hoi-khoa-xvi-d654038.html","s":"Báo Đầu Tư","d":0},{"t":"近50万越南盾持续流入银行，住宅存款创历史新高","tv":"Gần nửa triệu tỷ đồng tiếp tục chảy vào ngân hàng, tiền gửi dân cư lập kỷ lục mới","u":"https://baodautu.vn/gan-nua-trieu-ty-dong-tiep-tuc-chay-vao-ngan-hang-tien-gui-dan-cu-lap-ky-luc-moi-d653986.html","s":"Báo Đầu Tư","d":0},{"t":"提出岘港填海城区突破机制 预计耗资超400万亿亿","tv":"Đề xuất cơ chế đột phá cho khu đô thị lấn biển dự kiến trên 400.000 tỷ tại Đà Nẵng","u":"https://baodautu.vn/de-xuat-co-che-dot-pha-cho-khu-do-thi-lan-bien-du-kien-tren-400000-ty-tai-da-nang-d653858.html","s":"Báo Đầu Tư","d":0},{"t":"党和国家领导人缅怀为祖国牺牲的英雄烈士","tv":"Lãnh đạo Đảng, Nhà nước tưởng niệm các Anh hùng liệt sĩ hy sinh vì Tổ quốc","u":"https://baodautu.vn/lanh-dao-dang-nha-nuoc-tuong-niem-cac-anh-hung-liet-si-hy-sinh-vi-to-quoc-d653565.html","s":"Báo Đầu Tư","d":0},{"t":"国内黄金大幅上涨，SJC黄金缩小与其他黄金品牌的差距","tv":"Vàng trong nước tăng mạnh, vàng SJC thu hẹp khoảng cách với các thương hiệu vàng khác","u":"https://baodautu.vn/vang-trong-nuoc-tang-manh-vang-sjc-thu-hep-khoang-cach-voi-cac-thuong-hieu-vang-khac-d653544.html","s":"Báo Đầu Tư","d":0},{"t":"绿色电力：产业园区吸引FDI资本的新“门票”","tv":"Điện xanh: \"Tấm vé\" mới để khu công nghiệp hút vốn FDI","u":"https://baodautu.vn/dien-xanh-tam-ve-moi-de-khu-cong-nghiep-hut-von-fdi-d650563.html","s":"Báo Đầu Tư","d":0},{"t":"券商盈利图景：领头羊加速，不少业务喘不过气来","tv":"Bức tranh lợi nhuận của các công ty chứng khoán: Nhóm dẫn đầu bứt tốc, nhiều doanh nghiệp hụt hơi","u":"https://baodautu.vn/buc-tranh-loi-nhuan-cua-cac-cong-ty-chung-khoan-nhom-dan-dau-but-toc-nhieu-doanh-nghiep-hut-hoi-d650614.html","s":"Báo Đầu Tư","d":0},{"t":"关于提高住宅用地拍卖土地使用权保证金比例的议案","tv":"Đề xuất nâng tỷ lệ tiền đặt trước trong đấu giá quyền sử dụng đất để giao đất ở","u":"https://baodautu.vn/de-xuat-nang-ty-le-tien-dat-truoc-trong-dau-gia-quyen-su-dung-dat-de-giao-dat-o-d654933.html","s":"Báo Đầu Tư","d":0},{"t":"今日金价7月28日：扭转跌势，下跌1.5-200万越南盾/两","tv":"Giá vàng hôm nay 28/7: Quay đầu giảm 1,5-2 triệu đồng/lượng","u":"https://baodautu.vn/gia-vang-hom-nay-287-quay-dau-giam-15-2-trieu-dongluong-d654851.html","s":"Báo Đầu Tư","d":0},{"t":"阮德潭先生担任广义省人民委员会主席","tv":"Ông Nguyễn Đức Tâm giữ chức Chủ tịch UBND tỉnh Quảng Ngãi","u":"https://baodautu.vn/ong-nguyen-duc-tam-giu-chuc-chu-tich-ubnd-tinh-quang-ngai-d654799.html","s":"Báo Đầu Tư","d":0},{"t":"【洞察】利用杠杆投资黄金需观望复苏降低比例","tv":"[Insight] Những người đang dùng đòn bẩy để đầu tư vào vàng cần canh nhịp hồi để hạ tỷ trọng","u":"https://baodautu.vn/insight-nhung-nguoi-dang-dung-don-bay-de-dau-tu-vao-vang-can-canh-nhip-hoi-de-ha-ty-trong-m654942.html","s":"Báo Đầu Tư","d":0},{"t":"[洞察]建设发展越南成为海洋强国","tv":"[Insight] Xây dựng và phát triển Việt Nam trở thành quốc gia biển mạnh","u":"https://baodautu.vn/insight-xay-dung-va-phat-trien-viet-nam-tro-thanh-quoc-gia-bien-manh-m651905.html","s":"Báo Đầu Tư","d":0},{"t":"【洞察】修改土地法必须一致、正确、有效，开放资源，不搞土地私有化","tv":"[Insight] Sửa luật Đất đai phải đồng bộ, đúng, trúng, khơi thông nguồn lực nhưng không tư nhân hoá đất đai","u":"https://baodautu.vn/insight-sua-luat-dat-dai-phai-dong-bo-dung-trung-khoi-thong-nguon-luc-nhung-khong-tu-nhan-hoa-dat-dai-m651896.html","s":"Báo Đầu Tư","d":0},{"t":"[洞察] 2027年提高地区最低工资最高至39万越南盾的计划详情","tv":"[Insight] Chi tiết phương án tăng lương tối thiểu vùng năm 2027, cao nhất đến 390.000 đồng","u":"https://baodautu.vn/insight-chi-tiet-phuong-an-tang-luong-toi-thieu-vung-nam-2027-cao-nhat-den-390000-dong-m651284.html","s":"Báo Đầu Tư","d":0}],"agri":[{"t":"保大将有机农业推向国家层面","tv":"Bảo Đài đưa nông nghiệp hữu cơ vươn tầm toàn quốc","u":"https://nongnghiephuuco.vn/bao-dai-dua-nong-nghiep-huu-co-vuon-tam-toan-quoc-16131.html","s":"NN Huu Co","d":0},{"t":"嘉莱：提名表彰发展有机农业模范集体和个人","tv":"Gia Lai: Đề cử tôn vinh tập thể, cá nhân điển hình tiên tiến vì sự nghiệp phát triển nông nghiệp hữu cơ","u":"https://nongnghiephuuco.vn/gia-lai-de-cu-ton-vinh-tap-the-ca-nhan-dien-hinh-tien-tien-vi-su-nghiep-phat-trien-nong-nghiep-huu-co-16126.html","s":"NN Huu Co","d":0},{"t":"林同省有机农业生产面积达2000多公顷","tv":"Diện tích sản xuất nông nghiệp hữu cơ ở Lâm Đồng đạt hơn 2 nghìn héc-ta","u":"https://nongnghiephuuco.vn/dien-tich-san-xuat-nong-nghiep-huu-co-o-lam-dong-dat-hon-2-nghin-hec-ta-16139.html","s":"NN Huu Co","d":0},{"t":"活动","tv":"SỰ KIỆN","u":"https://nongnghiephuuco.vn/su-kien","s":"NN Huu Co","d":0},{"t":"视频","tv":"Video","u":"https://nongnghiephuuco.vn/multimedia/video","s":"NN Huu Co","d":0},{"t":"印刷杂志","tv":"TẠP CHÍ IN","u":"https://nongnghiephuuco.vn/tap-chi-in","s":"NN Huu Co","d":0},{"t":"885计划","tv":"ĐỀ ÁN 885","u":"https://nongnghiephuuco.vn/de-an-885","s":"NN Huu Co","d":0},{"t":"绿色农业","tv":"NÔNG NGHIỆP XANH","u":"https://nongnghiephuuco.vn/nong-nghiep-xanh","s":"NN Huu Co","d":0},{"t":"科学技术","tv":"KHOA HỌC CÔNG NGHỆ","u":"https://nongnghiephuuco.vn/khoa-hoc-cong-nghe","s":"NN Huu Co","d":0},{"t":"多媒体","tv":"MULTIMEDIA","u":"https://nongnghiephuuco.vn/multimedia","s":"NN Huu Co","d":0},{"t":"有机与生命","tv":"HỮU CƠ VÀ ĐỜI SỐNG","u":"https://nongnghiephuuco.vn/huu-co-va-doi-song","s":"NN Huu Co","d":0},{"t":"农业经济","tv":"KINH TẾ NÔNG NGHIỆP","u":"https://nongnghiephuuco.vn/kinh-te-nong-nghiep","s":"NN Huu Co","d":0},{"t":"绿色环境","tv":"MÔI TRƯỜNG XANH","u":"https://nongnghiephuuco.vn/moi-truong-xanh","s":"NN Huu Co","d":0},{"t":"对读者来说是有机的","tv":"HỮU CƠ VỚI BẠN ĐỌC","u":"https://nongnghiephuuco.vn/huu-co-voi-ban-doc","s":"NN Huu Co","d":0},{"t":"企业-企业家","tv":"DOANH NGHIỆP - DOANH NHÂN","u":"https://nongnghiephuuco.vn/doanh-nghiep-doanh-nhan","s":"NN Huu Co","d":0},{"t":"Dak Lak计划建造一座18m高的榴莲塔，目标是在2026年创下越南纪录","tv":"Đắk Lắk dự kiến xây dựng Tháp Sầu riêng cao 18m, hướng tới xác lập kỷ lục Việt Nam 2026","u":"https://nongnghiephuuco.vn/dak-lak-du-kien-xay-dung-thap-sau-rieng-cao-18m-huong-toi-xac-lap-ky-luc-viet-nam-2026-16137.html","s":"NN Huu Co","d":0},{"t":"7月27日多乐省领导上香并参观烈士陵园","tv":"Lãnh đạo tỉnh Đắk Lắk dâng hương, viếng Nghĩa trang Liệt sĩ nhân kỷ niệm 79 năm Ngày 27/7","u":"https://nongnghiephuuco.vn/lanh-dao-tinh-dak-lak-dang-huong-vieng-nghia-trang-liet-si-nhan-ky-niem-79-nam-ngay-277-16128.html","s":"NN Huu Co","d":0},{"t":"积极应对中南部地区暴雨、龙卷风、雷击、山洪、海上大风等灾害","tv":"Chủ động ứng phó mưa lớn, lốc, sét, lũ quét và gió mạnh trên biển tại Trung Bộ, Nam Bộ","u":"https://nongnghiephuuco.vn/chu-dong-ung-pho-mua-lon-loc-set-lu-quet-va-gio-manh-tren-bien-tai-trung-bo-nam-bo-16135.html","s":"NN Huu Co","d":0},{"t":"7月27日，庆和省向英雄烈士敬香献花","tv":"Khánh Hòa dâng hương, dâng hoa tưởng niệm các anh hùng liệt sĩ nhân dịp 27/7","u":"https://nongnghiephuuco.vn/khanh-hoa-dang-huong-dang-hoa-tuong-niem-cac-anh-hung-liet-si-nhan-dip-277-16138.html","s":"NN Huu Co","d":0},{"t":"多乐：向困难户捐赠50套防洪浮桥房","tv":"Đắk Lắk: Tặng 50 nhà phao chống lũ cho các hộ dân có hoàn cảnh khó khăn","u":"https://nongnghiephuuco.vn/dak-lak-tang-50-nha-phao-chong-lu-cho-cac-ho-dan-co-hoan-canh-kho-khan-16130.html","s":"NN Huu Co","d":0}],"drone":[{"t":"失误导致乌克兰无人机展遭俄罗斯突击搜查","tv":"Sai lầm khiến triển lãm drone tại Ukraine bị Nga tập kích","u":"https://vnexpress.net/sai-lam-khien-trien-lam-drone-tai-ukraine-bi-nga-tap-kich-5102064.html","s":"VnExpress","d":1}]},{"date":"27/07/2026","date_iso":"2026-07-27","weekday":"周一","general":[{"t":"Tổng Bí thư, Chủ tịch nước: Việt Nam kiên định mục tiêu tăng trưởng 2 con số","tv":"Tổng Bí thư, Chủ tịch nước: Việt Nam kiên định mục tiêu tăng trưởng 2 con số","u":"https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-viet-nam-kien-dinh-muc-tieu-tang-truong-2-con-so-d608008.html","s":"Báo Đầu Tư","d":0},{"t":"Việt Nam sẵn sàng đóng góp cho hòa bình, ổn định khu vực","tv":"Việt Nam sẵn sàng đóng góp cho hòa bình, ổn định khu vực","u":"https://baodautu.vn/viet-nam-san-sang-dong-gop-cho-hoa-binh-on-dinh-khu-vuc-d607376.html","s":"Báo Đầu Tư","d":0},{"t":"Lãnh đạo Đảng, Nhà nước tưởng niệm các Anh hùng liệt sĩ hy sinh vì Tổ quốc","tv":"Lãnh đạo Đảng, Nhà nước tưởng niệm các Anh hùng liệt sĩ hy sinh vì Tổ quốc","u":"https://baodautu.vn/lanh-dao-dang-nha-nuoc-tuong-niem-cac-anh-hung-liet-si-hy-sinh-vi-to-quoc-d653565.html","s":"Báo Đầu Tư","d":0},{"t":"Điện xanh: \"Tấm vé\" mới để khu công nghiệp hút vốn FDI","tv":"Điện xanh: \"Tấm vé\" mới để khu công nghiệp hút vốn FDI","u":"https://baodautu.vn/dien-xanh-tam-ve-moi-de-khu-cong-nghiep-hut-von-fdi-d650563.html","s":"Báo Đầu Tư","d":0},{"t":"Đề xuất cơ chế đột phá cho khu đô thị lấn biển dự kiến trên 400.000 tỷ tại Đà Nẵng","tv":"Đề xuất cơ chế đột phá cho khu đô thị lấn biển dự kiến trên 400.000 tỷ tại Đà Nẵng","u":"https://baodautu.vn/de-xuat-co-che-dot-pha-cho-khu-do-thi-lan-bien-du-kien-tren-400000-ty-tai-da-nang-d653858.html","s":"Báo Đầu Tư","d":0},{"t":"Vàng trong nước tăng mạnh, vàng SJC thu hẹp khoảng cách với các thương hiệu vàng khác","tv":"Vàng trong nước tăng mạnh, vàng SJC thu hẹp khoảng cách với các thương hiệu vàng khác","u":"https://baodautu.vn/vang-trong-nuoc-tang-manh-vang-sjc-thu-hep-khoang-cach-voi-cac-thuong-hieu-vang-khac-d653544.html","s":"Báo Đầu Tư","d":0},{"t":"Bức tranh lợi nhuận của các công ty chứng khoán: Nhóm dẫn đầu bứt tốc, nhiều doanh nghiệp hụt hơi","tv":"Bức tranh lợi nhuận của các công ty chứng khoán: Nhóm dẫn đầu bứt tốc, nhiều doanh nghiệp hụt hơi","u":"https://baodautu.vn/buc-tranh-loi-nhuan-cua-cac-cong-ty-chung-khoan-nhom-dan-dau-but-toc-nhieu-doanh-nghiep-hut-hoi-d650614.html","s":"Báo Đầu Tư","d":0},{"t":"TP.HCM điều chỉnh hướng tuyến metro số 6 để kết nối với ba nhà ga Sân bay Tân Sơn Nhất","tv":"TP.HCM điều chỉnh hướng tuyến metro số 6 để kết nối với ba nhà ga Sân bay Tân Sơn Nhất","u":"https://baodautu.vn/tphcm-dieu-chinh-huong-tuyen-metro-so-6-de-ket-noi-voi-ba-nha-ga-san-bay-tan-son-nhat-d653459.html","s":"Báo Đầu Tư","d":0},{"t":"Trình Quốc hội Dự án Vành đai 5 - Vùng Thủ đô Hà Nội vốn 288.268 tỷ đồng","tv":"Trình Quốc hội Dự án Vành đai 5 - Vùng Thủ đô Hà Nội vốn 288.268 tỷ đồng","u":"https://baodautu.vn/trinh-quoc-hoi-du-an-vanh-dai-5---vung-thu-do-ha-noi-von-288268-ty-dong-d652923.html","s":"Báo Đầu Tư","d":0},{"t":"Chính phủ ra Nghị quyết gấp gỡ vướng phòng, chống rửa tiền: Doanh nghiệp, ngân hàng cần lưu ý gì?","tv":"Chính phủ ra Nghị quyết gấp gỡ vướng phòng, chống rửa tiền: Doanh nghiệp, ngân hàng cần lưu ý gì?","u":"https://baodautu.vn/chinh-phu-ra-nghi-quyet-gap-go-vuong-phong-chong-rua-tien-doanh-nghiep-ngan-hang-can-luu-y-gi-d652716.html","s":"Báo Đầu Tư","d":0},{"t":"Đưa Điện Biên thành điểm kết nối kinh tế khu vực","tv":"Đưa Điện Biên thành điểm kết nối kinh tế khu vực","u":"https://baodautu.vn/dua-dien-bien-thanh-diem-ket-noi-kinh-te-khu-vuc-d652762.html","s":"Báo Đầu Tư","d":0},{"t":"Giải mã sức hút căn hộ 2 PN linh hoạt của Sunshine River Park giữa tâm điểm Tây Hồ Tây","tv":"Giải mã sức hút căn hộ 2 PN linh hoạt của Sunshine River Park giữa tâm điểm Tây Hồ Tây","u":"https://baodautu.vn/batdongsan/giai-ma-suc-hut-can-ho-2-pn-linh-hoat-cua-sunshine-river-park-giua-tam-diem-tay-ho-tay-d652715.html","s":"Báo Đầu Tư","d":0},{"t":"Việt Nam để lại nhiều dấu ấn tại AMM-59","tv":"Việt Nam để lại nhiều dấu ấn tại AMM-59","u":"https://baodautu.vn/viet-nam-de-lai-nhieu-dau-an-tai-amm-59-d652666.html","s":"Báo Đầu Tư","d":0},{"t":"Xây dựng một cơ chế quản lý tài chính công đồng bộ, thống nhất","tv":"Xây dựng một cơ chế quản lý tài chính công đồng bộ, thống nhất","u":"https://baodautu.vn/xay-dung-mot-co-che-quan-ly-tai-chinh-cong-dong-bo-thong-nhat-d654120.html","s":"Báo Đầu Tư","d":0},{"t":"Triệu tập Kỳ họp không thường lệ thứ nhất, Quốc hội Khóa XVI","tv":"Triệu tập Kỳ họp không thường lệ thứ nhất, Quốc hội Khóa XVI","u":"https://baodautu.vn/trieu-tap-ky-hop-khong-thuong-le-thu-nhat-quoc-hoi-khoa-xvi-d654038.html","s":"Báo Đầu Tư","d":0},{"t":"Gần nửa triệu tỷ đồng tiếp tục chảy vào ngân hàng, tiền gửi dân cư lập kỷ lục mới","tv":"Gần nửa triệu tỷ đồng tiếp tục chảy vào ngân hàng, tiền gửi dân cư lập kỷ lục mới","u":"https://baodautu.vn/gan-nua-trieu-ty-dong-tiep-tuc-chay-vao-ngan-hang-tien-gui-dan-cu-lap-ky-luc-moi-d653986.html","s":"Báo Đầu Tư","d":0},{"t":"[Insight] Xây dựng và phát triển Việt Nam trở thành quốc gia biển mạnh","tv":"[Insight] Xây dựng và phát triển Việt Nam trở thành quốc gia biển mạnh","u":"https://baodautu.vn/insight-xay-dung-va-phat-trien-viet-nam-tro-thanh-quoc-gia-bien-manh-m651905.html","s":"Báo Đầu Tư","d":0},{"t":"[Insight] Sửa luật Đất đai phải đồng bộ, đúng, trúng, khơi thông nguồn lực nhưng không tư nhân hoá đất đai","tv":"[Insight] Sửa luật Đất đai phải đồng bộ, đúng, trúng, khơi thông nguồn lực nhưng không tư nhân hoá đất đai","u":"https://baodautu.vn/insight-sua-luat-dat-dai-phai-dong-bo-dung-trung-khoi-thong-nguon-luc-nhung-khong-tu-nhan-hoa-dat-dai-m651896.html","s":"Báo Đầu Tư","d":0},{"t":"[Insight] Chi tiết phương án tăng lương tối thiểu vùng năm 2027, cao nhất đến 390.000 đồng","tv":"[Insight] Chi tiết phương án tăng lương tối thiểu vùng năm 2027, cao nhất đến 390.000 đồng","u":"https://baodautu.vn/insight-chi-tiet-phuong-an-tang-luong-toi-thieu-vung-nam-2027-cao-nhat-den-390000-dong-m651284.html","s":"Báo Đầu Tư","d":0},{"t":"[Insight] Phát triển và hỗ trợ doanh nghiệp là yêu cầu có ý nghĩa chiến lược quốc gia","tv":"[Insight] Phát triển và hỗ trợ doanh nghiệp là yêu cầu có ý nghĩa chiến lược quốc gia","u":"https://baodautu.vn/insight-phat-trien-va-ho-tro-doanh-nghiep-la-yeu-cau-co-y-nghia-chien-luoc-quoc-gia-m649215.html","s":"Báo Đầu Tư","d":0}],"agri":[{"t":"Tháng Bảy tri ân và lời hứa thế hệ","tv":"Tháng Bảy tri ân và lời hứa thế hệ","u":"https://nongnghiephuuco.vn/thang-bay-tri-an-va-loi-hua-the-he-16125.html","s":"NN Huu Co","d":0},{"t":"An Giang phát động đề cử điển hình tiên tiến vì sự phát triển nông nghiệp hữu cơ Việt Nam","tv":"An Giang phát động đề cử điển hình tiên tiến vì sự phát triển nông nghiệp hữu cơ Việt Nam","u":"https://nongnghiephuuco.vn/an-giang-phat-dong-de-cu-dien-hinh-tien-tien-vi-su-phat-trien-nong-nghiep-huu-co-viet-nam-16123.html","s":"NN Huu Co","d":0},{"t":"Bảo vệ thương hiệu, sản phẩm và người tiêu dùng thông qua tem Vân niêm phong","tv":"Bảo vệ thương hiệu, sản phẩm và người tiêu dùng thông qua tem Vân niêm phong","u":"https://nongnghiephuuco.vn/bao-ve-thuong-hieu-san-pham-va-nguoi-tieu-dung-thong-qua-tem-van-niem-phong-16115.html","s":"NN Huu Co","d":0},{"t":"Festival Organic Foods 2026: Kết nối để lan tỏa giá trị thực phẩm hữu cơ","tv":"Festival Organic Foods 2026: Kết nối để lan tỏa giá trị thực phẩm hữu cơ","u":"https://nongnghiephuuco.vn/festival-organic-foods-2026-ket-noi-de-lan-toa-gia-tri-thuc-pham-huu-co-16110.html","s":"NN Huu Co","d":0},{"t":"NÔNG NGHIỆP XANH","tv":"NÔNG NGHIỆP XANH","u":"https://nongnghiephuuco.vn/nong-nghiep-xanh","s":"NN Huu Co","d":0},{"t":"KHOA HỌC CÔNG NGHỆ","tv":"KHOA HỌC CÔNG NGHỆ","u":"https://nongnghiephuuco.vn/khoa-hoc-cong-nghe","s":"NN Huu Co","d":0},{"t":"HỮU CƠ VÀ ĐỜI SỐNG","tv":"HỮU CƠ VÀ ĐỜI SỐNG","u":"https://nongnghiephuuco.vn/huu-co-va-doi-song","s":"NN Huu Co","d":0},{"t":"KINH TẾ NÔNG NGHIỆP","tv":"KINH TẾ NÔNG NGHIỆP","u":"https://nongnghiephuuco.vn/kinh-te-nong-nghiep","s":"NN Huu Co","d":0},{"t":"MÔI TRƯỜNG XANH","tv":"MÔI TRƯỜNG XANH","u":"https://nongnghiephuuco.vn/moi-truong-xanh","s":"NN Huu Co","d":0},{"t":"HỮU CƠ VỚI BẠN ĐỌC","tv":"HỮU CƠ VỚI BẠN ĐỌC","u":"https://nongnghiephuuco.vn/huu-co-voi-ban-doc","s":"NN Huu Co","d":0},{"t":"DOANH NGHIỆP - DOANH NHÂN","tv":"DOANH NGHIỆP - DOANH NHÂN","u":"https://nongnghiephuuco.vn/doanh-nghiep-doanh-nhan","s":"NN Huu Co","d":0},{"t":"Đắk Lắk: Tặng 50 nhà phao chống lũ cho các hộ dân có hoàn cảnh khó khăn","tv":"Đắk Lắk: Tặng 50 nhà phao chống lũ cho các hộ dân có hoàn cảnh khó khăn","u":"https://nongnghiephuuco.vn/dak-lak-tang-50-nha-phao-chong-lu-cho-cac-ho-dan-co-hoan-canh-kho-khan-16130.html","s":"NN Huu Co","d":0},{"t":"Gia Lai: Lãnh đạo dâng hoa, dâng hương Chủ tịch Hồ Chí Minh và viếng các Anh hùng liệt sĩ","tv":"Gia Lai: Lãnh đạo dâng hoa, dâng hương Chủ tịch Hồ Chí Minh và viếng các Anh hùng liệt sĩ","u":"https://nongnghiephuuco.vn/gia-lai-lanh-dao-dang-hoa-dang-huong-chu-tich-ho-chi-minh-va-vieng-cac-anh-hung-liet-si-16134.html","s":"NN Huu Co","d":0},{"t":"Chủ tịch UBND thành phố Huế dâng hoa, dâng hương tri ân các anh hùng dân tộc","tv":"Chủ tịch UBND thành phố Huế dâng hoa, dâng hương tri ân các anh hùng dân tộc","u":"https://nongnghiephuuco.vn/chu-tich-ubnd-thanh-pho-hue-dang-hoa-dang-huong-tri-an-cac-anh-hung-dan-toc-16133.html","s":"NN Huu Co","d":0},{"t":"Quảng Ninh: Sửa chữa tuyến đường chuyên dùng khu Bắc Sơn, Quang Trung","tv":"Quảng Ninh: Sửa chữa tuyến đường chuyên dùng khu Bắc Sơn, Quang Trung","u":"https://nongnghiephuuco.vn/quang-ninh-sua-chua-tuyen-duong-chuyen-dung-khu-bac-son-quang-trung-16121.html","s":"NN Huu Co","d":0},{"t":"Tuổi trẻ Đắk Lắk thắp sáng 2.403 phần mộ anh hùng liệt sĩ nhân ngày 27/7","tv":"Tuổi trẻ Đắk Lắk thắp sáng 2.403 phần mộ anh hùng liệt sĩ nhân ngày 27/7","u":"https://nongnghiephuuco.vn/tuoi-tre-dak-lak-thap-sang-2403-phan-mo-anh-hung-liet-si-nhan-ngay-277-16119.html","s":"NN Huu Co","d":0},{"t":"Tuyên Quang: Hàng nghìn nông dân được tập huấn về kỹ thuật sản xuất nông nghiệp hữu cơ","tv":"Tuyên Quang: Hàng nghìn nông dân được tập huấn về kỹ thuật sản xuất nông nghiệp hữu cơ","u":"https://nongnghiephuuco.vn/tuyen-quang-hang-nghin-nong-dan-duoc-tap-huan-ve-ky-thuat-san-xuat-nong-nghiep-huu-co-16117.html","s":"NN Huu Co","d":0},{"t":"Trang trọng lễ thắp nến tri ân tại Nghĩa trang quốc tế Việt - Lào","tv":"Trang trọng lễ thắp nến tri ân tại Nghĩa trang quốc tế Việt - Lào","u":"https://nongnghiephuuco.vn/trang-trong-le-thap-nen-tri-an-tai-nghia-trang-quoc-te-viet-lao-16116.html","s":"NN Huu Co","d":0},{"t":"Đắk Lắk tăng cường giám sát khai thác khoáng sản, để giảm nguy cơ sạt lở vào mùa mưa lũ","tv":"Đắk Lắk tăng cường giám sát khai thác khoáng sản, để giảm nguy cơ sạt lở vào mùa mưa lũ","u":"https://nongnghiephuuco.vn/dak-lak-tang-cuong-giam-sat-khai-thac-khoang-san-de-giam-nguy-co-sat-lo-vao-mua-mua-lu-16114.html","s":"NN Huu Co","d":0},{"t":"Ông Lê Trí Thanh được điều động giữ chức Phó Bí thư Thành ủy Huế nhiệm kỳ 2025 – 2030.","tv":"Ông Lê Trí Thanh được điều động giữ chức Phó Bí thư Thành ủy Huế nhiệm kỳ 2025 – 2030.","u":"https://nongnghiephuuco.vn/ong-le-tri-thanh-duoc-dieu-dong-giu-chuc-pho-bi-thu-thanh-uy-hue-nhiem-ky-2025-2030-16112.html","s":"NN Huu Co","d":0}],"drone":[]}];
+  document.getElementById('loading').style.display='none';
+  document.getElementById('hd-date').textContent=d.date;
+  document.getElementById('hd-time').textContent='更新于 '+d.updated;
+  document.getElementById('sn-g').textContent=d.general.length;
+  document.getElementById('sn-a').textContent=d.agri.length;
+  document.getElementById('sn-d').textContent=d.drone.length;
+  renderNews(d); renderHL(); renderArc(); renderFt(d);
+})();
+
+function card(a){
+  const dc=a.d?' drone':'',db=a.d?'<span class="dbadge">🚁 无人机</span>':'';
+  return `<div class="card${dc}"><div class="cmeta"><span class="src">${esc(a.s)}</span>${db}</div>
+    <div class="ctitle"><a href="${esc(a.u)}" target="_blank">${esc(a.t)}</a></div>
+    ${a.tv!==a.t?`<div class="cvi">${esc(a.tv)}</div>`:''}</div>`;
+}
+
+function renderNews(d){
+  document.getElementById('g-gen').innerHTML=d.general.map(card).join('')||'<p class="no-data">今日暂无综合新闻</p>';
+  document.getElementById('g-agr').innerHTML=d.agri.map(card).join('')||'<p class="no-data">今日暂无农业新闻</p>';
+  document.getElementById('g-drone').innerHTML=d.drone.map(card).join('')||'<p class="no-data">今日暂无无人机相关报道（关键词：drone/UAV/飞行器/植保机/DJI）</p>';
+  document.getElementById('cnt-gen').textContent=d.general.length+' 篇';
+  document.getElementById('cnt-agr').textContent=d.agri.length+' 篇';
+}
+
+function oneDayBlock(d, idx, prefix){
+  const all=[...d.general,...d.agri];
+  const dp=d.date.split('/');
+  let h=`<div class="day-block" id="${prefix}-${idx}" data-date="${d.date}"><div class="day-hd">
+    <div class="date-badge"><div class="date-day">${dp[0]}</div><div class="date-mon">${dp[1]}月</div></div>
+    <div class="day-info"><div class="day-wd">${d.weekday} · ${dp[2]}</div><div class="day-name">${dp[0]}日 大事件汇总</div></div>
+    <div class="day-div"></div><div class="day-chip">${all.length} 条新闻</div></div>`;
+  if(all.length>0){
+    const f=all[0],fp=d.general.length>0&&d.general[0]===f?'pill-g':'pill-a',fl=fp==='pill-g'?'综合':'农业';
+    h+=`<div class="feat" data-cat="${fl==='综合'?'econ':'agri'}">
+      <div class="feat-hd"><span class="fnum">01</span><span class="pill ${fp}">${fl}</span><span class="chip">${esc(f.s)}</span></div>
+      <div class="ftitle"><a href="${esc(f.u)}" target="_blank">${esc(f.t)}</a></div>
+      ${f.tv&&f.tv!==f.t?`<div class="fvi">${esc(f.tv)}</div>`:''}</div>`;
+    const rest=all.slice(1,7);
+    if(rest.length){
+      h+='<div class="sgrid">';
+      rest.forEach((a,ri)=>{
+        const cat=ri<d.general.length-1?'econ':'agri',lbl=cat==='econ'?'综合':'农业';
+        h+=`<div class="mcard" data-cat="${cat}">
+          <div class="cmeta"><span class="pill pill-${cat==='econ'?'g':'a'}">${lbl}</span><span class="chip">${esc(a.s)}</span></div>
+          <div class="mtitle"><a href="${esc(a.u)}" target="_blank">${esc(a.t)}</a></div>
+          ${a.tv&&a.tv!==a.t?`<div class="mvi">${esc(a.tv)}</div>`:''}</div>`;
+      });
+      h+='</div>';
+    }
+  }
+  if(d.drone.length){
+    h+=`<div class="drone-sub-hd">🚁 无人机相关报道（${d.drone.length} 条）</div><div class="sgrid">`;
+    d.drone.forEach(a=>{h+=`<div class="mcard" data-cat="drone">
+      <div class="cmeta"><span class="pill pill-d">无人机</span><span class="chip">${esc(a.s)}</span></div>
+      <div class="mtitle"><a href="${esc(a.u)}" target="_blank">${esc(a.t)}</a></div>
+      ${a.tv&&a.tv!==a.t?`<div class="mvi">${esc(a.tv)}</div>`:''}</div>`;
+    });
+    h+='</div>';
+  }
+  h+='</div>';
+  return h;
+}
+
+// ── 事件概要：只显示当天 ──
+function renderHL(){
+  const d=HIST[0];
+  if(!d){ document.getElementById('hl-content').innerHTML='<p class="no-data">暂无今日数据</p>'; return; }
+  const all=[...d.general,...d.agri];
+  document.getElementById('hl-bar').innerHTML=
+    [['all','全部',all.length],['drone','🚁 无人机',d.drone.length],['econ','综合',d.general.length],['agri','农业',d.agri.length]]
+    .map(([k,l,n])=>`<button class="hb${k==='all'?' on':''}" onclick="hlFilter('hl-content','${k}',this)">${l}<span class="hb-cnt">${n}</span></button>`).join('');
+  document.getElementById('hl-content').innerHTML=oneDayBlock(d,0,'hl');
+}
+
+// ── 历史汇总：所有天，从新到旧 ──
+function renderArc(){
+  const totalG=HIST.reduce((s,d)=>s+d.general.length,0);
+  const totalA=HIST.reduce((s,d)=>s+d.agri.length,0);
+  const totalD=HIST.reduce((s,d)=>s+d.drone.length,0);
+  const totalAll=totalG+totalA;
+  document.getElementById('arc-bar').innerHTML=
+    [['all','全部',totalAll],['drone','🚁 无人机',totalD],['econ','综合',totalG],['agri','农业',totalA]]
+    .map(([k,l,n])=>`<button class="hb${k==='all'?' on':''}" onclick="hlFilter('arc-content','${k}',this)">${l}<span class="hb-cnt">${n}</span></button>`).join('');
+  let h='';
+  HIST.forEach((d,i)=>{
+    h+=oneDayBlock(d,i,'arc');
+    if(i<HIST.length-1) h+='<div class="sep"><div class="sep-line"></div><div class="sep-dot"></div><div class="sep-line"></div></div>';
+  });
+  document.getElementById('arc-content').innerHTML=h||'<p class="no-data">暂无历史数据</p>';
+}
+
+function renderFt(d){
+  const srcs=[...new Set([...d.general,...d.agri,...d.drone].map(a=>a.s))];
+  document.getElementById('ft-srcs').innerHTML=srcs.map(s=>`<span><a href="#">${esc(s)}</a></span>`).join('');
+}
+
+function pg(name,btn){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
+  document.getElementById('p-'+name).classList.add('on');
+  document.querySelectorAll('.mt').forEach(b=>b.classList.remove('on','on-gold','on-arc'));
+  if(name==='hl') btn.classList.add('on-gold');
+  else if(name==='arc') btn.classList.add('on-arc');
+  else btn.classList.add('on');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function sub(name,btn){
+  document.querySelectorAll('#p-news .sec').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('.st').forEach(b=>b.className='st');
+  if(name==='all'){document.querySelectorAll('#p-news .sec').forEach(s=>s.classList.add('on'));btn.className='st s-all';}
+  else{document.getElementById('s-'+name).classList.add('on');btn.className='st s-'+name;}
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function hlFilter(containerId,cat,btn){
+  const bar=btn.closest('.hl-bar');
+  bar.querySelectorAll('.hb').forEach(b=>b.classList.remove('on'));btn.classList.add('on');
+  const ct=document.getElementById(containerId);
+  const cards=ct.querySelectorAll('[data-cat]'),blocks=ct.querySelectorAll('.day-block');
+  if(cat==='all'){blocks.forEach(b=>b.classList.remove('hidden'));cards.forEach(c=>c.style.display='');}
+  else{
+    cards.forEach(c=>c.style.display=c.dataset.cat===cat?'':'none');
+    blocks.forEach(b=>{const v=[...b.querySelectorAll('[data-cat]')].some(c=>c.dataset.cat===cat);b.classList.toggle('hidden',!v);});
+  }
+}
+
+const DEF={
+  g:[
+    {n:"Báo Đầu Tư",u:"https://baodautu.vn/",f:"经济、投资、金融、政策"},
+    {n:"VnExpress",u:"https://vnexpress.net/",f:"时事、经济、社会、国际"},
+    {n:"Dân Việt",u:"https://danviet.vn/nha-nong/",f:"农民、农村、民生、社会"},
+    {n:"Báo Chính Phủ",u:"https://baochinhphu.vn/",f:"政府政策、官方公告、法规"},
+    {n:"Tuổi Trẻ",u:"https://tuoitre.vn/",f:"时事、社会、经济、教育"},
+    {n:"VTV Kinh Tế",u:"https://vtv.vn/kinh-te.htm",f:"经济、财经、市场动态"},
+    {n:"Thanh Niên",u:"https://thanhnien.vn/thoi-su.htm",f:"时事、政治、社会、国际"},
+  ],
+  a:[
+    {n:"Nông Nghiệp Hữu Cơ",u:"https://nongnghiephuuco.vn/",f:"有机农业、种植技术、出口农产品"},
+    {n:"Nông Thôn Việt",u:"https://nongthonviet.vn/",f:"农村发展、农业市场、粮食价格"},
+    {n:"Nông Nghiệp Môi Trường",u:"https://nongnghiepmoitruong.vn/nong-nghiep/",f:"农业环保、生态种植、气候影响"},
+  ]
+};
+const SK='vn_src_v1';
+function loadSrc(){try{const r=localStorage.getItem(SK);if(r){const p=JSON.parse(r);if((p.g&&p.g.length>0)||(p.a&&p.a.length>0))return p;}return JSON.parse(JSON.stringify(DEF));}catch(e){return JSON.parse(JSON.stringify(DEF));}}
+function saveSrc(){
+  const d={g:collectRows('g'),a:collectRows('a')};
+  localStorage.setItem(SK,JSON.stringify(d));updateSS(d);
+  const t=document.getElementById('stip');t.textContent='✓ 已保存';t.classList.add('on');setTimeout(()=>t.classList.remove('on'),2500);
+}
+function resetSrc(){if(!confirm('确定恢复默认？'))return;localStorage.removeItem(SK);renderSrc(JSON.parse(JSON.stringify(DEF)));}
+function collectRows(cat){return[...document.querySelectorAll('#tb-'+cat+' tr')].map(tr=>{return{n:tr.querySelector('[data-f=n]').textContent.trim(),u:tr.querySelector('[data-f=u]').textContent.trim(),f:tr.querySelector('[data-f=f]').textContent.trim()};}).filter(r=>r.n&&r.u);}
+function updateSS(d){document.getElementById('ss-tot').textContent=d.g.length+d.a.length;document.getElementById('ss-gen').textContent=d.g.length;document.getElementById('ss-agr').textContent=d.a.length;document.getElementById('sc-g').textContent=d.g.length+' 个来源';document.getElementById('sc-a').textContent=d.a.length+' 个来源';}
+function makeRow(item,i,cat){
+  const pill=cat==='g'?'<span class="tpill tag-g">综合</span>':'<span class="tpill tag-a">农业</span>';
+  const ud=item.u.replace(/^https?:\/\//,'').replace(/\/$/,'');
+  const tr=document.createElement('tr');
+  tr.innerHTML=`<td class="cn">${String(i).padStart(2,'0')}</td>
+    <td class="cnm" data-f="n" contenteditable="false">${esc(item.n)}</td>
+    <td>${pill}</td><td class="cf" data-f="f" contenteditable="false">${esc(item.f)}</td>
+    <td class="cu"><span data-f="u" contenteditable="false" class="url-hidden">${esc(item.u)}</span><a href="${esc(item.u)}" target="_blank" class="url-link url-vis">↗ ${esc(ud)}</a></td>
+    <td style="text-align:center;white-space:nowrap"><button class="eb" onclick="toggleEdit(this)">✏️</button><button class="db" onclick="delRow(this)">🗑</button></td>`;
+  return tr;
+}
+function toggleEdit(btn){
+  const tr=btn.closest('tr'),ed=tr.classList.contains('erow');
+  if(ed){
+    tr.querySelectorAll('[contenteditable]').forEach(el=>{el.contentEditable='false';el.style.cssText='';});
+    const uv=tr.querySelector('[data-f=u]').textContent.trim(),al=tr.querySelector('.url-vis');
+    al.href=uv;al.textContent='↗ '+uv.replace(/^https?:\/\//,'').replace(/\/$/,'');
+    tr.classList.remove('erow');btn.textContent='✏️';renum(tr.closest('tbody'));
+  }else{
+    tr.classList.add('erow');
+    tr.querySelectorAll('[data-f]').forEach(el=>{el.contentEditable='true';el.style.border='1px solid var(--gbd)';el.style.padding='2px 6px';el.style.borderRadius='4px';});
+    tr.querySelector('[data-f=n]').focus();btn.textContent='✔';
+  }
+}
+function delRow(btn){if(!confirm('确定删除？'))return;const tr=btn.closest('tr'),tb=tr.closest('tbody');tr.style.transition='opacity .2s';tr.style.opacity='0';setTimeout(()=>{tr.remove();renum(tb);},220);}
+function renum(tb){[...tb.querySelectorAll('tr')].forEach((tr,i)=>{const n=tr.querySelector('.cn');if(n)n.textContent=String(i+1).padStart(2,'0');});}
+function addRow(cat){const tb=document.getElementById('tb-'+cat),tr=makeRow({n:'新来源名称',u:'https://',f:'报道重点'},tb.querySelectorAll('tr').length+1,cat);tb.appendChild(tr);toggleEdit(tr.querySelector('.eb'));tr.scrollIntoView({behavior:'smooth',block:'center'});}
+function renderSrc(d){['g','a'].forEach(cat=>{const tb=document.getElementById('tb-'+cat);tb.innerHTML='';(d[cat]||[]).forEach((it,i)=>tb.appendChild(makeRow(it,i+1,cat)));}); updateSS(d);}
+renderSrc(loadSrc());
+</script>
+</body>
+</html>
