@@ -1,0 +1,1419 @@
+{
+  "scraped_at": "2026-08-05T10:16:30.592992",
+  "date": "05/08/2026",
+  "general": [
+    {
+      "title": "Tổng Bí thư, Chủ tịch nước: Việt Nam kiên định mục tiêu tăng trưởng 2 con số",
+      "url": "https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-viet-nam-kien-dinh-muc-tieu-tang-truong-2-con-so-d608008.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "总书记、国家主席：越南坚定不移地实现两位数增长目标"
+    },
+    {
+      "title": "Việt Nam sẵn sàng đóng góp cho hòa bình, ổn định khu vực",
+      "url": "https://baodautu.vn/viet-nam-san-sang-dong-gop-cho-hoa-binh-on-dinh-khu-vuc-d607376.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "越南愿为地区和平稳定作出贡献"
+    },
+    {
+      "title": "Sẽ tiếp tục rà soát điều kiện kinh doanh, tạo môi trường thông thoáng nhất cho phát triển",
+      "url": "https://baodautu.vn/se-tiep-tuc-ra-soat-dieu-kien-kinh-doanh-tao-moi-truong-thong-thoang-nhat-cho-phat-trien-d664474.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "我们将持续审视营商条件，营造最开放的发展环境"
+    },
+    {
+      "title": "Thông nguồn vốn Kho bạc Nhà nước: Giảm áp lực thanh khoản, cắt cơn sốt lãi suất",
+      "url": "https://baodautu.vn/thong-nguon-von-kho-bac-nha-nuoc-giam-ap-luc-thanh-khoan-cat-con-sot-lai-suat-d662155.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "清理国库资金：减轻流动性压力，降低利率热潮"
+    },
+    {
+      "title": "Nền kinh tế tiếp tục duy trì xu hướng tích cực",
+      "url": "https://baodautu.vn/nen-kinh-te-tiep-tuc-duy-tri-xu-huong-tich-cuc-d662187.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "经济继续保持向好态势"
+    },
+    {
+      "title": "Đề xuất nghiên cứu hình thành 28 khu TOD trên tuyến đường sắt TP.HCM - Cần Thơ",
+      "url": "https://baodautu.vn/de-xuat-nghien-cuu-hinh-thanh-28-khu-tod-tren-tuyen-duong-sat-tphcm---can-tho-d663756.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "研究在胡志明市至芹苴铁路线上建立28个TOD区的提案"
+    },
+    {
+      "title": "Luôn ưu tiên bảo đảm nguồn lực tài chính cho đối ngoại",
+      "url": "https://baodautu.vn/luon-uu-tien-bao-dam-nguon-luc-tai-chinh-cho-doi-ngoai-d663753.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "始终把保障外事财力放在首位"
+    },
+    {
+      "title": "Thống nhất trình Quốc hội thành lập thành phố Quảng Ninh, thành phố Bắc Ninh",
+      "url": "https://baodautu.vn/thong-nhat-trinh-quoc-hoi-thanh-lap-thanh-pho-quang-ninh-thanh-pho-bac-ninh-d663376.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "同意向国会提交设立广宁市和北宁市"
+    },
+    {
+      "title": "Chứng khoán phiên 4/8: Tăng tốt cuối phiên, khối ngoại tiếp tục mua ròng tích cực",
+      "url": "https://baodautu.vn/chung-khoan-phien-48-tang-tot-cuoi-phien-khoi-ngoai-tiep-tuc-mua-rong-tich-cuc-d663377.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "8月4日个股盘：尾盘涨势良好，外资继续积极净买入"
+    },
+    {
+      "title": "Thủ tướng: Ngoại giao phải chuyển mạnh từ thu hút sang chuyển hóa mọi nguồn lực",
+      "url": "https://baodautu.vn/thu-tuong-ngoai-giao-phai-chuyen-manh-tu-thu-hut-sang-chuyen-hoa-moi-nguon-luc-d663334.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "总理：外交必须从吸引资源转向转化资源"
+    },
+    {
+      "title": "Tổng Bí thư, Chủ tịch nước: Luật phải đi trước thực tiễn, kiến tạo phát triển",
+      "url": "https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-luat-phai-di-truoc-thuc-tien-kien-tao-phat-trien-d663125.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "总书记、国家主席：法律高于现实 促进发展"
+    },
+    {
+      "title": "Metro số 3 kéo dài đến Sơn Tây, loạt dự án của Sunshine Group quanh Tây Thăng Long đón sóng hạ tầng mới",
+      "url": "https://baodautu.vn/batdongsan/metro-so-3-keo-dai-den-son-tay-loat-du-an-cua-sunshine-group-quanh-tay-thang-long-don-song-ha-tang-moi-d662893.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "地铁3号线延伸至山西，阳光集团围绕西升龙系列项目迎来新基建"
+    },
+    {
+      "title": "Ngoại giao phục vụ phát triển phải tạo ra kết quả thực chất",
+      "url": "https://baodautu.vn/ngoai-giao-phuc-vu-phat-trien-phai-tao-ra-ket-qua-thuc-chat-d662975.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "外交促发展必须取得实质性成果"
+    },
+    {
+      "title": "Đề xuất khắc phục khó khăn, vướng mắc trong cơ chế tài chính của Ngân hàng Nhà nước.",
+      "url": "https://baodautu.vn/de-xuat-khac-phuc-kho-khan-vuong-mac-trong-co-che-tai-chinh-cua-ngan-hang-nha-nuoc-d663976.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "建议克服国家银行金融机制中的困难和障碍。"
+    },
+    {
+      "title": "Nước rút khởi công cao tốc Bắc Kạn - Cao Bằng vốn 29.300 tỷ đồng vào tháng 12/2026",
+      "url": "https://baodautu.vn/nuoc-rut-khoi-cong-cao-toc-bac-kan---cao-bang-von-29300-ty-dong-vao-thang-122026-d663931.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "Sprint将于2026年12月开始建设北干-高平高速公路，投资额为29.3万亿越南盾"
+    },
+    {
+      "title": "Sẽ ưu tiên mở rộng các tuyến cao tốc 2 làn xe lên 4 làn xe hoàn chỉnh",
+      "url": "https://baodautu.vn/se-uu-tien-mo-rong-cac-tuyen-cao-toc-2-lan-xe-len-4-lan-xe-hoan-chinh-d663911.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "优先将高速公路2车道扩至4车道"
+    },
+    {
+      "title": "[Insight] Việt Nam cần giữ vững ổn định vĩ mô, kiểm soát lạm phát, quản lý tỷ giá và chất lượng tín dụng",
+      "url": "https://baodautu.vn/insight-viet-nam-can-giu-vung-on-dinh-vi-mo-kiem-soat-lam-phat-quan-ly-ty-gia-va-chat-luong-tin-dung-m664471.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "【洞察】越南需保持宏观经济稳定、控制通胀、管理汇率和信用质量"
+    },
+    {
+      "title": "[Insight] Ngành Ngoại giao cần tiếp tục đổi mới mạnh mẽ tư duy, phương thức triển khai công tác đối ngoại",
+      "url": "https://baodautu.vn/insight-nganh-ngoai-giao-can-tiep-tuc-doi-moi-manh-me-tu-duy-phuong-thuc-trien-khai-cong-tac-doi-ngoai-m663512.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "【洞察】外事部门需持续大力创新外事实施思路和方法"
+    },
+    {
+      "title": "[Insight] Sửa Luật Đầu tư giúp thời gian thực hiện thủ tục giảm khoảng 7.500 giờ mỗi năm",
+      "url": "https://baodautu.vn/insight-sua-luat-dau-tu-giup-thoi-gian-thuc-hien-thu-tuc-giam-khoang-7500-gio-moi-nam-m662121.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "【洞察】投资法修改每年减少手续时间约7,500小时"
+    },
+    {
+      "title": "[Insight] Không để thể chế là điểm nghẽn đối với sự phát triển nhanh, bền vững của đất nước",
+      "url": "https://baodautu.vn/insight-khong-de-the-che-la-diem-nghen-doi-voi-su-phat-trien-nhanh-ben-vung-cua-dat-nuoc-m661650.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "【洞察】别让制度成为国家快速可持续发展的瓶颈"
+    },
+    {
+      "title": "Mới nhất",
+      "url": "https://vnexpress.net/tin-tuc-24h",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "最新"
+    },
+    {
+      "title": "Góc nhìn",
+      "url": "https://vnexpress.net/goc-nhin",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "可视角度"
+    },
+    {
+      "title": "Hành khách chật vật đón xe công nghệ tại sân bay Nội Bài",
+      "url": "https://vnexpress.net/hanh-khach-chat-vat-don-xe-cong-nghe-tai-san-bay-noi-bai-5105388.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "在内排机场，乘客很难搭乘科技车辆"
+    },
+    {
+      "title": "Nỗi giận dữ của ông Trump trước tình thế bế tắc với Iran",
+      "url": "https://vnexpress.net/noi-gian-du-cua-ong-trump-truoc-tinh-the-be-tac-voi-iran-5105322.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "特朗普对与伊朗的僵局感到愤怒"
+    },
+    {
+      "title": "Vị hôn thê của Ronaldo bất bình khi bị chê ngoại hình",
+      "url": "https://vnexpress.net/vi-hon-the-cua-ronaldo-bat-binh-khi-bi-che-ngoai-hinh-5105329.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "C罗未婚妻因外貌被批评很生气"
+    },
+    {
+      "title": "Bác sĩ ung thư Mỹ tiết lộ món không bao giờ ăn",
+      "url": "https://vnexpress.net/bac-si-ung-thu-my-tiet-lo-mon-khong-bao-gio-an-5105410.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "美国肿瘤学家揭示千万不要吃的食物"
+    },
+    {
+      "title": "Giáo sư 'giăng bẫy', lật tẩy loạt sinh viên dùng AI gian lận",
+      "url": "https://vnexpress.net/giao-su-giang-bay-lat-tay-loat-sinh-vien-dung-ai-gian-lan-5105090.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "教授“设下陷阱”，揭露一系列学生利用AI作弊"
+    },
+    {
+      "title": "Gu mặc của 'Tay vợt nóng bỏng nhất thế giới'",
+      "url": "https://vnexpress.net/gu-mac-cua-tay-vot-nong-bong-nhat-the-gioi-5104494.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "“世界上最炙手可热的网球运动员”的服装风格"
+    },
+    {
+      "title": "Vì sao thí sinh gian lận ở Quảng Trị bị hủy điểm, chuyên Tuyên Quang được thi lại?",
+      "url": "https://vnexpress.net/vi-sao-thi-sinh-chuyen-tuyen-quang-thi-lai-quang-tri-bi-huy-ket-qua-5105477.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "为什么广治作弊的考生会被取消成绩，而宣光专业的考生却可以重考？"
+    },
+    {
+      "title": "Đòn không kích gần như xóa sổ một gia tộc ở Gaza",
+      "url": "https://vnexpress.net/don-khong-kich-gan-nhu-xoa-so-mot-gia-toc-o-gaza-5105492.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "空袭几乎摧毁了加沙的一个家庭"
+    },
+    {
+      "title": "Lý do Iran không còn e ngại ‘đòn giáng mạnh’ từ ông Trump",
+      "url": "https://vnexpress.net/ly-do-iran-khong-con-e-ngai-don-giang-manh-tu-ong-trump-5105566.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "伊朗不再害怕特朗普“强力打击”的原因"
+    },
+    {
+      "title": "Ukraine đăng video 'drone Nga truy đuổi người bán rau' tại Kherson",
+      "url": "https://vnexpress.net/ukraine-dang-video-drone-nga-truy-duoi-nguoi-ban-rau-tai-kherson-5105314.html",
+      "source": "VnExpress",
+      "is_drone": true,
+      "title_zh": "乌克兰在赫尔松发布了“俄罗斯无人机追逐菜贩”的视频"
+    },
+    {
+      "title": "Vì sao nhiều phố thịt chó ở TP HCM biến mất?",
+      "url": "https://vnexpress.net/vi-sao-nhieu-pho-thit-cho-o-tp-hcm-bien-mat-5103524.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "胡志明市多条狗肉街为何消失？"
+    },
+    {
+      "title": "Thanh niên đánh võng xe máy lao thẳng vào xe buýt",
+      "url": "https://vnexpress.net/thanh-nien-danh-vong-xe-may-lao-thang-vao-xe-buyt-5105353.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "年轻人一甩摩托车，径直冲进公交车"
+    },
+    {
+      "title": "Con gái Lý Á Bằng, Vương Phi sau 4 ca phẫu thuật dị tật",
+      "url": "https://vnexpress.net/con-gai-ly-a-bang-vuong-phi-sau-4-ca-phau-thuat-di-tat-5105438.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Ly A Bang 和 Vuong Phi 的女儿在接受 4 次畸形手术后"
+    },
+    {
+      "title": "Đột tử ở những người 'khỏe như siêu nhân'",
+      "url": "https://vnexpress.net/dot-tu-o-nhung-nguoi-khoe-nhu-sieu-nhan-5104778.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "“像超人一样坚强”的人突然死亡"
+    },
+    {
+      "title": "Con dâu tỷ phú Hồ Hùng Anh làm Chủ tịch Hàng không Hải Âu",
+      "url": "https://vnexpress.net/con-dau-ty-phu-ho-hung-anh-lam-chu-tich-hang-khong-hai-au-5105499.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "亿万富翁何红英的儿媳是海澳航空董事长"
+    },
+    {
+      "title": "Ông Trump tiếp tục tuyên bố 'sắp đạt thỏa thuận' với Iran",
+      "url": "https://vnexpress.net/ong-trump-tiep-tuc-tuyen-bo-sap-dat-thoa-thuan-voi-iran-5105483.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "特朗普继续宣称他“即将与伊朗达成协议”"
+    },
+    {
+      "title": "Thành Long - Hoàng Đức xuất sắc thế nào trước Indonesia?",
+      "url": "https://vnexpress.net/thanh-long-hoang-duc-xuat-sac-the-nao-truoc-indonesia-5105232.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "成龙和黄德对阵印尼的比赛有多出色？"
+    },
+    {
+      "title": "Hoa hậu Emoura Phạm: 'Tôi khâm phục mẹ một mình nuôi hai con'",
+      "url": "https://vnexpress.net/hoa-hau-emoura-pham-toi-kham-phuc-me-mot-minh-nuoi-hai-con-5105352.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Emoura Pham 小姐：“我钦佩我的母亲独自抚养两个孩子”"
+    },
+    {
+      "title": "Một xã ở tỉnh Ninh Bình (địa phận Nam Định cũ) thiếu diện tích tự nhiên tối thiểu, có thể phải sáp nhập xã phường tiếp",
+      "url": "https://danviet.vn/mot-xa-o-tinh-ninh-binh-dia-phan-nam-dinh-cu-thieu-dien-tich-tu-nhien-toi-thieu-co-the-phai-sap-nhap-xa-phuong-tiep-d1449069.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "宁平省（原南定省）的一个公社缺乏最低自然面积，可能必须与下一个公社和区合并。"
+    },
+    {
+      "title": "Đào khai quật khẩn cấp ở một làng tại Quảng Ngãi, gần 1 tháng sau phát lộ điều bất ngờ cách đây hơn 2.000 năm",
+      "url": "https://danviet.vn/dao-khai-quat-khan-cap-o-mot-lang-tai-quang-ngai-gan-1-thang-sau-phat-lo-dieu-bat-ngo-cach-day-hon-2000-nam-d1449028.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "广义省一村庄紧急发掘，近1个月后揭晓2000多年前的惊喜"
+    },
+    {
+      "title": "Danh sách các xã phường ở Đắk Lắk (gồm tỉnh Phú Yên cũ) có thể phải sáp nhập xã phường tiếp do tiêu chuẩn dân số",
+      "url": "https://danviet.vn/danh-sach-cac-xa-phuong-o-dak-lak-gom-tinh-phu-yen-cu-co-the-phai-sap-nhap-xa-phuong-tiep-do-tieu-chuan-dan-so-d1448976.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "多乐省（包括前富安省）因人口标准可能需要合并的公社和区列表"
+    },
+    {
+      "title": "Danh sách xã phường mới có thể phải sáp nhập xã phường lần thứ 2 ở Hà Nội do chưa đạt tiêu chuẩn quan trọng này",
+      "url": "https://danviet.vn/danh-sach-xa-phuong-moi-co-the-phai-sap-nhap-xa-phuong-lan-thu-2-o-ha-noi-do-chua-dat-tieu-chuan-quan-trong-nay-d1448870.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "河内新公社和区名单可能必须第二次与河内公社和区合并，因为它们没有达到这一重要标准"
+    },
+    {
+      "title": "Danh sách xã phường có thể phải sáp nhập tiếp ở tỉnh Khánh Hòa do chưa đạt tiêu chuẩn diện tích tự nhiên tối thiểu",
+      "url": "https://danviet.vn/danh-sach-xa-phuong-co-the-phai-sap-nhap-tiep-o-tinh-khanh-hoa-do-chua-dat-tieu-chuan-dien-tich-tu-nhien-toi-thieu-d1448609.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "庆和省因未达到最低自然面积标准而可能需要进一步合并的公社和行政区列表"
+    },
+    {
+      "title": "Danh sách các xã có diện tích lớn nhất trong nhóm xã có thể phải sáp nhập tiếp ở tỉnh Phú Thọ do thiếu tiêu chuẩn này",
+      "url": "https://danviet.vn/danh-sach-cac-xa-co-dien-tich-lon-nhat-trong-nhom-xa-co-the-phai-sap-nhap-tiep-o-tinh-phu-tho-do-thieu-tieu-chuan-nay-d1448681.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "由于缺乏此标准，富寿省可能需要进一步合并的公社组中面积最大的公社列表"
+    },
+    {
+      "title": "Danh sách xã phường diện tích nhỏ nhất tỉnh Hưng Yên có thể phải sáp nhập xã phường tiếp (gồm địa phận Thái Bình cũ)",
+      "url": "https://danviet.vn/danh-sach-xa-phuong-dien-tich-nho-nhat-tinh-hung-yen-co-the-phai-sap-nhap-xa-phuong-tiep-gom-dia-phan-thai-binh-cu-d1448550.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "兴安省面积最小的公社和区列表，可能需要与下一个公社和区合并（包括前太平地区）"
+    },
+    {
+      "title": "Một ông nông dân Phú Thọ biến đất hoang trên đồi thành “nhà máy” nuôi lợn, được đề cử Nhà khoa học của Nhà nông",
+      "url": "https://danviet.vn/mot-ong-nong-dan-phu-tho-bien-dat-hoang-tren-doi-thanh-nha-may-nuoi-lon-duoc-de-cu-nha-khoa-hoc-cua-nha-nong-d1448392.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "富寿农民将山上荒地变成养猪“工厂”，被提名为农民科学家"
+    },
+    {
+      "title": "Đại biểu kiến nghị đưa kinh doanh chăn nuôi trang trại ra khỏi Danh mục ngành nghề đầu tư kinh doanh có điều kiện",
+      "url": "https://danviet.vn/dai-bieu-kien-nghi-dua-kinh-doanh-chan-nuoi-trang-trai-ra-khoi-danh-muc-nganh-nghe-dau-tu-kinh-doanh-co-dieu-kien-d1449082.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "代表们提议将农畜业从有条件的商业投资行业清单中删除"
+    },
+    {
+      "title": "Nuôi thứ lợn gì trông như cục than đi đi lại lại, ở xã này Nghệ An, chưa lớn mà người ta cứ hỏi bán được chưa",
+      "url": "https://danviet.vn/nuoi-thu-lon-gi-trong-nhu-cuc-than-lon-di-di-lai-lai-o-xa-nay-nghe-an-chua-lon-bao-nhieu-ma-cu-hoi-ban-duoc-chua-d1446158.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "在义安这个公社里，养着一种像一块煤一样走来走去的猪，虽然还不够大，但人们不断地问能不能卖掉。"
+    },
+    {
+      "title": "Cần Thơ sẽ cấp mã số vùng trồng lúa trong Đề án 1 triệu ha",
+      "url": "https://danviet.vn/can-tho-se-cap-ma-so-vung-trong-lua-trong-de-an-1-trieu-ha-d1449043.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "芹苴市将发布100万公顷项目的水稻种植区代码"
+    },
+    {
+      "title": "Nông dân trồng sầu riêng Đắk Lắk chia sẻ kinh nghiệm giúp nâng cao năng suất, chất lượng trái",
+      "url": "https://danviet.vn/nong-dan-trong-sau-rieng-dak-lak-chia-se-kinh-nghiem-giup-nang-cao-nang-suat-chat-luong-trai-d1448967.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "多乐榴莲农民分享经验，帮助提高生产力和水果质量"
+    },
+    {
+      "title": "Vùng đất \"khổng lồ\" trồng \"cây tỷ đô\", Đắk Lắk kỳ vọng tạo dấu ấn toàn cầu với kỷ lục Guinness về sầu riêng",
+      "url": "https://danviet.vn/vung-dat-khong-lo-trong-cay-ty-do-dak-lak-ky-vong-tao-dau-an-toan-cau-voi-ky-luc-guinness-ve-sau-rieng-d1448951.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "种植“价值数十亿美元的树木”的“巨大”土地，多乐希望创造榴莲吉尼斯世界纪录"
+    },
+    {
+      "title": "Sau sáp nhập thôn, 1 xã miền núi Bình Thuận, nay tỉnh Lâm Đồng liền tổ chức lễ hội trái cây ngon, sản phẩm OCOP",
+      "url": "https://danviet.vn/sau-sap-nhap-thon-1-xa-mien-nui-binh-thuan-nay-tinh-lam-dong-lien-to-chuc-le-hoi-trai-cay-ngon-san-pham-ocop-d1448286.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "合并村庄后，林同省平顺省的一个山区公社现在组织了美味水果和 OCOP 产品节。"
+    },
+    {
+      "title": "Mưa lớn Hà Nội mới nhất, Hà Nội có mưa trong vài giờ tới, dự báo thời điểm mưa giảm dần tại miền Bắc",
+      "url": "https://danviet.vn/mua-lon-ha-noi-moi-nhat-ha-noi-co-mua-trong-vai-gio-toi-du-bao-thoi-diem-mua-giam-dan-tai-mien-bac-d1449056.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "河内最新强降雨，未来几小时河内将有降雨，预计北部地区雨量将逐渐减少"
+    },
+    {
+      "title": "Tin bão mới nhất về bão số 3 Kujira, đang tiến về Philippines, dự báo kịch bản đổ bộ, xuất hiện một áp thấp mới",
+      "url": "https://danviet.vn/tin-bao-moi-nhat-ve-bao-so-3-kujira-dang-tien-ve-philippines-du-bao-kich-ban-do-bo-xuat-hien-mot-ap-thap-moi-d1448965.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "最新风暴消息：3号台风久吉拉正向菲律宾移动，预测登陆情景，出现新低压"
+    },
+    {
+      "title": "Đại biểu Quốc hội kiến nghị bỏ quy định ưu tiên xuất khẩu lao động trình độ cao để tránh hệ luỵ \"chảy máu\" nguồn lực",
+      "url": "https://danviet.vn/dai-bieu-quoc-hoi-kien-nghi-bo-quy-dinh-uu-tien-xuat-khau-lao-dong-trinh-do-cao-de-tranh-he-luy-chay-mau-nguon-luc-d1449032.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "国会代表提议取消优先输出高素质劳动力的规定，以避免资源“流失”的后果。"
+    },
+    {
+      "title": "Mưa lớn kéo dài, cảnh báo lũ trên nhiều sông Bắc Bộ, có sông lên mức báo động 3",
+      "url": "https://danviet.vn/mua-lon-keo-dai-canh-bao-lu-tren-nhieu-song-bac-bo-co-song-len-muc-bao-dong-3-d1448969.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "持续强降雨导致北方多条河流发布洪水预警，部分河流达到三级警戒"
+    },
+    {
+      "title": "Danh sách mới nhất về 22 khu dân cư mới thành lập sau sắp xếp, sáp nhập ở \"siêu phường\" Ninh Kiều, Cần Thơ",
+      "url": "https://danviet.vn/danh-sach-moi-nhat-ve-22-khu-dan-cu-moi-thanh-lap-sau-sap-xep-sap-nhap-o-sieu-phuong-ninh-kieu-can-tho-d1448863.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "芹苴“超级区”宁侨整理合并后的22个新建住宅区最新名单"
+    },
+    {
+      "title": "Sáp nhập thôn thành công mới nhất ở Bắc Ninh, tên làng xưa xã cũ bất ngờ quay trở lại (gồm cả địa phận Bắc Giang cũ)",
+      "url": "https://danviet.vn/sap-nhap-thon-thanh-cong-moi-nhat-o-bac-ninh-ten-lang-xua-xa-cu-bat-ngo-quay-tro-lai-gom-ca-dia-phan-bac-giang-cu-d1448543.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "北宁最新村合并成功，旧村名、旧公社突然回归（包括旧北江地区）"
+    },
+    {
+      "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm: Xây dựng Điều lệ Đảng khoa học, dễ thực hiện và có sức sống lâu dài",
+      "url": "https://baochinhphu.vn/tong-bi-thu-chu-tich-nuoc-to-lam-xay-dung-dieu-le-dang-khoa-hoc-de-thuc-hien-va-co-suc-song-lau-dai-102260805143508882.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "苏林总书记、国家主席：建设科学、易实施、具有长久生命力的党章"
+    },
+    {
+      "title": "Các bài phát biểu của Thủ tướng",
+      "url": "https://baochinhphu.vn/cac-bai-phat-bieu-cua-thu-tuong.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "总理讲话"
+    },
+    {
+      "title": "Chỉ đạo, quyết định của Chính phủ - Thủ tướng Chính phủ",
+      "url": "https://baochinhphu.vn/chi-dao-quyet-dinh-cua-chinh-phu-thu-tuong-chinh-phu.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "政府的指示和决定 - 总理"
+    },
+    {
+      "title": "Chức năng, nhiệm vụ, cơ cấu tổ chức mới của Bộ Ngoại giao",
+      "url": "https://baochinhphu.vn/chuc-nang-nhiem-vu-co-cau-to-chuc-moi-cua-bo-ngoai-giao-102260805150510742.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "外交部新职能、新任务、新组织架构"
+    },
+    {
+      "title": "Chính sách và cuộc sống",
+      "url": "https://baochinhphu.vn/chinh-sach-va-cuoc-song.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "政策与生活"
+    },
+    {
+      "title": "Đề xuất sửa quy định liên quan đến vốn điều lệ của Sở giao dịch Chứng khoán Việt Nam",
+      "url": "https://baochinhphu.vn/de-xuat-sua-quy-dinh-lien-quan-den-von-dieu-le-cua-so-giao-dich-chung-khoan-viet-nam-102260804173825859.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "关于修改越南证券交易所章程资本相关规定的提案"
+    },
+    {
+      "title": "Luận và Đàm",
+      "url": "https://baochinhphu.vn/luan-va-dam.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "讨论与讨论"
+    },
+    {
+      "title": "Những đột phá trong Nghị quyết mới về đất đai",
+      "url": "https://baochinhphu.vn/nhung-dot-pha-trong-nghi-quyet-moi-ve-dat-dai-102260802111430811.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "新决议在陆地上的突破"
+    },
+    {
+      "title": "Phát biểu của Thủ tướng Lê Minh Hưng tại Hội nghị Ngoại giao lần thứ 33",
+      "url": "https://baochinhphu.vn/phat-bieu-cua-thu-tuong-le-minh-hung-tai-hoi-nghi-ngoai-giao-lan-thu-33-102260805153236298.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "越南政府总理黎明雄在第33届外交会议上的讲话"
+    },
+    {
+      "title": "Chuyển biến mạnh trong tư duy, nhận thức về đối ngoại Đảng và đối ngoại nhân dân",
+      "url": "https://baochinhphu.vn/chuyen-bien-manh-trong-tu-duy-nhan-thuc-ve-doi-ngoai-dang-va-doi-ngoai-nhan-dan-102260805150301976.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "党外事、人民外事思想认识发生重大转变"
+    },
+    {
+      "title": "Tổ chức thi lại tất cả các môn tại Điểm thi Trường THPT Chuyên Tuyên Quang vào ngày 14-15/8",
+      "url": "https://baochinhphu.vn/to-chuc-thi-lai-tat-ca-cac-mon-tai-diem-thi-truong-thpt-chuyen-tuyen-quang-102260805094314436.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "8月14日至15日在宣光高中天才考点组织所有科目的复试"
+    },
+    {
+      "title": "TS Nguyễn Sĩ Dũng: Việt Nam cần những doanh nghiệp tạo dựng năng lực mới cho nền kinh tế",
+      "url": "https://baochinhphu.vn/ts-nguyen-si-dung-viet-nam-can-nhung-doanh-nghiep-tao-dung-nang-luc-moi-cho-nen-kinh-te-10226080423320134.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "阮时勇博士：越南需要为经济创造新产能的企业"
+    },
+    {
+      "title": "Tổng Bí thư, Chủ tịch nước: Cùng xây dựng Cộng đồng ASEAN đoàn kết, vững mạnh",
+      "url": "https://baochinhphu.vn/tong-bi-thu-chu-tich-nuoc-cung-xay-dung-cong-dong-asean-doan-ket-vung-manh-102260804200310397.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "总书记、国家主席：共同建设团结坚强的东盟共同体"
+    },
+    {
+      "title": "Thủ tướng Lê Minh Hưng: Biến sức ép bên ngoài thành dư địa phát triển mới",
+      "url": "https://baochinhphu.vn/thu-tuong-le-minh-hung-bien-suc-ep-ben-ngoai-thanh-du-dia-phat-trien-moi-102260804112129077.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "黎明雄总理：化外部压力为新发展空间"
+    },
+    {
+      "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm: Điều chỉnh, sửa đổi, bổ sung luật về quân sự, quốc phòng là cần thiết",
+      "url": "https://baochinhphu.vn/tong-bi-thu-chu-tich-nuoc-to-lam-dieu-chinh-sua-doi-bo-sung-luat-ve-quan-su-quoc-phong-la-can-thiet-102260804170221148.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "林郑月娥总书记：调整、修改和补充军事国防法是必要的"
+    },
+    {
+      "title": "Tăng cường sự lãnh đạo của Đảng và phát huy vai trò của các hội quần chúng",
+      "url": "https://baochinhphu.vn/tang-cuong-su-lanh-dao-cua-dang-va-phat-huy-vai-tro-cua-cac-hoi-quan-chung-102260804150702639.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "加强党的领导发挥群团作用"
+    },
+    {
+      "title": "Chủ tịch Quốc hội làm việc với các Trưởng cơ quan đại diện Việt Nam ở nước ngoài",
+      "url": "https://baochinhphu.vn/chu-tich-quoc-hoi-lam-viec-voi-cac-truong-co-quan-dai-dien-viet-nam-o-nuoc-ngoai-102260804195540597.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "国会主席与越南驻外代表机构负责人共同工作"
+    },
+    {
+      "title": "Bảo lưu nguyện vọng, xét tuyển riêng 328 thí sinh Tuyên Quang sau thi lại",
+      "url": "https://baochinhphu.vn/bao-luu-nguyen-vong-xet-tuyen-rieng-328-thi-sinh-tuyen-quang-sau-thi-lai-102260805134554882.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "保留意愿，复试后单独考虑328名宣光候选人"
+    },
+    {
+      "title": "Đề xuất 2 phương án nghỉ Tết Nguyên đán 2027: Nghỉ 7 ngày hoặc 10 ngày liên tục",
+      "url": "https://baochinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-nghi-7-ngay-hoac-10-ngay-lien-tuc-102260805113542466.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "2027年农历新年假期建议2种选择：休息7天或连续休息10天"
+    },
+    {
+      "title": "Bổ nhiệm 2 Thứ trưởng Bộ Ngoại giao",
+      "url": "https://baochinhphu.vn/bo-nhiem-2-thu-truong-bo-ngoai-giao-102260805121437444.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "任命2名外交部副部长"
+    },
+    {
+      "title": "Biến mạng lưới đối tác thành nguồn lực phát triển: yêu cầu mới với đối ngoại Đảng, đối ngoại nhân dân",
+      "url": "https://tuoitre.vn/bien-mang-luoi-doi-tac-thanh-nguon-luc-phat-trien-yeu-cau-moi-voi-doi-ngoai-dang-doi-ngoai-nhan-dan-10026080516124797.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "把伙伴网络变成发展资源：党外事和人民外事的新要求"
+    },
+    {
+      "title": "328 thí sinh chuyên Tuyên Quang sẽ thi lại tất cả các môn tốt nghiệp",
+      "url": "https://tuoitre.vn/328-thi-sinh-chuyen-tuyen-quang-se-thi-lai-tat-ca-cac-mon-tot-nghiep-100260730225754517.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "328名宣光专业考生将重修所有毕业科目"
+    },
+    {
+      "title": "Giảm án cho cựu Tổng giám đốc SJC Lê Thúy Hằng và các đồng phạm, buộc nộp lại 17.758 lượng vàng",
+      "url": "https://tuoitre.vn/giam-an-cho-cuu-tong-giam-doc-sjc-le-thuy-hang-va-cac-dong-pham-buoc-nop-lai-17758-luong-vang-100260805092634567.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "对前SJC总经理Le Thuy Hang及其同伙减刑，迫使其交出17,758两黄金。"
+    },
+    {
+      "title": "Ca sĩ Phương Diễm Huyền vừa bị khởi tố là ai?",
+      "url": "https://tuoitre.vn/ca-si-phuong-diem-huyen-vua-bi-khoi-to-la-ai-1002608051522374.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "刚刚被起诉的歌手Phuong Diem Huyen是谁？"
+    },
+    {
+      "title": "Trường đầu tiên dự báo điểm chuẩn sau lọc ảo lần 1: Nhiều ngành chỉ từ 18-23 điểm",
+      "url": "https://tuoitre.vn/truong-dau-tien-du-bao-diem-chuan-sau-loc-ao-lan-1-nhieu-nganh-chi-tu-18-23-diem-100260805150849878.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "第一所学校预测第一次虚拟筛选后的标准分数：很多领域只有18-23分"
+    },
+    {
+      "title": "Cơ quan Báo và Phát thanh, Truyền hình TPHCM là tiếng nói của thành phố, cầu nối giữa Đảng với Nhân dân",
+      "url": "https://tuoitre.vn/co-quan-bao-va-phat-thanh-truyen-hinh-tphcm-la-tieng-noi-cua-thanh-pho-cau-noi-giua-dang-voi-nhan-dan-10026080422312629.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "胡志明市报业广播电视台是胡志明市的声音，是党和人民之间的桥梁"
+    },
+    {
+      "title": "Bộ GD-ĐT nêu lý do 328 thí sinh Tuyên Quang được thi lại, còn 5 em ở Quảng Trị thì không",
+      "url": "https://tuoitre.vn/bo-gd-dt-neu-ly-do-328-thi-sinh-tuyen-quang-duoc-thi-lai-con-5-em-o-quang-tri-thi-khong-100260706110627087.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "教育培训部表示，宣光省有328名考生获准重考，而广治省则有5名考生不获准重考。"
+    },
+    {
+      "title": "Khởi tố ca sĩ Phương Diễm Huyền và một giám đốc hợp tác với BH Media",
+      "url": "https://tuoitre.vn/khoi-to-ca-si-phuong-diem-huyen-va-mot-giam-doc-hop-tac-voi-bh-media-100260805144551379.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "歌手 Phuong Diem Huyen 及与 BH Media 合作的董事被起诉"
+    },
+    {
+      "title": "Đề xuất 2 phương án nghỉ Tết Nguyên đán 2027, có thể nghỉ 7 hoặc 10 ngày",
+      "url": "https://tuoitre.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-co-the-nghi-7-hoac-10-ngay-100260805102607624.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "提出 2027 年农历新年假期的 2 个选择，可能有 7 天或 10 天假期"
+    },
+    {
+      "title": "Mỹ Anh nay đã lớn, có tour diễn đầu tiên ở Mỹ",
+      "url": "https://tuoitre.vn/my-anh-nay-da-lon-co-tour-dien-dau-tien-o-my-100260805164512438.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "My Anh 现在已经长大了，并在美国进行了她的第一次巡演"
+    },
+    {
+      "title": "Sau hoa hậu Bảo Ngọc, ai sẽ ra thế giới thi tiếp?",
+      "url": "https://tuoitre.vn/sau-hoa-hau-bao-ngoc-ai-se-ra-the-gioi-thi-tiep-100260805162309408.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "宝玉小姐之后，下一个将参加世界大赛的是谁？"
+    },
+    {
+      "title": "605 hộ ở Bình Chánh nhận hơn 3.038 tỉ đồng bồi thường dự án mở rộng quốc lộ 1",
+      "url": "https://tuoitre.vn/605-ho-o-binh-chanh-nhan-hon-3038-ti-dong-boi-thuong-du-an-mo-rong-quoc-lo-1-100260805162228509.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "平正省605户家庭获得1号国道扩建项目超过30,380亿越南盾的补偿"
+    },
+    {
+      "title": "Bản nhạc kéo dài 639 năm, một nốt chơi cả tháng",
+      "url": "https://tuoitre.vn/ban-nhac-keo-dai-639-nam-mot-not-choi-ca-thang-100260805142302551.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "乐曲长达639年，一个音符奏响一个月"
+    },
+    {
+      "title": "Biển Đỏ căng thẳng: Houthi nã tên lửa vào tàu dầu Saudi Arabia",
+      "url": "https://tuoitre.vn/bien-do-cang-thang-houthi-na-ten-lua-vao-tau-dau-saudi-arabia-100260805161000785.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "红海紧张局势：胡塞武装向沙特阿拉伯油轮发射导弹"
+    },
+    {
+      "title": "Xe hybrid cắm sạc mới sắp về Việt Nam đi thuần điện hơn 150km",
+      "url": "https://tuoitre.vn/xe-hybrid-cam-sac-moi-sap-ve-viet-nam-di-thuan-dien-hon-150km-100260805154430591.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "新型插电式混合动力汽车即将登陆越南 纯电动行驶超过150公里"
+    },
+    {
+      "title": "Khởi tố 7 người lập khống hồ sơ bệnh nhân để lấy thuốc bảo hiểm y tế",
+      "url": "https://tuoitre.vn/khoi-to-7-nguoi-lap-khong-ho-so-benh-nhan-de-lay-thuoc-bao-hiem-y-te-100260805160156263.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "起诉7名伪造病历以从健康保险获取药品的人"
+    },
+    {
+      "title": "Thời sự",
+      "url": "https://tuoitre.vn/thoi-su.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "新闻动态"
+    },
+    {
+      "title": "Giáo dục",
+      "url": "https://tuoitre.vn/giao-duc.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "教育"
+    },
+    {
+      "title": "Pháp luật",
+      "url": "https://tuoitre.vn/phap-luat.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "法律"
+    },
+    {
+      "title": "Bạn đọc",
+      "url": "https://tuoitre.vn/ban-doc.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "读者"
+    },
+    {
+      "title": "Hợp nhất hai luật: Quản lý toàn bộ vòng đời của một đồng vốn ngân sách",
+      "url": "https://vtv.vn/hop-nhat-hai-luat-quan-ly-toan-bo-vong-doi-cua-mot-dong-von-ngan-sach-100260804230607059.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "统一两条法则：管理预算资本的整个生命周期"
+    },
+    {
+      "title": "Nghiên cứu cơ chế hỗ trợ tài chính người mua nhà ở xã hội",
+      "url": "https://vtv.vn/nghien-cuu-co-che-ho-tro-tai-chinh-nguoi-mua-nha-o-xa-hoi-100260804225439118.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "保障性住房购买者金融支持机制研究"
+    },
+    {
+      "title": "Kiểm soát lạm phát trong mục tiêu cho phép",
+      "url": "https://vtv.vn/kiem-soat-lam-phat-trong-muc-tieu-cho-phep-100260804210628239.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "将通货膨胀控制在允许的目标范围内"
+    },
+    {
+      "title": "Tận dụng giá cước container hạ nhiệt để xuất hàng sớm",
+      "url": "https://vtv.vn/tan-dung-gia-cuoc-container-ha-nhiet-de-xuat-hang-som-100260804120908307.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "利用冷藏集装箱费率提前发货"
+    },
+    {
+      "title": "GPBank mở rộng hệ sinh thái tài chính, đồng hành cùng nhịp phát triển số của Thủ đô",
+      "url": "https://vtv.vn/gpbank-mo-rong-he-sinh-thai-tai-chinh-dong-hanh-cung-nhip-phat-trien-so-cua-thu-do-100260805160026808.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "GPBank拓展金融生态，伴随首都数字化发展"
+    },
+    {
+      "title": "Đắk Lắk đề nghị gỡ vướng cho sầu riêng xuất khẩu",
+      "url": "https://vtv.vn/dak-lak-de-nghi-go-vuong-cho-sau-rieng-xuat-khau-100260805134309455.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "多乐提议消除榴莲出口障碍"
+    },
+    {
+      "title": "Mỹ cam kết hỗ trợ Nhật Bản ổn định đồng Yen",
+      "url": "https://vtv.vn/my-cam-ket-ho-tro-nhat-ban-on-dinh-dong-yen-100260805133228623.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "美国承诺支持日本稳定日元"
+    },
+    {
+      "title": "Yêu cầu các địa phương báo cáo tiến độ cơ sở dữ liệu đất đai trước ngày 8/8",
+      "url": "https://vtv.vn/yeu-cau-cac-dia-phuong-bao-cao-tien-do-co-so-du-lieu-dat-dai-truoc-ngay-8-8-100260805132611117.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "要求各地8月8日前上报土地数据库进展情况"
+    },
+    {
+      "title": "Doanh thu của Apple tại Ấn Độ lần đầu vượt 10 tỷ USD",
+      "url": "https://vtv.vn/doanh-thu-cua-apple-tai-an-do-lan-dau-vuot-10-ty-usd-100260805110344799.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "苹果在印度的营收首次突破100亿美元"
+    },
+    {
+      "title": "TP. Hồ Chí Minh thu hút gần 10 tỷ USD vốn FDI",
+      "url": "https://vtv.vn/tp-ho-chi-minh-thu-hut-gan-10-ty-usd-von-fdi-100260805131413737.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "城市。胡志明市吸引近100亿美元外国直接投资"
+    },
+    {
+      "title": "Đề xuất minh bạch cơ chế chỉ định thương nhân xuất khẩu gạo",
+      "url": "https://vtv.vn/de-xuat-minh-bach-co-che-chi-dinh-thuong-nhan-xuat-khau-gao-100260805131006765.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "提出任命大米出口贸易商的透明机制"
+    },
+    {
+      "title": "TP. Hồ Chí Minh hướng tới 100% giao dịch thương mại điện tử có hóa đơn",
+      "url": "https://vtv.vn/tp-ho-chi-minh-huong-toi-100-giao-dich-thuong-mai-dien-tu-co-hoa-don-100260805124043748.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "城市。胡志明市力争100%电子商务交易有发票"
+    },
+    {
+      "title": "Giá vàng đảo chiều đi lên",
+      "url": "https://vtv.vn/gia-vang-dao-chieu-di-len-100260805101558185.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "金价逆转上涨"
+    },
+    {
+      "title": "Đề xuất bổ sung quy định bảo vệ người tố giác hành vi rửa tiền",
+      "url": "https://vtv.vn/de-xuat-bo-sung-quy-dinh-bao-ve-nguoi-to-giac-hanh-vi-rua-tien-100260805110243698.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "提议补充法规以保护举报洗钱活动的人"
+    },
+    {
+      "title": "Đề xuất sửa quy định liên quan đến vốn điều lệ của Sở giao dịch Chứng khoán Việt Nam",
+      "url": "https://vtv.vn/de-xuat-sua-quy-dinh-lien-quan-den-von-dieu-le-cua-so-giao-dich-chung-khoan-viet-nam-100260805093209585.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "关于修改越南证券交易所章程资本相关规定的提案"
+    },
+    {
+      "title": "Chứng khoán Mỹ lập đỉnh mới",
+      "url": "https://vtv.vn/chung-khoan-my-lap-dinh-moi-100260805092301605.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "美股再创新高"
+    },
+    {
+      "title": "Xuất khẩu thủy sản có thể vượt 12 tỷ USD",
+      "url": "https://vtv.vn/xuat-khau-thuy-san-co-the-vuot-12-ty-usd-1002608050909476.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "海鲜出口额可能突破120亿美元"
+    },
+    {
+      "title": "Hà Nội hồi sinh quỹ nhà bỏ hoang",
+      "url": "https://vtv.vn/ha-noi-hoi-sinh-quy-nha-bo-hoang-100260805090250763.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "河内恢复废弃的住房基金"
+    },
+    {
+      "title": "Đề xuất cơ chế tài chính đặc thù của Tổng công ty Đường sắt Việt Nam",
+      "url": "https://vtv.vn/de-xuat-co-che-tai-chinh-dac-thu-cua-tong-cong-ty-duong-sat-viet-nam-100260804223818136.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "提出越南铁路公司的具体财务机制"
+    },
+    {
+      "title": "Giải ngân dự án giao thông trọng điểm hơn 77 nghìn tỷ đồng",
+      "url": "https://vtv.vn/giai-ngan-du-an-giao-thong-trong-diem-hon-77-nghin-ty-dong-10026080422504324.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "重点交通项目拨款超过77万亿越南盾"
+    },
+    {
+      "title": "Thời sự",
+      "url": "https://thanhnien.vn/thoi-su.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "新闻动态"
+    },
+    {
+      "title": "Khánh Hòa: Gần 60 năm, liệt sĩ Ka Tơr Tiên đã trở về nhà",
+      "url": "https://thanhnien.vn/khanh-hoa-gan-60-nam-liet-si-ka-tor-tien-da-tro-ve-nha-185260805152334063.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "庆和省：近60年后，嘉卓田烈士归来"
+    },
+    {
+      "title": "Pháp luật",
+      "url": "https://thanhnien.vn/thoi-su/phap-luat.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "法律"
+    },
+    {
+      "title": "Dân sinh",
+      "url": "https://thanhnien.vn/thoi-su/dan-sinh.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "人们生活"
+    },
+    {
+      "title": "Lao động - Việc làm",
+      "url": "https://thanhnien.vn/thoi-su/lao-dong-viec-lam.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "劳工-就业"
+    },
+    {
+      "title": "Quyền được biết",
+      "url": "https://thanhnien.vn/thoi-su/quyen-duoc-biet.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "知情权"
+    },
+    {
+      "title": "Phóng sự / Điều tra",
+      "url": "https://thanhnien.vn/thoi-su/phong-su--dieu-tra.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "报告文学/调查"
+    },
+    {
+      "title": "Quốc phòng",
+      "url": "https://thanhnien.vn/thoi-su/quoc-phong.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "国防"
+    },
+    {
+      "title": "Chống tin giả",
+      "url": "https://thanhnien.vn/thoi-su/chong-tin-gia.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "打击假新闻"
+    },
+    {
+      "title": "Thành tựu y khoa",
+      "url": "https://thanhnien.vn/thoi-su/thanh-tuu-y-khoa.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "医学成就"
+    },
+    {
+      "title": "Người đàn ông ở Nghệ An đi lạc vào Quảng Ngãi được công an hỗ trợ",
+      "url": "https://thanhnien.vn/nguoi-dan-ong-o-nghe-an-di-lac-vao-quang-ngai-duoc-cong-an-ho-tro-185260805162648615.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "一名误入广义省的义安省男子得到了警方的协助"
+    },
+    {
+      "title": "TP.HCM chấn chỉnh công tác đào tạo, cập nhật kiến thức y khoa liên tục",
+      "url": "https://thanhnien.vn/tphcm-chan-chinh-cong-tac-dao-tao-cap-nhat-kien-thuc-y-khoa-lien-tuc-185260805151639345.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "胡志明市重新组织培训并不断更新医学知识"
+    },
+    {
+      "title": "Khởi tố thêm 6 bị can trong vụ phát khống hơn 3.500 lượt đơn thuốc BHYT",
+      "url": "https://thanhnien.vn/khoi-to-them-6-bi-can-trong-vu-phat-khong-hon-3500-luot-don-thuoc-bhyt-185260805154713475.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "伪造3500多张健康保险处方案，另外6名被告被起诉"
+    },
+    {
+      "title": "Nhắc nhở du khách nước ngoài điều khiển xe máy chạy lên cổng Tò Vò",
+      "url": "https://thanhnien.vn/nhac-nho-du-khach-nuoc-ngoai-dieu-khien-xe-may-chay-len-cong-to-vo-185260805145529923.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "提醒外国游客驾驶摩托车前往To Vo门"
+    },
+    {
+      "title": "Quy tập 15 bộ hài cốt liệt sĩ về Nghĩa trang thành phố Cần Thơ",
+      "url": "https://thanhnien.vn/quy-tap-15-bo-hai-cot-liet-si-ve-nghia-trang-thanh-pho-can-tho-18526080516020861.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "收集15具烈士遗骸到芹苴市公墓"
+    },
+    {
+      "title": "Phá hoại chính sách đoàn kết, lĩnh 7 năm 6 tháng tù",
+      "url": "https://thanhnien.vn/pha-hoai-chinh-sach-doan-ket-linh-7-nam-6-thang-tu-185260805162611224.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "破坏团结政策，被判入狱7年零6个月"
+    },
+    {
+      "title": "Tiến độ giải phóng mặt bằng mở rộng quốc lộ 22 lên 10 làn xe ở TP.HCM",
+      "url": "https://thanhnien.vn/tien-do-giai-phong-mat-bang-mo-rong-quoc-lo-22-len-10-lan-xe-o-tphcm-185260805160508029.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "胡志明市22号高速公路扩建至10车道土地清理工作取得进展"
+    },
+    {
+      "title": "THACO rót hơn 12.300 tỉ đồng phát triển sâm Ngọc Linh ở Đà Nẵng",
+      "url": "https://thanhnien.vn/thaco-rot-hon-12300-ti-dong-phat-trien-sam-ngoc-linh-o-da-nang-18526080515325147.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "THACO投入超过12.3万亿越南盾在岘港开发玉灵人参"
+    },
+    {
+      "title": "Công an TP.HCM bắt ca sĩ Phương Diễm Huyền và Giám đốc truyền thông Unicorn Việt Nam",
+      "url": "https://thanhnien.vn/cong-an-tphcm-bat-ca-si-nguyen-thi-hien-va-giam-doc-truyen-thong-unicorn-viet-nam-185260805150841376.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "胡志明市警方逮捕了歌手 Phuong Diem Huyen 和 Unicorn Vietnam 通讯总监"
+    },
+    {
+      "title": "Tây Ninh rà soát lại dự án Trung tâm hành chính - chính trị hơn 8.000 tỉ đồng",
+      "url": "https://thanhnien.vn/tay-ninh-ra-soat-lai-du-an-trung-tam-hanh-chinh-chinh-tri-hon-8000-ti-dong-18526080512273833.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "西宁省审查价值超过8万亿越南盾的行政政治中心项目"
+    }
+  ],
+  "agriculture": [
+    {
+      "title": "Hưởng ứng Lễ tôn vinh để khẳng định giá trị và thương hiệu sản phẩm nông nghiệp hữu cơ",
+      "url": "https://nongnghiephuuco.vn/huong-ung-le-ton-vinh-de-khang-dinh-gia-tri-va-thuong-hieu-san-pham-nong-nghiep-huu-co-16317.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "响应荣誉盛典肯定有机农产品价值与品牌"
+    },
+    {
+      "title": "Nghệ An hoàn thành chuyển đổi 51 mã số vùng trồng, từng bước chuẩn hóa vùng nguyên liệu",
+      "url": "https://nongnghiephuuco.vn/nghe-an-hoan-thanh-chuyen-doi-51-ma-so-vung-trong-tung-buoc-chuan-hoa-vung-nguyen-lieu-16316.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "义安完成51个种植区代码转换，逐步规范原料区"
+    },
+    {
+      "title": "Rút ngắn thủ tục cấp mã số vùng trồng: Đồng bộ giải pháp số tạo bứt phá xuất khẩu nông sản",
+      "url": "https://nongnghiephuuco.vn/rut-ngan-thu-tuc-cap-ma-so-vung-trong-dong-bo-giai-phap-so-tao-but-pha-xuat-khau-nong-san-16311.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "缩短种植区代码授予程序：同步数字解决方案，实现农产品出口突破"
+    },
+    {
+      "title": "Tình trạng nhiễm Cadimi trên cây sầu riêng: Nguyên nhân và giải pháp xử lý bền vững",
+      "url": "https://nongnghiephuuco.vn/tinh-trang-nhiem-cadimi-tren-cay-sau-rieng-nguyen-nhan-va-giai-phap-xu-ly-ben-vung-16301.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "榴莲树镉污染：原因和可持续处理解决方案"
+    },
+    {
+      "title": "SỰ KIỆN",
+      "url": "https://nongnghiephuuco.vn/su-kien",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "活动"
+    },
+    {
+      "title": "Video",
+      "url": "https://nongnghiephuuco.vn/multimedia/video",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "视频"
+    },
+    {
+      "title": "TẠP CHÍ IN",
+      "url": "https://nongnghiephuuco.vn/tap-chi-in",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "印刷杂志"
+    },
+    {
+      "title": "ĐỀ ÁN 885",
+      "url": "https://nongnghiephuuco.vn/de-an-885",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "885计划"
+    },
+    {
+      "title": "NÔNG NGHIỆP XANH",
+      "url": "https://nongnghiephuuco.vn/nong-nghiep-xanh",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "绿色农业"
+    },
+    {
+      "title": "KHOA HỌC CÔNG NGHỆ",
+      "url": "https://nongnghiephuuco.vn/khoa-hoc-cong-nghe",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "科学技术"
+    },
+    {
+      "title": "MULTIMEDIA",
+      "url": "https://nongnghiephuuco.vn/multimedia",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "多媒体"
+    },
+    {
+      "title": "HỮU CƠ VÀ ĐỜI SỐNG",
+      "url": "https://nongnghiephuuco.vn/huu-co-va-doi-song",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "有机与生命"
+    },
+    {
+      "title": "KINH TẾ NÔNG NGHIỆP",
+      "url": "https://nongnghiephuuco.vn/kinh-te-nong-nghiep",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "农业经济"
+    },
+    {
+      "title": "MÔI TRƯỜNG XANH",
+      "url": "https://nongnghiephuuco.vn/moi-truong-xanh",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "绿色环境"
+    },
+    {
+      "title": "HỮU CƠ VỚI BẠN ĐỌC",
+      "url": "https://nongnghiephuuco.vn/huu-co-voi-ban-doc",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "对读者来说是有机的"
+    },
+    {
+      "title": "DOANH NGHIỆP - DOANH NHÂN",
+      "url": "https://nongnghiephuuco.vn/doanh-nghiep-doanh-nhan",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "企业-企业家"
+    },
+    {
+      "title": "Tp. Huế: Xã Quảng Điền ra mắt Tổ hợp tác nuôi trồng thủy sản thôn An Xuân Đông",
+      "url": "https://nongnghiephuuco.vn/tp-hue-xa-quang-dien-ra-mat-to-hop-tac-nuoi-trong-thuy-san-thon-an-xuan-dong-16324.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "城市。顺化：Quang Dien公社成立安春洞村水产养殖合作社"
+    },
+    {
+      "title": "Hải Phòng: Triển khai xây dựng bản đồ ẩm thực số, thúc đẩy du lịch và kinh tế đêm",
+      "url": "https://nongnghiephuuco.vn/hai-phong-trien-khai-xay-dung-ban-do-am-thuc-so-thuc-day-du-lich-va-kinh-te-dem-16320.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "海防：部署数字美食地图开发，促进旅游和夜间经济"
+    },
+    {
+      "title": "Đắk Lắk: Tổng kết 5 năm phong trào nông dân thi đua sản xuất, kinh doanh giỏi bền vững",
+      "url": "https://nongnghiephuuco.vn/dak-lak-tong-ket-5-nam-phong-trao-nong-dan-thi-dua-san-xuat-kinh-doanh-gioi-ben-vung-16319.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Dak Lak：五年来农民运动总结，以效仿良好的可持续生产和商业"
+    },
+    {
+      "title": "Lâm Đồng: Thành lập Ban Chỉ đạo liên ngành tổng rà soát, xử lý vi phạm an toàn thực phẩm",
+      "url": "https://nongnghiephuuco.vn/lam-dong-thanh-lap-ban-chi-dao-lien-nganh-tong-ra-soat-xu-ly-vi-pham-an-toan-thuc-pham-16314.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "林同：成立跨学科指导委员会审查和处理食品安全违规行为"
+    },
+    {
+      "title": "Nông sản có mã số vùng trồng vẫn chưa đủ để xuất sang Trung Quốc",
+      "url": "https://nongthonviet.vn/nong-san-co-ma-so-vung-trong-van-chua-du-de-xuat-sang-trung-quoc-45757.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "区号不断增长的农产品仍不足以出口到中国"
+    },
+    {
+      "title": "Hiểu đúng về 'thời hạn sử dụng chung cư theo niên hạn công trình'",
+      "url": "https://nongthonviet.vn/hieu-dung-ve-thoi-han-su-dung-chung-cu-theo-nien-han-cong-trinh-45758.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "正确认识“根据项目年龄判断公寓保质期”"
+    },
+    {
+      "title": "HDI là gì mà được Nghị quyết 57 đưa vào mục tiêu phát triển quốc gia?",
+      "url": "https://nongthonviet.vn/hdi-la-gi-ma-duoc-nghi-quyet-57-dua-vao-muc-tieu-phat-trien-quoc-gia-45759.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "57号决议纳入国家发展目标的HDI是什么？"
+    },
+    {
+      "title": "Thời tiết hôm nay",
+      "url": "https://nongthonviet.vn/thoi-tiet",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "今天天气"
+    },
+    {
+      "title": "Được gì sau 2 năm thí điểm Đề án 1 triệu ha lúa chất lượng cao?",
+      "url": "https://nongthonviet.vn/duoc-gi-sau-2-nam-thi-diem-de-an-1-trieu-ha-lua-chat-luong-cao-45756.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "100万公顷优质稻工程试点两年来，您获得了哪些收获？"
+    },
+    {
+      "title": "Thị trường nông sản 5/8: Cà phê và cao su quốc tế phủ sắc xanh, sầu riêng phân hóa mạnh",
+      "url": "https://nongthonviet.vn/thi-truong-nong-san-5-8-ca-phe-va-cao-su-quoc-te-phu-sac-xanh-sau-rieng-phan-hoa-manh-45755.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "农产品市场8月5日：国际咖啡、橡胶遍地绿，榴莲分化强烈"
+    },
+    {
+      "title": "Mã số vùng trồng: Chiến dịch '30 ngày đêm', cắt giảm 50% giấy tờ",
+      "url": "https://nongthonviet.vn/ma-so-vung-trong-chien-dich-30-ngay-dem-cat-giam-50-giay-to-45753.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "增加区号：“30个昼夜”活动，减少50%的文书工作。"
+    },
+    {
+      "title": "TP.HCM: Đề xuất cấp 700.000 đồng mỗi học sinh để học bơi",
+      "url": "https://nongthonviet.vn/tp-hcm-de-xuat-cap-700-000-dong-moi-hoc-sinh-de-hoc-boi-45754.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "胡志明市：提议为每位学生提供70万越南盾学习游泳资金"
+    },
+    {
+      "title": "Nông sản xuất siêu giảm 60,6%: Gọi tên 'bẫy' gia công và hụt nguyên liệu",
+      "url": "https://nongthonviet.vn/nong-san-xuat-sieu-giam-60-6-goi-ten-bay-gia-cong-va-hut-nguyen-lieu-45751.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "超级农产品产量下降60.6%：直呼加工“陷阱”和原料短缺"
+    },
+    {
+      "title": "Dịch vụ chăm sóc sau điều trị đưa Vinmec dẫn đầu tỷ lệ hài lòng",
+      "url": "https://nongthonviet.vn/dich-vu-cham-soc-sau-dieu-tri-dua-vinmec-dan-dau-ty-le-hai-long-45752.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Vinmec 的治疗后护理服务满意度名列前茅"
+    },
+    {
+      "title": "Thị trường nông sản 4/8: Cà phê nội địa hạ nhiệt, sầu riêng giữ nguyên 'sức nóng'",
+      "url": "https://nongthonviet.vn/thi-truong-nong-san-4-8-ca-phe-noi-dia-ha-nhiet-sau-rieng-giu-nguyen-suc-nong-45750.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "农产品市场8月4日：国产咖啡降温，榴莲维持“热度”"
+    },
+    {
+      "title": "Cây quế Việt Nam: hành trình từ “vốn văn hóa” đến “vốn kinh tế”",
+      "url": "https://nongthonviet.vn/cay-que-viet-nam-hanh-trinh-tu-von-van-hoa-den-von-kinh-te-45749.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "越南肉桂树：从“文化资本”到“经济资本”的历程"
+    },
+    {
+      "title": "Sâm Việt Nam: thị phần chỉ 0,1% toàn cầu - đường lên… phim xa lắc",
+      "url": "https://nongthonviet.vn/sam-viet-nam-thi-phan-chi-0-1-toan-cau-duong-len-phim-xa-lac-45748.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "越南人参：全球市场份额仅为0.1%——大幅上升……遥远的电影"
+    },
+    {
+      "title": "Thị trường nông sản 3/8: Sầu riêng sốt giá, heo hơi phân hóa",
+      "url": "https://nongthonviet.vn/thi-truong-nong-san-3-8-sau-rieng-sot-gia-heo-hoi-phan-hoa-45747.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "农产品市场8月3日：榴莲价格发烧，生猪分化"
+    },
+    {
+      "title": "Cà phê sữa đá Việt Nam trở thành xu hướng ở Berlin",
+      "url": "https://nongthonviet.vn/ca-phe-sua-da-viet-nam-tro-thanh-xu-huong-o-berlin-45746.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "越南冰奶咖啡成为柏林流行趋势"
+    },
+    {
+      "title": "Nông nghiệp thế giới tuần qua: 6 diễn biến quan trọng từ các cường quốc nông nghiệp",
+      "url": "https://nongthonviet.vn/nong-nghiep-the-gioi-tuan-qua-6-dien-bien-quan-trong-tu-cac-cuong-quoc-nong-nghiep-45745.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "上周世界农业：农业强国的六大重要进展"
+    },
+    {
+      "title": "Giải mã sức quyến rũ của ẩm thực đường phố",
+      "url": "https://nongthonviet.vn/giai-ma-suc-quyen-ru-cua-am-thuc-duong-pho-45744.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "解读街头美食的魅力"
+    },
+    {
+      "title": "Cuộc “Vượt qua” về điêu khắc của Bùi Hải Sơn và Hoàng Tường Minh",
+      "url": "https://nongthonviet.vn/cuoc-vuot-qua-ve-dieu-khac-cua-bui-hai-son-va-hoang-tuong-minh-45743.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Bui Hai Son 和 Hoang Tuong Minh 雕塑的“克服”"
+    },
+    {
+      "title": "Thu nhập thấp vẫn tiết kiệm được: Học người xưa cách tích lũy",
+      "url": "https://nongthonviet.vn/thu-nhap-thap-van-tiet-kiem-duoc-hoc-nguoi-xua-cach-tich-luy-45742.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "低收入仍可储蓄：向古人学习如何积累"
+    },
+    {
+      "title": "Thị trường nông sản 2/8: Cà phê khởi sắc, hồ tiêu quay đầu đầu giảm",
+      "url": "https://nongthonviet.vn/thi-truong-nong-san-2-8-ca-phe-khoi-sac-ho-tieu-quay-dau-dau-giam-45741.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "8月2日农产品市场：咖啡旺，胡椒跌"
+    },
+    {
+      "title": "Nông nghiệp",
+      "url": "https://nongnghiepmoitruong.vn/nong-nghiep/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "农业"
+    },
+    {
+      "title": "GREEN EXPO 2027",
+      "url": "https://nongnghiepmoitruong.vn/green-expo-2027-channel87/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "2027 年绿色博览会"
+    },
+    {
+      "title": "'500 ngày đêm' đưa các liệt sĩ trở về",
+      "url": "https://nongnghiepmoitruong.vn/500-ngay-dem-dua-cac-liet-si-tro-ve-channel86/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "“500个日日夜夜”让烈士复活"
+    },
+    {
+      "title": "Chính quyền 3 cấp",
+      "url": "https://nongnghiepmoitruong.vn/chinh-quyen-3-cap-channel85/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "3级政府"
+    },
+    {
+      "title": "Canh tác thông minh",
+      "url": "https://nongnghiepmoitruong.vn/canh-tac-thong-minh-channel8/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "智慧农业"
+    },
+    {
+      "title": "Bệnh viêm da nổi cục trên bò bùng phát tại Tuyên Quang",
+      "url": "https://nongnghiepmoitruong.vn/benh-viem-da-noi-cuc-tren-bo-bung-phat-tai-tuyen-quang-d824743.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "宣光省爆发牛皮炎"
+    },
+    {
+      "title": "Tập đoàn Việt Úc 'hé lộ' chiến lược chuyển mình bằng khoa học công nghệ",
+      "url": "https://nongnghiepmoitruong.vn/tap-doan-viet-uc-sap-he-lo-chien-luoc-chuyen-minh-bang-khoa-hoc-cong-nghe-d824804.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "越南大学集团“揭示”利用科技的转型战略"
+    },
+    {
+      "title": "Gia Lai sắp có thêm trang trại chăn nuôi lợn hơn 3.000 tỷ đồng",
+      "url": "https://nongnghiepmoitruong.vn/gia-lai-sap-co-them-trang-trai-chan-nuoi-lon-hon-3000-ty-dong-d824745.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "嘉莱即将增建养猪场，价值超过3万亿越南盾"
+    },
+    {
+      "title": "Biến phụ phẩm nông nghiệp thành ‘lá chắn sinh học’",
+      "url": "https://nongnghiepmoitruong.vn/bien-phu-pham-nong-nghiep-thanh-la-chan-sinh-hoc-d824425.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "将农副产品变成“生物盾牌”"
+    },
+    {
+      "title": "Quảng Ninh phổ biến quy định mới về xử phạt vi phạm thủy sản",
+      "url": "https://nongnghiepmoitruong.vn/quang-ninh-pho-bien-quy-dinh-moi-ve-xu-phat-vi-pham-thuy-san-d824719.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "广宁省颁布制裁渔业违法行为的新规定"
+    },
+    {
+      "title": "Chăn nuôi",
+      "url": "https://nongnghiepmoitruong.vn/chan-nuoi/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "畜牧业"
+    },
+    {
+      "title": "Thú y",
+      "url": "https://nongnghiepmoitruong.vn/thu-y/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "兽医学"
+    },
+    {
+      "title": "Trồng trọt",
+      "url": "https://nongnghiepmoitruong.vn/trong-trot/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "栽培"
+    },
+    {
+      "title": "Khuyến nông",
+      "url": "https://nongnghiepmoitruong.vn/khuyen-nong/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "农业推广"
+    },
+    {
+      "title": "Tái cơ cấu Nông nghiệp",
+      "url": "https://nongnghiepmoitruong.vn/tai-co-cau-nong-nghiep/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "农业结构调整"
+    },
+    {
+      "title": "Khoa học - Công nghệ",
+      "url": "https://nongnghiepmoitruong.vn/khoa-hoc---cong-nghe/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "科学技术"
+    },
+    {
+      "title": "Thủy sản",
+      "url": "https://nongnghiepmoitruong.vn/thuy-san/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "海鲜"
+    },
+    {
+      "title": "Lâm nghiệp",
+      "url": "https://nongnghiepmoitruong.vn/lam-nghiep/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "林业"
+    },
+    {
+      "title": "Khoa học lâm nghiệp trong tình hình mới: [Bài 2] Giữ rừng trở thành sinh kế bền vững",
+      "url": "https://nongnghiepmoitruong.vn/khoa-hoc-lam-nghiep-trong-tinh-hinh-moi-bai-2-giu-rung-tro-thanh-sinh-ke-ben-vung-d824495.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "新形势下的林业科学：【第二课】保持森林的可持续生计"
+    },
+    {
+      "title": "WCPFC tham vấn lộ trình gia nhập chính thức của Việt Nam",
+      "url": "https://nongnghiepmoitruong.vn/wcpfc-tham-van-lo-trinh-gia-nhap-chinh-thuc-cua-viet-nam-d823516.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "WCPFC就越南正式加入路线图进行磋商"
+    }
+  ],
+  "drone_highlights": [
+    {
+      "title": "Ukraine đăng video 'drone Nga truy đuổi người bán rau' tại Kherson",
+      "url": "https://vnexpress.net/ukraine-dang-video-drone-nga-truy-duoi-nguoi-ban-rau-tai-kherson-5105314.html",
+      "source": "VnExpress",
+      "is_drone": true,
+      "category": "general",
+      "title_zh": "乌克兰在赫尔松发布了“俄罗斯无人机追逐菜贩”的视频"
+    }
+  ],
+  "date_iso": "2026-08-05"
+}
