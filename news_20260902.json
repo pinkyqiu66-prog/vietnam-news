@@ -1,0 +1,1410 @@
+{
+  "scraped_at": "2026-09-02T04:56:41.669139",
+  "date": "02/09/2026",
+  "general": [
+    {
+      "title": "Tổng Bí thư, Chủ tịch nước: Việt Nam kiên định mục tiêu tăng trưởng 2 con số",
+      "url": "https://baodautu.vn/tong-bi-thu-chu-tich-nuoc-viet-nam-kien-dinh-muc-tieu-tang-truong-2-con-so-d608008.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "总书记、国家主席：越南坚定不移地实现两位数增长目标"
+    },
+    {
+      "title": "Việt Nam sẵn sàng đóng góp cho hòa bình, ổn định khu vực",
+      "url": "https://baodautu.vn/viet-nam-san-sang-dong-gop-cho-hoa-binh-on-dinh-khu-vuc-d607376.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "越南愿为地区和平稳定作出贡献"
+    },
+    {
+      "title": "Chặng đường 40 năm Đổi mới và hành trình thịnh vượng 2045",
+      "url": "https://baodautu.vn/chang-duong-40-nam-doi-moi-va-hanh-trinh-thinh-vuong-2045-d688488.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "40年创新之旅和2045年繁荣之旅"
+    },
+    {
+      "title": "Kiến tạo nền kinh tế độc lập, tự chủ và hội nhập quốc tế sâu rộng",
+      "url": "https://baodautu.vn/kien-tao-nen-kinh-te-doc-lap-tu-chu-va-hoi-nhap-quoc-te-sau-rong-d688487.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "创建独立、自力更生的经济和深度融入国际"
+    },
+    {
+      "title": "Cầu Trần Hưng Đạo lắp những đốt dầm đầu tiên sau gần 9 tháng thi công",
+      "url": "https://baodautu.vn/cau-tran-hung-dao-lap-nhung-dot-dam-dau-tien-sau-gan-9-thang-thi-cong-d691038.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "经过近 9 个月的施工，陈兴岛大桥安装了第一根横梁"
+    },
+    {
+      "title": "FTA tạo đà cho thương mại Việt Nam \"thăng hạng\"",
+      "url": "https://baodautu.vn/fta-tao-da-cho-thuong-mai-viet-nam-thang-hang-d688804.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "自贸协定为越南贸易“升级”创造动力"
+    },
+    {
+      "title": "[Ảnh] Vành đai 2 TP.HCM nhộn nhịp thi công xuyên lễ 2/9, tăng tốc hoàn thành đoạn 2,7 km",
+      "url": "https://baodautu.vn/anh-vanh-dai-2-tphcm-nhon-nhip-thi-cong-xuyen-le-29-tang-toc-hoan-thanh-doan-27-km-d690971.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "[图]胡志明市二环路9月2日假期期间施工繁忙，2.7公里路段加快完工"
+    },
+    {
+      "title": "Kiến tạo không gian phát triển mới đồng bộ hơn, thông thoáng hơn",
+      "url": "https://baodautu.vn/kien-tao-khong-gian-phat-trien-moi-dong-bo-hon-thong-thoang-hon-d687750.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "打造更加同步、通风的新发展空间"
+    },
+    {
+      "title": "Phê duyệt điều chỉnh Quy hoạch chung Khu kinh tế Nhơn Hội, giữ nguyên diện tích hơn 14.300 ha",
+      "url": "https://baodautu.vn/phe-duyet-dieu-chinh-quy-hoach-chung-khu-kinh-te-nhon-hoi-giu-nguyen-dien-tich-hon-14300-ha-d690822.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "批准仁会经济区总体规划调整，维持面积14300多公顷"
+    },
+    {
+      "title": "Đầu tư, xây dựng công trình biên giới trong trường hợp khẩn cấp, cấp bách, đặc biệt",
+      "url": "https://baodautu.vn/dau-tu-xay-dung-cong-trinh-bien-gioi-trong-truong-hop-khan-cap-cap-bach-dac-biet-d690915.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "紧急、紧急、特殊情况下投资建设边境项目"
+    },
+    {
+      "title": "Hàng nghìn kỹ sư, công nhân giao thông bám công trường xuyên lễ Quốc khánh 2/9",
+      "url": "https://baodautu.vn/hang-nghin-ky-su-cong-nhan-giao-thong-bam-cong-truong-xuyen-le-quoc-khanh-29-d690281.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "Hàng nghìn kỹ sư, công nhân giao thông bám công trường xuyên lễ Quốc khánh 2/9"
+    },
+    {
+      "title": "Khi dư luận và thị trường bị Phonefarm thao túng - Bài 2: Bẫy “ngàn sao” trên sàn thương mại điện tử",
+      "url": "https://baodautu.vn/khi-du-luan-va-thi-truong-bi-phonefarm-thao-tung---bai-2-bay-ngan-sao-tren-san-thuong-mai-dien-tu-d684810.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "Khi dư luận và thị trường bị Phonefarm thao túng - Bài 2: Bẫy “ngàn sao” trên sàn thương mại điện tử"
+    },
+    {
+      "title": "Ngân hàng muốn tự chủ trên “sân chơi” bảo hiểm",
+      "url": "https://baodautu.vn/ngan-hang-muon-tu-chu-tren-san-choi-bao-hiem-d684209.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "Ngân hàng muốn tự chủ trên “sân chơi” bảo hiểm"
+    },
+    {
+      "title": "Tinh thần kiến tạo: Lựa chọn của thế hệ doanh nhân",
+      "url": "https://baodautu.vn/tinh-than-kien-tao-lua-chon-cua-the-he-doanh-nhan-d687500.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "Tinh thần kiến tạo: Lựa chọn của thế hệ doanh nhân"
+    },
+    {
+      "title": "Điểm tựa cho những tuyến \"động mạch chủ\" mới của đất nước",
+      "url": "https://baodautu.vn/diem-tua-cho-nhung-tuyen-dong-mach-chu-moi-cua-dat-nuoc-d688803.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "Điểm tựa cho những tuyến \"động mạch chủ\" mới của đất nước"
+    },
+    {
+      "title": "Phó Thủ tướng yêu cầu rà soát, đánh giá kỹ quy định về khoảng cách an toàn trên cao tốc",
+      "url": "https://baodautu.vn/pho-thu-tuong-yeu-cau-ra-soat-danh-gia-ky-quy-dinh-ve-khoang-cach-an-toan-tren-cao-toc-d691510.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "Phó Thủ tướng yêu cầu rà soát, đánh giá kỹ quy định về khoảng cách an toàn trên cao tốc"
+    },
+    {
+      "title": "[Emagazine] Hà Nội viết tiếp khát vọng phát triển với 17 dự án chào mừng Quốc khánh",
+      "url": "https://baodautu.vn/emagazine-ha-noi-viet-tiep-khat-vong-phat-trien-voi-17-du-an-chao-mung-quoc-khanh-m687752.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "[Emagazine] Hà Nội viết tiếp khát vọng phát triển với 17 dự án chào mừng Quốc khánh"
+    },
+    {
+      "title": "[Video] Quảng Ninh khởi công, khánh thành 25 dự án với tổng vốn hơn 46.800 tỷ đồng",
+      "url": "https://baodautu.vn/video-quang-ninh-khoi-cong-khanh-thanh-25-du-an-voi-tong-von-hon-46800-ty-dong-v1106.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "[Video] Quảng Ninh khởi công, khánh thành 25 dự án với tổng vốn hơn 46.800 tỷ đồng"
+    },
+    {
+      "title": "[Insight] Kiến tạo môi trường để doanh nghiệp nhỏ và vừa tham gia chuỗi giá trị toàn cầu",
+      "url": "https://baodautu.vn/insight-kien-tao-moi-truong-de-doanh-nghiep-nho-va-vua-tham-gia-chuoi-gia-tri-toan-cau-m686931.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "[Insight] Kiến tạo môi trường để doanh nghiệp nhỏ và vừa tham gia chuỗi giá trị toàn cầu"
+    },
+    {
+      "title": "[Insight] Chính sách hỗ trợ phải giúp doanh nghiệp nhỏ và vừa nâng chất, tăng sức cạnh tranh",
+      "url": "https://baodautu.vn/insight-chinh-sach-ho-tro-phai-giup-doanh-nghiep-nho-va-vua-nang-chat-tang-suc-canh-tranh-m686966.html",
+      "source": "Báo Đầu Tư",
+      "is_drone": false,
+      "title_zh": "[Insight] Chính sách hỗ trợ phải giúp doanh nghiệp nhỏ và vừa nâng chất, tăng sức cạnh tranh"
+    },
+    {
+      "title": "Mới nhất",
+      "url": "https://vnexpress.net/tin-tuc-24h",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "最新"
+    },
+    {
+      "title": "Góc nhìn",
+      "url": "https://vnexpress.net/goc-nhin",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "可视角度"
+    },
+    {
+      "title": "100 hiện vật về ngày độc lập lần đầu trưng bày ở TP HCM",
+      "url": "https://vnexpress.net/100-hien-vat-ve-ngay-doc-lap-lan-dau-trung-bay-o-tp-hcm-5115656.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "100件独立日文物首次在胡志明市展出"
+    },
+    {
+      "title": "Những ngày cuối đời của Chủ tịch Hồ Chí Minh",
+      "url": "https://vnexpress.net/nhung-ngay-cuoi-doi-cua-chu-tich-ho-chi-minh-5115677.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "胡志明主席生命的最后几天"
+    },
+    {
+      "title": "Tam ca Áo trắng quây quần bên các con",
+      "url": "https://vnexpress.net/tam-ca-ao-trang-quay-quan-ben-cac-con-5115705.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "白衬衫三人组聚集在孩子身边"
+    },
+    {
+      "title": "Mỹ tập kích Iran ngày thứ hai liên tiếp",
+      "url": "https://vnexpress.net/my-tap-kich-iran-ngay-thu-hai-lien-tiep-5115703.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "美国连续第二天袭击伊朗"
+    },
+    {
+      "title": "Cuộc chuyển mình trên thị trường chuyển nhượng của PSG",
+      "url": "https://vnexpress.net/cuoc-chuyen-minh-tren-thi-truong-chuyen-nhuong-cua-psg-5115699.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "巴黎圣日耳曼在转会市场上的转型"
+    },
+    {
+      "title": "Thông xe đoạn đường đầu tiên ven rạch Xuyên Tâm",
+      "url": "https://vnexpress.net/thong-xe-doan-duong-dau-tien-ven-rach-xuyen-tam-5115743.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "川潭运河第一段路段通车"
+    },
+    {
+      "title": "Thủ tướng Canada: Mỹ nên 'bớt ra vẻ cứng rắn'",
+      "url": "https://vnexpress.net/thu-tuong-canada-my-nen-bot-ra-ve-cung-ran-5115702.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "加拿大总理：美国应该“不那么强硬”"
+    },
+    {
+      "title": "Trang phục đi máy bay như dự tiệc hơn 60 năm trước",
+      "url": "https://vnexpress.net/trang-phuc-di-may-bay-nhu-du-tiec-hon-60-nam-truoc-5115577.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "在飞机上的着装就像是60多年前去参加聚会"
+    },
+    {
+      "title": "CSGT: Sẽ xử lý nghiêm xe chạy chậm bám làn trái cao tốc",
+      "url": "https://vnexpress.net/csgt-se-xu-ly-nghiem-xe-chay-cham-bam-lan-trai-cao-toc-5115738.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "CSGT: Sẽ xử lý nghiêm xe chạy chậm bám làn trái cao tốc"
+    },
+    {
+      "title": "Ba ngày bị bắt cóc và nỗ lực cứu cả gia đình của thai phụ",
+      "url": "https://vnexpress.net/ba-ngay-bi-bat-coc-va-no-luc-cuu-ca-gia-dinh-cua-thai-phu-5115715.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Ba ngày bị bắt cóc và nỗ lực cứu cả gia đình của thai phụ"
+    },
+    {
+      "title": "Ôtô chạy hơn 80 km/h tông văng người đi xe đạp",
+      "url": "https://vnexpress.net/oto-chay-hon-80-km-h-tong-vang-nguoi-di-xe-dap-5115670.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Ôtô chạy hơn 80 km/h tông văng người đi xe đạp"
+    },
+    {
+      "title": "Man City mua Enzo Fernandez, giá 169 triệu USD",
+      "url": "https://vnexpress.net/man-city-mua-enzo-fernandez-gia-169-trieu-usd-5115696.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Man City mua Enzo Fernandez, giá 169 triệu USD"
+    },
+    {
+      "title": "Người chỉ huy xe tăng và khoảnh khắc trở thành biểu tượng lịch sử",
+      "url": "https://vnexpress.net/nguoi-chi-huy-xe-tang-va-khoanh-khac-tro-thanh-bieu-tuong-lich-su-5111808.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Người chỉ huy xe tăng và khoảnh khắc trở thành biểu tượng lịch sử"
+    },
+    {
+      "title": "Iran kêu gọi người dân tiết kiệm xăng",
+      "url": "https://vnexpress.net/iran-keu-goi-nguoi-dan-tiet-kiem-xang-5115682.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Iran kêu gọi người dân tiết kiệm xăng"
+    },
+    {
+      "title": "Ký ức hạ 21 máy bay Mỹ của anh hùng 'Liều Văn Lành'",
+      "url": "https://vnexpress.net/ky-uc-ha-21-may-bay-my-cua-anh-hung-lieu-van-lanh-5113320.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Ký ức hạ 21 máy bay Mỹ của anh hùng 'Liều Văn Lành'"
+    },
+    {
+      "title": "Các nước chúc mừng Quốc khánh Việt Nam",
+      "url": "https://vnexpress.net/cac-nuoc-chuc-mung-quoc-khanh-viet-nam-5115714.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Các nước chúc mừng Quốc khánh Việt Nam"
+    },
+    {
+      "title": "Messi từng suýt bỏ lỡ thập niên vàng như thế nào",
+      "url": "https://vnexpress.net/messi-tung-suyt-bo-lo-thap-nien-vang-nhu-the-nao-5115528.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Messi từng suýt bỏ lỡ thập niên vàng như thế nào"
+    },
+    {
+      "title": "Lý do Nepal chật vật cứu nạn nhân kẹt trong hầm thủy điện",
+      "url": "https://vnexpress.net/ly-do-nepal-chat-vat-cuu-nan-nhan-ket-trong-ham-thuy-dien-5115659.html",
+      "source": "VnExpress",
+      "is_drone": false,
+      "title_zh": "Lý do Nepal chật vật cứu nạn nhân kẹt trong hầm thủy điện"
+    },
+    {
+      "title": "Sau sáp nhập thành công, vì sao tỉnh Phú Thọ, tỉnh Thái Nguyên lại muốn đào hầm qua núi Tam Đảo dù có tốn nghìn tỷ?",
+      "url": "https://danviet.vn/sau-sap-nhap-thanh-cong-vi-sao-tinh-phu-tho-tinh-thai-nguyen-lai-muon-dao-ham-qua-nui-tam-dao-du-co-ton-nghin-ty-d1456154.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Sau sáp nhập thành công, vì sao tỉnh Phú Thọ, tỉnh Thái Nguyên lại muốn đào hầm qua núi Tam Đảo dù có tốn nghìn tỷ?"
+    },
+    {
+      "title": "Nông dân Việt Nam xuất sắc 40 năm Đổi mới đến từ tỉnh Quảng Ngãi (địa phận Kon Tum cũ) là một tỷ phú sầu riêng",
+      "url": "https://danviet.vn/nong-dan-viet-nam-xuat-sac-40-nam-doi-moi-den-tu-tinh-quang-ngai-dia-phan-kon-tum-cu-la-mot-ty-phu-sau-rieng-d1455784.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Nông dân Việt Nam xuất sắc 40 năm Đổi mới đến từ tỉnh Quảng Ngãi (địa phận Kon Tum cũ) là một tỷ phú sầu riêng"
+    },
+    {
+      "title": "2.400 tỷ đồng là số dư nợ cựu chiến binh Ninh Bình giúp nhau cho vay, nhiều người giàu lên, hiến đất không đòi đền bù",
+      "url": "https://danviet.vn/2400-ty-dong-la-so-du-no-cuu-chien-binh-ninh-binh-giup-nhau-cho-vay-nhieu-nguoi-giau-len-hien-dat-khong-doi-den-bu-d1456130.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "2.400 tỷ đồng là số dư nợ cựu chiến binh Ninh Bình giúp nhau cho vay, nhiều người giàu lên, hiến đất không đòi đền bù"
+    },
+    {
+      "title": "Danh sách xã, phường ở Thanh Hóa có thể sáp nhập xã phường lần thứ 2 do chưa đạt các tiêu chuẩn này",
+      "url": "https://danviet.vn/danh-sach-xa-phuong-o-thanh-hoa-co-the-sap-nhap-xa-phuong-lan-thu-2-do-chua-dat-cac-tieu-chuan-nay-d1454698.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Danh sách xã, phường ở Thanh Hóa có thể sáp nhập xã phường lần thứ 2 do chưa đạt các tiêu chuẩn này"
+    },
+    {
+      "title": "Sáp nhập thành công tỉnh Nam Định, Hà Nam cũ, tỉnh Ninh Bình đã khai thác, cho thuê bao nhiêu nhà, đất, trụ sở dôi dư?",
+      "url": "https://danviet.vn/sap-nhap-thanh-cong-tinh-nam-dinh-ha-nam-cu-tinh-ninh-binh-da-khai-thac-cho-thue-bao-nhieu-nha-dat-tru-so-doi-du-d1455928.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Sáp nhập thành công tỉnh Nam Định, Hà Nam cũ, tỉnh Ninh Bình đã khai thác, cho thuê bao nhiêu nhà, đất, trụ sở dôi dư?"
+    },
+    {
+      "title": "Sáp nhập thành công Bắc Giang, đây, danh sách 9 giải pháp quan trọng để Bắc Ninh có xã hiện đại, làng giàu, thôn trù phú",
+      "url": "https://danviet.vn/sap-nhap-thanh-cong-bac-giang-day-danh-sach-9-giai-phap-quan-trong-de-bac-ninh-co-xa-hien-dai-lang-giau-thon-tru-phu-d1455992.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Sáp nhập thành công Bắc Giang, đây, danh sách 9 giải pháp quan trọng để Bắc Ninh có xã hiện đại, làng giàu, thôn trù phú"
+    },
+    {
+      "title": "Danh sách xã phường ở Phú Thọ có thể sáp nhập xã phường tiếp, tất nhiên không có tên \"siêu phường Vĩnh Phúc\"",
+      "url": "https://danviet.vn/danh-sach-xa-phuong-o-phu-tho-co-the-sap-nhap-xa-phuong-tiep-tat-nhien-khong-co-ten-sieu-phuong-vinh-phuc-d1456133.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Danh sách xã phường ở Phú Thọ có thể sáp nhập xã phường tiếp, tất nhiên không có tên \"siêu phường Vĩnh Phúc\""
+    },
+    {
+      "title": "Tin bão mới nhất, bão số 5 SAUDEL giảm tốc, dự báo 4/9 đổ bộ đất liền",
+      "url": "https://danviet.vn/tin-bao-moi-nhat-bao-so-5-saudel-giam-toc-du-bao-4-9-do-bo-dat-lien-d1456099.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Tin bão mới nhất, bão số 5 SAUDEL giảm tốc, dự báo 4/9 đổ bộ đất liền"
+    },
+    {
+      "title": "Giải báo chí toàn quốc về nông nghiệp, nông dân, nông thôn 2026: Câu chuyện khác về những bản làng vùng cao",
+      "url": "https://danviet.vn/giai-bao-chi-toan-quoc-ve-nong-nghiep-nong-dan-nong-thon-2026-cau-chuyen-khac-ve-nhung-ban-lang-vung-cao-d1451338.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Giải báo chí toàn quốc về nông nghiệp, nông dân, nông thôn 2026: Câu chuyện khác về những bản làng vùng cao"
+    },
+    {
+      "title": "Sau sáp nhập, Ninh Bình có 8 con sông chính, cố đô linh thiêng, mang dấu tích của 4 vương triều trong lịch sử phong kiến",
+      "url": "https://danviet.vn/sau-sap-nhap-ninh-binh-co-8-con-song-chinh-co-do-linh-thieng-mang-dau-tich-cua-4-vuong-trieu-trong-lich-su-phong-kien-d1453487.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Sau sáp nhập, Ninh Bình có 8 con sông chính, cố đô linh thiêng, mang dấu tích của 4 vương triều trong lịch sử phong kiến"
+    },
+    {
+      "title": "Một xã ở Cà Mau sông ngòi chằng chịt, nuôi tôm cua đều nổi tiếng, giờ đang hiện đại hoá một nghề đem lại tiền tỷ",
+      "url": "https://danviet.vn/mot-xa-o-ca-mau-song-ngoi-chang-chit-nuoi-tom-cua-deu-noi-tieng-gio-dang-hien-dai-hoa-mot-nghe-dem-lai-tien-ty-d1456132.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Một xã ở Cà Mau sông ngòi chằng chịt, nuôi tôm cua đều nổi tiếng, giờ đang hiện đại hoá một nghề đem lại tiền tỷ"
+    },
+    {
+      "title": "Tin nắng nóng Hà Nội mới nhất, Hà Nội nắng nóng trên 37 độ C, miền Bắc tiếp tục có nắng nóng gay gắt",
+      "url": "https://danviet.vn/tin-nang-nong-ha-noi-moi-nhat-ha-noi-nang-nong-tren-37-do-c-mien-bac-tiep-tuc-co-nang-nong-gay-gat-d1456149.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Tin nắng nóng Hà Nội mới nhất, Hà Nội nắng nóng trên 37 độ C, miền Bắc tiếp tục có nắng nóng gay gắt"
+    },
+    {
+      "title": "Sáp nhập trường học thành công, xã Nghĩa Trụ, tỉnh Hưng Yên (địa phận Văn Giang cũ) công bố các quyết định quan trọng",
+      "url": "https://danviet.vn/sap-nhap-truong-hoc-thanh-cong-xa-nghia-tru-tinh-hung-yen-dia-phan-van-giang-cu-cong-bo-cac-quyet-dinh-quan-trong-d1456151.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Sáp nhập trường học thành công, xã Nghĩa Trụ, tỉnh Hưng Yên (địa phận Văn Giang cũ) công bố các quyết định quan trọng"
+    },
+    {
+      "title": "Bỏ nghề lái xe tải về trồng hoa cây cảnh, một nông dân ở Đà Nẵng được bình chọn là Nông dân Việt Nam xuất sắc",
+      "url": "https://danviet.vn/bo-nghe-lai-xe-tai-ve-trong-hoa-cay-canh-mot-nong-dan-o-da-nang-duoc-binh-chon-la-nong-dan-viet-nam-xuat-sac-d1456077.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Bỏ nghề lái xe tải về trồng hoa cây cảnh, một nông dân ở Đà Nẵng được bình chọn là Nông dân Việt Nam xuất sắc"
+    },
+    {
+      "title": "“Vườn Hạnh phúc” độc lạ ở Bắc Ninh: Ông chủ 9X không bán vé, chỉ mong trẻ nhỏ rời điện thoại",
+      "url": "https://danviet.vn/vuon-hanh-phuc-doc-la-o-bac-ninh-ong-chu-9x-khong-ban-ve-chi-mong-tre-nho-roi-dien-thoai-d1455750.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "“Vườn Hạnh phúc” độc lạ ở Bắc Ninh: Ông chủ 9X không bán vé, chỉ mong trẻ nhỏ rời điện thoại"
+    },
+    {
+      "title": "Danh sách xã, phường ở Bắc Ninh có thể sáp nhập xã phường tiếp, xã Tuấn Đạo (Bắc Giang cũ) chưa đạt tiêu chuẩn gì?",
+      "url": "https://danviet.vn/danh-sach-xa-phuong-o-bac-ninh-co-the-sap-nhap-xa-phuong-tiep-xa-tuan-dao-bac-giang-cu-chua-dat-tieu-chuan-gi-d1456107.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Danh sách xã, phường ở Bắc Ninh có thể sáp nhập xã phường tiếp, xã Tuấn Đạo (Bắc Giang cũ) chưa đạt tiêu chuẩn gì?"
+    },
+    {
+      "title": "EU có động thái mới với an toàn thực phẩm và cảnh báo 10 mã sản phẩm có xuất xứ từ Việt Nam",
+      "url": "https://danviet.vn/eu-co-dong-thai-moi-voi-an-toan-thuc-pham-va-canh-bao-10-ma-san-pham-co-xuat-xu-tu-viet-nam-d1456129.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "EU có động thái mới với an toàn thực phẩm và cảnh báo 10 mã sản phẩm có xuất xứ từ Việt Nam"
+    },
+    {
+      "title": "Tin bão mới nhất: Bão số 5 vẫn giữ nguyên cường độ, giật cấp 10, quần thảo ở khu vực Bắc biển Đông",
+      "url": "https://danviet.vn/tin-bao-moi-nhat-bao-so-5-van-giu-nguyen-cuong-do-giat-cap-10-quan-thao-o-khu-vuc-bac-bien-dong-d1456162.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Tin bão mới nhất: Bão số 5 vẫn giữ nguyên cường độ, giật cấp 10, quần thảo ở khu vực Bắc biển Đông"
+    },
+    {
+      "title": "Đây, hồ chứa nước ngọt hoành tráng trị giá 860 tỷ đang thi công sau sáp nhập thành công Trà Vinh, Bến Tre, Vĩnh Long",
+      "url": "https://danviet.vn/day-ho-chua-nuoc-ngot-hoanh-trang-tri-gia-860-ty-dang-thi-cong-sau-sap-nhap-thanh-cong-tra-vinh-ben-tre-vinh-long-d1455999.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Đây, hồ chứa nước ngọt hoành tráng trị giá 860 tỷ đang thi công sau sáp nhập thành công Trà Vinh, Bến Tre, Vĩnh Long"
+    },
+    {
+      "title": "Xã mới của Hải Phòng (Hải Dương cũ) có rặng cây cổ thụ-nơi các các tướng nhà Trần buộc ngựa dự hội nghị Bình Than",
+      "url": "https://danviet.vn/xa-moi-cua-hai-phong-hai-duong-cu-co-rang-cay-co-thu-noi-cac-cac-tuong-nha-tran-buoc-ngua-du-hoi-nghi-binh-than-d1456054.html",
+      "source": "Dan Viet",
+      "is_drone": false,
+      "title_zh": "Xã mới của Hải Phòng (Hải Dương cũ) có rặng cây cổ thụ-nơi các các tướng nhà Trần buộc ngựa dự hội nghị Bình Than"
+    },
+    {
+      "title": "Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc trao Huy hiệu Đảng tặng các đảng viên lão thành tại Hà Tĩnh",
+      "url": "https://baochinhphu.vn/pho-thu-tuong-thuong-truc-chinh-phu-pham-gia-tuc-trao-huy-hieu-dang-tang-cac-dang-vien-lao-thanh-tai-ha-tinh-102260902082506137.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc trao Huy hiệu Đảng tặng các đảng viên lão thành tại Hà Tĩnh"
+    },
+    {
+      "title": "Các bài phát biểu của Thủ tướng",
+      "url": "https://baochinhphu.vn/cac-bai-phat-bieu-cua-thu-tuong.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Các bài phát biểu của Thủ tướng"
+    },
+    {
+      "title": "Chỉ đạo, quyết định của Chính phủ - Thủ tướng Chính phủ",
+      "url": "https://baochinhphu.vn/chi-dao-quyet-dinh-cua-chinh-phu-thu-tuong-chinh-phu.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Chỉ đạo, quyết định của Chính phủ - Thủ tướng Chính phủ"
+    },
+    {
+      "title": "Quy định mới về hoạt động mật mã dân sự",
+      "url": "https://baochinhphu.vn/quy-dinh-moi-ve-hoat-dong-mat-ma-dan-su-102260902111231973.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Quy định mới về hoạt động mật mã dân sự"
+    },
+    {
+      "title": "Chính sách và cuộc sống",
+      "url": "https://baochinhphu.vn/chinh-sach-va-cuoc-song.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Chính sách và cuộc sống"
+    },
+    {
+      "title": "Đề xuất quy định mới về quản lí nhiệm vụ khoa học, công nghệ, đổi mới sáng tạo do Bộ GDĐT tài trợ, đặt hàng",
+      "url": "https://baochinhphu.vn/de-xuat-quy-dinh-moi-ve-quan-li-nhiem-vu-khoa-hoc-cong-nghe-doi-moi-sang-tao-do-bo-gddt-tai-tro-dat-hang-102260902114431913.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Đề xuất quy định mới về quản lí nhiệm vụ khoa học, công nghệ, đổi mới sáng tạo do Bộ GDĐT tài trợ, đặt hàng"
+    },
+    {
+      "title": "Luận và Đàm",
+      "url": "https://baochinhphu.vn/luan-va-dam.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Luận và Đàm"
+    },
+    {
+      "title": "TỪ QUYỀN TỰ QUYẾT ĐẾN VẬN MỆNH MỚI CỦA ĐẤT NƯỚC",
+      "url": "https://baochinhphu.vn/tu-quyen-tu-quyet-den-van-menh-moi-cua-dat-nuoc-102260830153315608.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "TỪ QUYỀN TỰ QUYẾT ĐẾN VẬN MỆNH MỚI CỦA ĐẤT NƯỚC"
+    },
+    {
+      "title": "Đại tướng Lương Tam Quang: Xã hội kỷ cương là 'hạ tầng mềm' cho phát triển",
+      "url": "https://baochinhphu.vn/dai-tuong-luong-tam-quang-xa-hoi-ky-cuong-la-ha-tang-mem-cho-phat-trien-102260828093016292.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Đại tướng Lương Tam Quang: Xã hội kỷ cương là 'hạ tầng mềm' cho phát triển"
+    },
+    {
+      "title": "Nghe Tuyên ngôn Độc lập do Chủ tịch Hồ Chí Minh đọc ngày 2/9/1945",
+      "url": "https://baochinhphu.vn/chu-tich-ho-chi-minh-doc-tuyen-ngon-doc-lap-nam-1945-102260831123435279.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Nghe Tuyên ngôn Độc lập do Chủ tịch Hồ Chí Minh đọc ngày 2/9/1945"
+    },
+    {
+      "title": "Bộ trưởng Hoàng Minh Sơn: Năm học mới, chuyển hóa những chính sách thành kết quả cụ thể, thực chất",
+      "url": "https://baochinhphu.vn/bo-truong-hoang-minh-son-nam-hoc-moi-chuyen-hoa-nhung-chinh-sach-thanh-ket-qua-cu-the-thuc-chat-102260901185421629.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Bộ trưởng Hoàng Minh Sơn: Năm học mới, chuyển hóa những chính sách thành kết quả cụ thể, thực chất"
+    },
+    {
+      "title": "CSGT chỉ xử lý vi phạm khoảng cách an toàn tại những đoạn đường đủ điều kiện",
+      "url": "https://baochinhphu.vn/csgt-chi-xu-ly-vi-pham-khoang-cach-an-toan-tai-nhung-doan-duong-du-dieu-kien-102260902090317615.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "CSGT chỉ xử lý vi phạm khoảng cách an toàn tại những đoạn đường đủ điều kiện"
+    },
+    {
+      "title": "Đại sứ Anh: Việt Nam ngày càng có tiếng nói có trọng lượng trên trường quốc tế",
+      "url": "https://baochinhphu.vn/dai-su-anh-viet-nam-ngay-cang-co-tieng-noi-co-trong-luong-tren-truong-quoc-te-10226082816332937.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Đại sứ Anh: Việt Nam ngày càng có tiếng nói có trọng lượng trên trường quốc tế"
+    },
+    {
+      "title": "Ý nghĩa Quốc khánh 2/9 – Từ giá trị độc lập đến khát vọng phát triển",
+      "url": "https://baochinhphu.vn/y-nghia-quoc-khanh-2-9-tu-gia-tri-doc-lap-den-khat-vong-phat-trien-102260827093700225.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Ý nghĩa Quốc khánh 2/9 – Từ giá trị độc lập đến khát vọng phát triển"
+    },
+    {
+      "title": "Đại sứ Thụy Điển: Việt Nam ngày càng khẳng định vị thế kinh tế và chiến lược",
+      "url": "https://baochinhphu.vn/dai-su-thuy-dien-viet-nam-ngay-cang-khang-dinh-vi-the-kinh-te-va-chien-luoc-1022608271041363.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Đại sứ Thụy Điển: Việt Nam ngày càng khẳng định vị thế kinh tế và chiến lược"
+    },
+    {
+      "title": "Rà soát, đánh giá kỹ quy định về khoảng cách an toàn trên cao tốc",
+      "url": "https://baochinhphu.vn/ra-soat-danh-gia-ky-quy-dinh-ve-khoang-cach-an-toan-tren-cao-toc-102260901114642547.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Rà soát, đánh giá kỹ quy định về khoảng cách an toàn trên cao tốc"
+    },
+    {
+      "title": "Khẩn trương rà soát, thực hiện đầy đủ chế độ đối với học sinh thuộc diện chính sách, khó khăn",
+      "url": "https://baochinhphu.vn/khan-truong-ra-soat-thuc-hien-day-du-chinh-sach-doi-voi-hoc-sinh-thuoc-dien-chinh-sach-co-hoan-canh-kho-khan-102260831210626872.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Khẩn trương rà soát, thực hiện đầy đủ chế độ đối với học sinh thuộc diện chính sách, khó khăn"
+    },
+    {
+      "title": "Khẩn trương khắc phục hậu quả vụ lật xe ô tô chở khách trên địa bàn tỉnh Gia Lai",
+      "url": "https://baochinhphu.vn/khan-truong-khac-phuc-hau-qua-vu-lat-xe-o-to-cho-khach-tren-dia-ban-tinh-gia-lai-102260831202348126.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Khẩn trương khắc phục hậu quả vụ lật xe ô tô chở khách trên địa bàn tỉnh Gia Lai"
+    },
+    {
+      "title": "Tham vấn chính sách",
+      "url": "https://baochinhphu.vn/chinh-sach-va-cuoc-song/tham-van-chinh-sach.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Tham vấn chính sách"
+    },
+    {
+      "title": "Chính sách mới",
+      "url": "https://baochinhphu.vn/chinh-sach-va-cuoc-song/chinh-sach-moi.htm",
+      "source": "Bao Chinh Phu",
+      "is_drone": false,
+      "title_zh": "Chính sách mới"
+    },
+    {
+      "title": "Thái Lan có thể tiếp tục 'giấu đội hình A' ở FIFA ASEAN Cup 2026",
+      "url": "https://tuoitre.vn/thai-lan-co-the-tiep-tuc-giau-doi-hinh-a-o-fifa-asean-cup-2026-100260902101418804.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Thái Lan có thể tiếp tục 'giấu đội hình A' ở FIFA ASEAN Cup 2026"
+    },
+    {
+      "title": "Hồ sơ mật thám Pháp tiết lộ những chuyện diễn ra trong 99 ngày Chủ tịch Hồ Chí Minh sang Pháp năm 1946",
+      "url": "https://tuoitre.vn/ho-so-mat-tham-phap-tiet-lo-nhung-chuyen-dien-ra-trong-99-ngay-chu-tich-ho-chi-minh-sang-phap-nam-1946-100260902090525099.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Hồ sơ mật thám Pháp tiết lộ những chuyện diễn ra trong 99 ngày Chủ tịch Hồ Chí Minh sang Pháp năm 1946"
+    },
+    {
+      "title": "TS Trần Anh Tuấn: 'Người dùng được nhân tài là người đại tài'",
+      "url": "https://tuoitre.vn/ts-tran-anh-tuan-nguoi-dung-duoc-nhan-tai-la-nguoi-dai-tai-100260901074147821.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "TS Trần Anh Tuấn: 'Người dùng được nhân tài là người đại tài'"
+    },
+    {
+      "title": "Bác sĩ nội trú nói về lương, 41 tuổi mới có khoản tiền tiết kiệm đầu tiên",
+      "url": "https://tuoitre.vn/bac-si-noi-tru-noi-ve-luong-41-tuoi-moi-co-khoan-tien-tiet-kiem-dau-tien-100260902101533525.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Bác sĩ nội trú nói về lương, 41 tuổi mới có khoản tiền tiết kiệm đầu tiên"
+    },
+    {
+      "title": "Đình Bắc uống một ly bia, có cần phải ầm ĩ?",
+      "url": "https://tuoitre.vn/dinh-bac-uong-mot-ly-bia-co-can-phai-am-i-100260901201229957.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Đình Bắc uống một ly bia, có cần phải ầm ĩ?"
+    },
+    {
+      "title": "Những ngày đầu của chính phủ Việt Nam Dân chủ Cộng hòa: Nghe tiếng dân, lo việc nước",
+      "url": "https://tuoitre.vn/nhung-ngay-dau-cua-chinh-phu-viet-nam-dan-chu-cong-hoa-nghe-tieng-dan-lo-viec-nuoc-100260824113336967.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Những ngày đầu của chính phủ Việt Nam Dân chủ Cộng hòa: Nghe tiếng dân, lo việc nước"
+    },
+    {
+      "title": "Trung Đông sáng 2-9: Iran tập kích loạt căn cứ Mỹ, lãnh tụ Mojtaba tuyên bố dạy Mỹ 'bài học'",
+      "url": "https://tuoitre.vn/trung-dong-sang-2-9-iran-tap-kich-loat-can-cu-my-lanh-tu-mojtaba-tuyen-bo-day-my-bai-hoc-100260902092937448.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Trung Đông sáng 2-9: Iran tập kích loạt căn cứ Mỹ, lãnh tụ Mojtaba tuyên bố dạy Mỹ 'bài học'"
+    },
+    {
+      "title": "TP.HCM: Điểm hỏa tự động 100% pháo hoa chào mừng Quốc khánh",
+      "url": "https://tuoitre.vn/1200-qua-phao-hoa-tam-cao-tai-tran-dia-dau-ham-song-sai-gon-da-san-sang-cho-toi-2-9-10026090121100449.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "TP.HCM: Điểm hỏa tự động 100% pháo hoa chào mừng Quốc khánh"
+    },
+    {
+      "title": "Tổng thống Trump đề cử ông Hùng Cao làm Bộ trưởng Hải quân chính thức",
+      "url": "https://tuoitre.vn/tong-thong-trump-de-cu-ong-hung-cao-lam-bo-truong-hai-quan-chinh-thuc-100260902082515471.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Tổng thống Trump đề cử ông Hùng Cao làm Bộ trưởng Hải quân chính thức"
+    },
+    {
+      "title": "Toàn cảnh 7 cây cầu bắc qua sông Hồng đặt mục tiêu hoàn thành trong năm APEC 2027",
+      "url": "https://tuoitre.vn/toan-canh-7-cay-cau-bac-qua-song-hong-dat-muc-tieu-hoan-thanh-trong-nam-apec-2027-100260901141033444.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Toàn cảnh 7 cây cầu bắc qua sông Hồng đặt mục tiêu hoàn thành trong năm APEC 2027"
+    },
+    {
+      "title": "Bữa cơm đơn giản để nghỉ ngơi hay cầu kỳ mới thể hiện cách gia đình chăm sóc nhau?",
+      "url": "https://tuoitre.vn/bua-com-don-gian-de-nghi-ngoi-hay-cau-ky-moi-the-hien-cach-gia-dinh-cham-soc-nhau-100260824171740523.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Bữa cơm đơn giản để nghỉ ngơi hay cầu kỳ mới thể hiện cách gia đình chăm sóc nhau?"
+    },
+    {
+      "title": "Xác lập Kỷ lục Việt Nam với lễ chào cờ đặc biệt cùng lá cờ hơn 2.000m²",
+      "url": "https://tuoitre.vn/xac-lap-ky-luc-viet-nam-voi-le-chao-co-dac-biet-cung-la-co-hon-2000m-100260902110637455.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Xác lập Kỷ lục Việt Nam với lễ chào cờ đặc biệt cùng lá cờ hơn 2.000m²"
+    },
+    {
+      "title": "Ông Đinh Bá Thành - Chủ tịch DatVietVAC: 'Chúng tôi IPO khi công nghiệp văn hóa hội tụ thiên thời - địa lợi - nhân hòa'",
+      "url": "https://tuoitre.vn/ong-dinh-ba-thanh-chu-tich-datvietvac-chung-toi-ipo-khi-cong-nghiep-van-hoa-hoi-tu-thien-thoi-dia-loi-nhan-hoa-100260901183957039.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Ông Đinh Bá Thành - Chủ tịch DatVietVAC: 'Chúng tôi IPO khi công nghiệp văn hóa hội tụ thiên thời - địa lợi - nhân hòa'"
+    },
+    {
+      "title": "Trẻ thò đầu qua cửa sổ trời khi xe chạy trên cao tốc TP.HCM - Long Thành, nữ tài xế bị phạt 5,9 triệu đồng",
+      "url": "https://tuoitre.vn/tre-tho-dau-qua-cua-so-troi-khi-xe-chay-tren-cao-toc-tphcm-long-thanh-nu-tai-xe-bi-phat-59-trieu-dong-100260902105857779.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Trẻ thò đầu qua cửa sổ trời khi xe chạy trên cao tốc TP.HCM - Long Thành, nữ tài xế bị phạt 5,9 triệu đồng"
+    },
+    {
+      "title": "Hàng ngàn người lội xuống biển cổ vũ hội bơi chải truyền thống làng chài Quảng Trị",
+      "url": "https://tuoitre.vn/hang-ngan-nguoi-loi-xuong-bien-co-vu-hoi-boi-chai-truyen-thong-lang-chai-quang-tri-100260902105539135.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Hàng ngàn người lội xuống biển cổ vũ hội bơi chải truyền thống làng chài Quảng Trị"
+    },
+    {
+      "title": "Đã đến lúc phải chung tay xây dựng thương hiệu gạo Việt Nam",
+      "url": "https://tuoitre.vn/da-den-luc-phai-chung-tay-xay-dung-thuong-hieu-gao-viet-nam-100260902082527392.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Đã đến lúc phải chung tay xây dựng thương hiệu gạo Việt Nam"
+    },
+    {
+      "title": "Văn hóa",
+      "url": "https://tuoitre.vn/van-hoa.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Văn hóa"
+    },
+    {
+      "title": "Thế giới",
+      "url": "https://tuoitre.vn/the-gioi.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Thế giới"
+    },
+    {
+      "title": "Thời sự",
+      "url": "https://tuoitre.vn/thoi-su.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Thời sự"
+    },
+    {
+      "title": "Bạn đọc",
+      "url": "https://tuoitre.vn/ban-doc.htm",
+      "source": "Tuoi Tre",
+      "is_drone": false,
+      "title_zh": "Bạn đọc"
+    },
+    {
+      "title": "Đề xuất hộ kinh doanh chuyển lên công ty không cần chủ tịch, kế toán trưởng",
+      "url": "https://vtv.vn/de-xuat-ho-kinh-doanh-chuyen-len-cong-ty-khong-can-chu-tich-ke-toan-truong-100260901110120977.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Đề xuất hộ kinh doanh chuyển lên công ty không cần chủ tịch, kế toán trưởng"
+    },
+    {
+      "title": "Ai được ưu tiên mua nhà ở xã hội?",
+      "url": "https://vtv.vn/ai-duoc-uu-tien-mua-nha-o-xa-hoi-100260901100857071.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Ai được ưu tiên mua nhà ở xã hội?"
+    },
+    {
+      "title": "Đề xuất cho nhà đầu tư sử dụng AI đầu tư chứng khoán",
+      "url": "https://vtv.vn/de-xuat-cho-nha-dau-tu-su-dung-ai-dau-tu-chung-khoan-100260901103103595.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Đề xuất cho nhà đầu tư sử dụng AI đầu tư chứng khoán"
+    },
+    {
+      "title": "Giá dầu thế giới tăng hơn 2%",
+      "url": "https://vtv.vn/gia-dau-the-gioi-tang-hon-2-100260901101241.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Giá dầu thế giới tăng hơn 2%"
+    },
+    {
+      "title": "8 tháng, Hà Nội thu ngân sách hơn 521.300 tỷ đồng",
+      "url": "https://vtv.vn/8-thang-ha-noi-thu-ngan-sach-hon-521300-ty-dong-100260827054036395.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "8 tháng, Hà Nội thu ngân sách hơn 521.300 tỷ đồng"
+    },
+    {
+      "title": "Khoảng 28.700 tỷ đồng trái phiếu được phát hành từ đầu tháng 8",
+      "url": "https://vtv.vn/khoang-28700-ty-dong-trai-phieu-duoc-phat-hanh-tu-dau-thang-8-100260901103829655.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Khoảng 28.700 tỷ đồng trái phiếu được phát hành từ đầu tháng 8"
+    },
+    {
+      "title": "Khẩn trương gỡ vướng cấp C/O cho doanh nghiệp xuất khẩu",
+      "url": "https://vtv.vn/khan-truong-go-vuong-cap-c-o-cho-doanh-nghiep-xuat-khau-100260901111035301.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Khẩn trương gỡ vướng cấp C/O cho doanh nghiệp xuất khẩu"
+    },
+    {
+      "title": "Cấp xã được tăng quyền xử phạt vi phạm đất đai",
+      "url": "https://vtv.vn/cap-xa-duoc-tang-quyen-xu-phat-vi-pham-dat-dai-100260901105552828.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Cấp xã được tăng quyền xử phạt vi phạm đất đai"
+    },
+    {
+      "title": "Tăng cường phục vụ nhu cầu mua sắm dịp lễ 2/9",
+      "url": "https://vtv.vn/tang-cuong-phuc-vu-nhu-cau-mua-sam-dip-le-2-9-100260901105016665.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Tăng cường phục vụ nhu cầu mua sắm dịp lễ 2/9"
+    },
+    {
+      "title": "Tuyên bố gây chú ý của Tổng thống Trump về triển vọng kinh tế Mỹ",
+      "url": "https://vtv.vn/tuyen-bo-gay-chu-y-cua-tong-thong-trump-ve-trien-vong-kinh-te-my-100260901102333359.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Tuyên bố gây chú ý của Tổng thống Trump về triển vọng kinh tế Mỹ"
+    },
+    {
+      "title": "Từ hôm nay, mỗi thửa đất có mã định danh 12 chữ số, tra cứu được trên VNeID",
+      "url": "https://vtv.vn/tu-hom-nay-moi-thua-dat-co-ma-dinh-danh-12-chu-so-tra-cuu-duoc-tren-vneid-100260901104102355.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Từ hôm nay, mỗi thửa đất có mã định danh 12 chữ số, tra cứu được trên VNeID"
+    },
+    {
+      "title": "Điều kiện kinh doanh phụ gia xăng E10",
+      "url": "https://vtv.vn/dieu-kien-kinh-doanh-phu-gia-xang-e10-100260901100548195.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Điều kiện kinh doanh phụ gia xăng E10"
+    },
+    {
+      "title": "Nâng tầm đặc sản Lai Châu trên nền tảng thương mại điện tử",
+      "url": "https://vtv.vn/nang-tam-dac-san-lai-chau-tren-nen-tang-thuong-mai-dien-tu-100260830112437165.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Nâng tầm đặc sản Lai Châu trên nền tảng thương mại điện tử"
+    },
+    {
+      "title": "Du lịch lễ 2/9: Khách tăng, ưu tiên tour vừa túi tiền",
+      "url": "https://vtv.vn/du-lich-le-2-9-khach-tang-uu-tien-tour-vua-tui-tien-100260831120217085.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Du lịch lễ 2/9: Khách tăng, ưu tiên tour vừa túi tiền"
+    },
+    {
+      "title": "Đẩy nhanh xử lý dự án tồn đọng, khơi thông nguồn lực",
+      "url": "https://vtv.vn/day-nhanh-xu-ly-du-an-ton-dong-khoi-thong-nguon-luc-100260829102626456.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Đẩy nhanh xử lý dự án tồn đọng, khơi thông nguồn lực"
+    },
+    {
+      "title": "Dưa Kim Hoàng Hậu từ thử nghiệm đến sản xuất nông nghiệp công nghệ cao",
+      "url": "https://vtv.vn/dua-kim-hoang-hau-tu-thu-nghiem-den-san-xuat-nong-nghiep-cong-nghe-cao-100260822103911308.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Dưa Kim Hoàng Hậu từ thử nghiệm đến sản xuất nông nghiệp công nghệ cao"
+    },
+    {
+      "title": "Xuất khẩu gạo đạt 2,91 tỷ USD, giá bắt đầu phục hồi",
+      "url": "https://vtv.vn/xuat-khau-gao-dat-291-ty-usd-gia-bat-dau-phuc-hoi-100260831133018395.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Xuất khẩu gạo đạt 2,91 tỷ USD, giá bắt đầu phục hồi"
+    },
+    {
+      "title": "Hạ tầng tăng tốc, cơ hội hút dòng vốn quốc tế mở rộng",
+      "url": "https://vtv.vn/ha-tang-tang-toc-co-hoi-hut-dong-von-quoc-te-mo-rong-100260831132714539.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Hạ tầng tăng tốc, cơ hội hút dòng vốn quốc tế mở rộng"
+    },
+    {
+      "title": "Nghị quyết giảm thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp",
+      "url": "https://vtv.vn/nghi-quyet-giam-thue-thu-nhap-ca-nhan-thue-thu-nhap-doanh-nghiep-100260831132411662.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Nghị quyết giảm thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp"
+    },
+    {
+      "title": "Quy hoạch TP. Hồ Chí Minh: Kiến tạo siêu đô thị đa cực, dành dư địa cho tương lai",
+      "url": "https://vtv.vn/quy-hoach-tp-ho-chi-minh-kien-tao-sieu-do-thi-da-cuc-danh-du-dia-cho-tuong-lai-100260831132215114.htm",
+      "source": "VTV Kinh Te",
+      "is_drone": false,
+      "title_zh": "Quy hoạch TP. Hồ Chí Minh: Kiến tạo siêu đô thị đa cực, dành dư địa cho tương lai"
+    },
+    {
+      "title": "Thời sự",
+      "url": "https://thanhnien.vn/thoi-su.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Thời sự"
+    },
+    {
+      "title": "TP.HCM đề xuất hỗ trợ người hoạt động kháng chiến, giúp đỡ cách mạng 1 triệu đồng/tháng",
+      "url": "https://thanhnien.vn/tphcm-de-xuat-ho-tro-nguoi-hoat-dong-khang-chien-giup-do-cach-mang-1-trieu-dong-thang-185260901215940939.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "TP.HCM đề xuất hỗ trợ người hoạt động kháng chiến, giúp đỡ cách mạng 1 triệu đồng/tháng"
+    },
+    {
+      "title": "Pháp luật",
+      "url": "https://thanhnien.vn/thoi-su/phap-luat.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Pháp luật"
+    },
+    {
+      "title": "Dân sinh",
+      "url": "https://thanhnien.vn/thoi-su/dan-sinh.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Dân sinh"
+    },
+    {
+      "title": "Lao động - Việc làm",
+      "url": "https://thanhnien.vn/thoi-su/lao-dong-viec-lam.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Lao động - Việc làm"
+    },
+    {
+      "title": "Quyền được biết",
+      "url": "https://thanhnien.vn/thoi-su/quyen-duoc-biet.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Quyền được biết"
+    },
+    {
+      "title": "Phóng sự / Điều tra",
+      "url": "https://thanhnien.vn/thoi-su/phong-su--dieu-tra.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Phóng sự / Điều tra"
+    },
+    {
+      "title": "Quốc phòng",
+      "url": "https://thanhnien.vn/thoi-su/quoc-phong.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Quốc phòng"
+    },
+    {
+      "title": "Chống tin giả",
+      "url": "https://thanhnien.vn/thoi-su/chong-tin-gia.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Chống tin giả"
+    },
+    {
+      "title": "Thành tựu y khoa",
+      "url": "https://thanhnien.vn/thoi-su/thanh-tuu-y-khoa.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Thành tựu y khoa"
+    },
+    {
+      "title": "Thi công cao tốc TP.HCM - Thủ Dầu Một - Chơn Thành xuyên lễ 2.9",
+      "url": "https://thanhnien.vn/thi-cong-cao-toc-tphcm-thu-dau-mot-chon-thanh-xuyen-le-29-18526090123333679.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Thi công cao tốc TP.HCM - Thủ Dầu Một - Chơn Thành xuyên lễ 2.9"
+    },
+    {
+      "title": "Vị tướng 3 lần dẫn quân đi cứu hộ nước ngoài: 'Phần thưởng lớn nhất là những cái ôm’",
+      "url": "https://thanhnien.vn/vi-tuong-3-lan-dan-quan-di-cuu-ho-nuoc-ngoai-phan-thuong-lon-nhat-la-nhung-cai-om-18526090207200975.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Vị tướng 3 lần dẫn quân đi cứu hộ nước ngoài: 'Phần thưởng lớn nhất là những cái ôm’"
+    },
+    {
+      "title": "Công khai 2 điểm xử phạt lỗi khoảng cách trên cao tốc Pháp Vân - Cầu Giẽ",
+      "url": "https://thanhnien.vn/cong-khai-2-diem-xu-phat-loi-khoang-cach-tren-cao-toc-phap-van-cau-gie-185260902071244311.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Công khai 2 điểm xử phạt lỗi khoảng cách trên cao tốc Pháp Vân - Cầu Giẽ"
+    },
+    {
+      "title": "Dự báo thời tiết nắng nóng trong ngày Quốc khánh 2.9",
+      "url": "https://thanhnien.vn/du-bao-thoi-tiet-nang-nong-trong-ngay-quoc-khanh-29-185260902065134444.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Dự báo thời tiết nắng nóng trong ngày Quốc khánh 2.9"
+    },
+    {
+      "title": "Vùng 4 Hải quân sôi nổi hoạt động chào mừng Quốc khánh 2.9",
+      "url": "https://thanhnien.vn/vung-4-hai-quan-soi-noi-hoat-dong-chao-mung-quoc-khanh-29-185260902105931515.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Vùng 4 Hải quân sôi nổi hoạt động chào mừng Quốc khánh 2.9"
+    },
+    {
+      "title": "30 năm, 93 lần hiến máu: Người phụ nữ cứ 3 tháng lại 'đứng ngồi không yên'",
+      "url": "https://thanhnien.vn/30-nam-93-lan-hien-mau-nguoi-phu-nu-cu-3-thang-lai-dung-ngoi-khong-yen-185260830234140458.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "30 năm, 93 lần hiến máu: Người phụ nữ cứ 3 tháng lại 'đứng ngồi không yên'"
+    },
+    {
+      "title": "Nghỉ lễ 2.9, gần 550.000 lượt xe vào cao tốc, tăng gần 80.000 lượt",
+      "url": "https://thanhnien.vn/nghi-le-29-gan-550000-luot-xe-vao-cao-toc-tang-gan-80000-luot-185260902110931473.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Nghỉ lễ 2.9, gần 550.000 lượt xe vào cao tốc, tăng gần 80.000 lượt"
+    },
+    {
+      "title": "Pháo hoa mừng Quốc khánh ở sông Sài Gòn tạo hình cây tre, vận hành tự động",
+      "url": "https://thanhnien.vn/phao-hoa-mung-quoc-khanh-o-song-sai-gon-tao-hinh-cay-tre-van-hanh-tu-dong-185260902102145078.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Pháo hoa mừng Quốc khánh ở sông Sài Gòn tạo hình cây tre, vận hành tự động"
+    },
+    {
+      "title": "Trưởng thôn biết quay phim, dựng clip và kiêm tổng đài chăm sóc bà con",
+      "url": "https://thanhnien.vn/truong-thon-biet-quay-phim-dung-clip-va-kiem-tong-dai-cham-soc-ba-con-185260902095518792.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Trưởng thôn biết quay phim, dựng clip và kiêm tổng đài chăm sóc bà con"
+    },
+    {
+      "title": "Con vật bước vào điện thờ ở TP.HCM: Xuống Cần Giờ tìm xóm 'ăn thịt người'",
+      "url": "https://thanhnien.vn/con-vat-buoc-vao-dien-tho-o-tphcm-xuong-can-gio-tim-xom-an-thit-nguoi-185260827172137904.htm",
+      "source": "Thanh Nien",
+      "is_drone": false,
+      "title_zh": "Con vật bước vào điện thờ ở TP.HCM: Xuống Cần Giờ tìm xóm 'ăn thịt người'"
+    }
+  ],
+  "agriculture": [
+    {
+      "title": "Đẩy mạnh quảng bá Festival Hoa Đà Lạt lần thứ XI trên đa nền tảng",
+      "url": "https://nongnghiephuuco.vn/day-manh-quang-ba-festival-hoa-da-lat-lan-thu-xi-tren-da-nen-tang-16895.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Đẩy mạnh quảng bá Festival Hoa Đà Lạt lần thứ XI trên đa nền tảng"
+    },
+    {
+      "title": "Quảng Trị phát triển nông nghiệp hữu cơ theo hướng tập trung, liên kết chuỗi và bền vững",
+      "url": "https://nongnghiephuuco.vn/quang-tri-phat-trien-nong-nghiep-huu-co-theo-huong-tap-trung-lien-ket-chuoi-va-ben-vung-16894.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Quảng Trị phát triển nông nghiệp hữu cơ theo hướng tập trung, liên kết chuỗi và bền vững"
+    },
+    {
+      "title": "Thị trường nông sản 1/9/2026: Cà phê đảo chiều tăng, hồ tiêu giữ giá",
+      "url": "https://nongnghiephuuco.vn/thi-truong-nong-san-192026-ca-phe-dao-chieu-tang-ho-tieu-giu-gia-540.media",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Thị trường nông sản 1/9/2026: Cà phê đảo chiều tăng, hồ tiêu giữ giá"
+    },
+    {
+      "title": "Phân Compost trong cải tạo đất nông nghiệp: Tiếp cận từ góc nhìn chuyên gia",
+      "url": "https://nongnghiephuuco.vn/phan-compost-trong-cai-tao-dat-nong-nghiep-tiep-can-tu-goc-nhin-chuyen-gia-16890.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Phân Compost trong cải tạo đất nông nghiệp: Tiếp cận từ góc nhìn chuyên gia"
+    },
+    {
+      "title": "SỰ KIỆN",
+      "url": "https://nongnghiephuuco.vn/su-kien",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "SỰ KIỆN"
+    },
+    {
+      "title": "Video",
+      "url": "https://nongnghiephuuco.vn/multimedia/video",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Video"
+    },
+    {
+      "title": "TẠP CHÍ IN",
+      "url": "https://nongnghiephuuco.vn/tap-chi-in",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "TẠP CHÍ IN"
+    },
+    {
+      "title": "ĐỀ ÁN 885",
+      "url": "https://nongnghiephuuco.vn/de-an-885",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "ĐỀ ÁN 885"
+    },
+    {
+      "title": "NÔNG NGHIỆP XANH",
+      "url": "https://nongnghiephuuco.vn/nong-nghiep-xanh",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "NÔNG NGHIỆP XANH"
+    },
+    {
+      "title": "KHOA HỌC CÔNG NGHỆ",
+      "url": "https://nongnghiephuuco.vn/khoa-hoc-cong-nghe",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "KHOA HỌC CÔNG NGHỆ"
+    },
+    {
+      "title": "MULTIMEDIA",
+      "url": "https://nongnghiephuuco.vn/multimedia",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "MULTIMEDIA"
+    },
+    {
+      "title": "HỮU CƠ VÀ ĐỜI SỐNG",
+      "url": "https://nongnghiephuuco.vn/huu-co-va-doi-song",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "HỮU CƠ VÀ ĐỜI SỐNG"
+    },
+    {
+      "title": "KINH TẾ NÔNG NGHIỆP",
+      "url": "https://nongnghiephuuco.vn/kinh-te-nong-nghiep",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "KINH TẾ NÔNG NGHIỆP"
+    },
+    {
+      "title": "MÔI TRƯỜNG XANH",
+      "url": "https://nongnghiephuuco.vn/moi-truong-xanh",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "MÔI TRƯỜNG XANH"
+    },
+    {
+      "title": "HỮU CƠ VỚI BẠN ĐỌC",
+      "url": "https://nongnghiephuuco.vn/huu-co-voi-ban-doc",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "HỮU CƠ VỚI BẠN ĐỌC"
+    },
+    {
+      "title": "DOANH NGHIỆP - DOANH NHÂN",
+      "url": "https://nongnghiephuuco.vn/doanh-nghiep-doanh-nhan",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "DOANH NGHIỆP - DOANH NHÂN"
+    },
+    {
+      "title": "Các tổ chức bảo vệ quyền động vật tại Hoa Kỳ thu về hơn 1 tỷ USD mỗi năm",
+      "url": "https://nongnghiephuuco.vn/cac-to-chuc-bao-ve-quyen-dong-vat-tai-hoa-ky-thu-ve-hon-1-ty-usd-moi-nam-16898.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Các tổ chức bảo vệ quyền động vật tại Hoa Kỳ thu về hơn 1 tỷ USD mỗi năm"
+    },
+    {
+      "title": "Đắk Lắk bế mạc Liên hoan “Tiếng kèn Đội ta” khu vực phía Nam, lan tỏa tinh thần đoàn kết",
+      "url": "https://nongnghiephuuco.vn/dak-lak-be-mac-lien-hoan-tieng-ken-doi-ta-khu-vuc-phia-nam-lan-toa-tinh-than-doan-ket-16893.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Đắk Lắk bế mạc Liên hoan “Tiếng kèn Đội ta” khu vực phía Nam, lan tỏa tinh thần đoàn kết"
+    },
+    {
+      "title": "Đắk Lắk khởi công dự án 125,6 tỷ đồng tôn tạo cảnh quan Di tích Đền thờ Lương Văn Chánh",
+      "url": "https://nongnghiephuuco.vn/dak-lak-khoi-cong-du-an-1256-ty-dong-ton-tao-canh-quan-di-tich-den-tho-luong-van-chanh-16892.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Đắk Lắk khởi công dự án 125,6 tỷ đồng tôn tạo cảnh quan Di tích Đền thờ Lương Văn Chánh"
+    },
+    {
+      "title": "Đắk Lắk tổ chức chương trình nghệ thuật đặc biệt chào mừng ngày Quốc khánh 2/9",
+      "url": "https://nongnghiephuuco.vn/dak-lak-to-chuc-chuong-trinh-nghe-thuat-dac-biet-chao-mung-ngay-quoc-khanh-29-16885.html",
+      "source": "NN Huu Co",
+      "is_drone": false,
+      "title_zh": "Đắk Lắk tổ chức chương trình nghệ thuật đặc biệt chào mừng ngày Quốc khánh 2/9"
+    },
+    {
+      "title": "'Hỡi đồng bào cả nước!': Nghe Bác Hồ đọc Tuyên ngôn Độc lập ngày 2/9/1945",
+      "url": "https://nongthonviet.vn/hoi-dong-bao-ca-nuoc-nghe-bac-ho-doc-tuyen-ngon-doc-lap-ngay-2-9-1945-45926.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "'Hỡi đồng bào cả nước!': Nghe Bác Hồ đọc Tuyên ngôn Độc lập ngày 2/9/1945"
+    },
+    {
+      "title": "Ngày Tết Độc lập nơi phên dậu Tổ quốc",
+      "url": "https://nongthonviet.vn/ngay-tet-doc-lap-noi-phen-dau-to-quoc-45929.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Ngày Tết Độc lập nơi phên dậu Tổ quốc"
+    },
+    {
+      "title": "Doanh nghiệp nông sản nào đang ‘lái’ con thuyền vào thị trường Trung Quốc?",
+      "url": "https://nongthonviet.vn/doanh-nghiep-nong-san-nao-dang-lai-con-thuyen-vao-thi-truong-trung-quoc-45928.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Doanh nghiệp nông sản nào đang ‘lái’ con thuyền vào thị trường Trung Quốc?"
+    },
+    {
+      "title": "Thời tiết hôm nay",
+      "url": "https://nongthonviet.vn/thoi-tiet",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Thời tiết hôm nay"
+    },
+    {
+      "title": "Giấy SC: Doanh nghiệp thủy sản chới với, chính quyền TP.HCM vào cuộc",
+      "url": "https://nongthonviet.vn/giay-sc-doanh-nghiep-thuy-san-choi-voi-chinh-quyen-tp-hcm-vao-cuoc-45927.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Giấy SC: Doanh nghiệp thủy sản chới với, chính quyền TP.HCM vào cuộc"
+    },
+    {
+      "title": "Từ 1/9, mỗi thửa đất sẽ có một 'mã số' riêng: Nông dân cần biết gì?",
+      "url": "https://nongthonviet.vn/tu-1-9-moi-thua-dat-se-co-mot-ma-so-rieng-nong-dan-can-biet-gi-45919.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Từ 1/9, mỗi thửa đất sẽ có một 'mã số' riêng: Nông dân cần biết gì?"
+    },
+    {
+      "title": "Bác Ba Phi kiểm chứng: Nha đam có thần thánh như lời đồn?",
+      "url": "https://nongthonviet.vn/bac-ba-phi-kiem-chung-nha-dam-co-than-thanh-nhu-loi-don-45920.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Bác Ba Phi kiểm chứng: Nha đam có thần thánh như lời đồn?"
+    },
+    {
+      "title": "6 triệu tấn gạo xuất khẩu: Những đại gia thu về tiền tỷ",
+      "url": "https://nongthonviet.vn/6-trieu-tan-gao-xuat-khau-nhung-dai-gia-thu-ve-tien-ty-45917.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "6 triệu tấn gạo xuất khẩu: Những đại gia thu về tiền tỷ"
+    },
+    {
+      "title": "Những trải nghiệm làm nên kỳ nghỉ Quốc khánh 2/9 khác biệt",
+      "url": "https://nongthonviet.vn/nhung-trai-nghiem-lam-nen-ky-nghi-quoc-khanh-2-9-khac-biet-45922.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Những trải nghiệm làm nên kỳ nghỉ Quốc khánh 2/9 khác biệt"
+    },
+    {
+      "title": "Thanh niên xung phong TP.HCM làm trật tự viên du lịch Vũng Tàu",
+      "url": "https://nongthonviet.vn/thanh-nien-xung-phong-tp-hcm-lam-trat-tu-vien-du-lich-vung-tau-45925.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Thanh niên xung phong TP.HCM làm trật tự viên du lịch Vũng Tàu"
+    },
+    {
+      "title": "Mất tích ở Jeju: Chuyện gì thực sự đang xảy ra ở ‘thiên đường du lịch’?",
+      "url": "https://nongthonviet.vn/mat-tich-o-jeju-chuyen-gi-thuc-su-dang-xay-ra-o-thien-duong-du-lich-45924.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Mất tích ở Jeju: Chuyện gì thực sự đang xảy ra ở ‘thiên đường du lịch’?"
+    },
+    {
+      "title": "Tết Độc lập đong đầy cảm xúc cùng đại sử thi sân khấu 'Đất Nước Thiên Hùng Ca'",
+      "url": "https://nongthonviet.vn/tet-doc-lap-dong-day-cam-xuc-cung-dai-su-thi-san-khau-dat-nuoc-thien-hung-ca-45923.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Tết Độc lập đong đầy cảm xúc cùng đại sử thi sân khấu 'Đất Nước Thiên Hùng Ca'"
+    },
+    {
+      "title": "Thị trường nông sản 1/9: Cà phê tăng nhẹ phiên đầu tháng, nhiều mặt hàng giữ nhịp đi ngang",
+      "url": "https://nongthonviet.vn/thi-truong-nong-san-1-9-ca-phe-tang-nhe-phien-dau-thang-nhieu-mat-hang-giu-nhip-di-ngang-45921.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Thị trường nông sản 1/9: Cà phê tăng nhẹ phiên đầu tháng, nhiều mặt hàng giữ nhịp đi ngang"
+    },
+    {
+      "title": "Cà phê rời xa mốc 100.000 đồng/kg: Doanh nghiệp ‘đóng vai’ quan sát",
+      "url": "https://nongthonviet.vn/ca-phe-roi-xa-moc-100-000-dong-kg-doanh-nghiep-dong-vai-quan-sat-45918.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Cà phê rời xa mốc 100.000 đồng/kg: Doanh nghiệp ‘đóng vai’ quan sát"
+    },
+    {
+      "title": "Ai đang bán hồ tiêu Việt Nam ra thế giới?",
+      "url": "https://nongthonviet.vn/ai-dang-ban-ho-tieu-viet-nam-ra-the-gioi-45916.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Ai đang bán hồ tiêu Việt Nam ra thế giới?"
+    },
+    {
+      "title": "Miền Trung: Những doanh nghiệp nông thôn nào đang lớn lên từ vốn khuyến công?",
+      "url": "https://nongthonviet.vn/mien-trung-nhung-doanh-nghiep-nong-thon-nao-dang-lon-len-tu-von-khuyen-cong-45915.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Miền Trung: Những doanh nghiệp nông thôn nào đang lớn lên từ vốn khuyến công?"
+    },
+    {
+      "title": "Nhập khẩu thịt cán mốc 1,7 tỷ USD, chăn nuôi trong nước chịu sức ép kép",
+      "url": "https://nongthonviet.vn/nhap-khau-thit-can-moc-1-7-ty-usd-chan-nuoi-trong-nuoc-chiu-suc-ep-kep-45914.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Nhập khẩu thịt cán mốc 1,7 tỷ USD, chăn nuôi trong nước chịu sức ép kép"
+    },
+    {
+      "title": "3 miền tưng bừng vui Tết Độc lập 2/9",
+      "url": "https://nongthonviet.vn/3-mien-tung-bung-vui-tet-doc-lap-2-9-45913.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "3 miền tưng bừng vui Tết Độc lập 2/9"
+    },
+    {
+      "title": "Giá ngũ cốc tăng, thời tiết cực đoan đe dọa mùa màng",
+      "url": "https://nongthonviet.vn/gia-ngu-coc-tang-thoi-tiet-cuc-doan-de-doa-mua-mang-45912.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Giá ngũ cốc tăng, thời tiết cực đoan đe dọa mùa màng"
+    },
+    {
+      "title": "Dòng vốn ưu đãi đổ vào nông nghiệp những tháng cuối năm",
+      "url": "https://nongthonviet.vn/dong-von-uu-dai-do-vao-nong-nghiep-nhung-thang-cuoi-nam-45911.html",
+      "source": "Nong Thon Viet",
+      "is_drone": false,
+      "title_zh": "Dòng vốn ưu đãi đổ vào nông nghiệp những tháng cuối năm"
+    },
+    {
+      "title": "Nông nghiệp",
+      "url": "https://nongnghiepmoitruong.vn/nong-nghiep/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Nông nghiệp"
+    },
+    {
+      "title": "81 năm Cách mạng Tháng Tám và Quốc khánh 2/9",
+      "url": "https://nongnghiepmoitruong.vn/81-nam-cach-mang-thang-tam-va-quoc-khanh-2-9-channel88/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "81 năm Cách mạng Tháng Tám và Quốc khánh 2/9"
+    },
+    {
+      "title": "GREEN EXPO 2027",
+      "url": "https://nongnghiepmoitruong.vn/green-expo-2027-channel87/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "GREEN EXPO 2027"
+    },
+    {
+      "title": "'500 ngày đêm' đưa các liệt sĩ trở về",
+      "url": "https://nongnghiepmoitruong.vn/500-ngay-dem-dua-cac-liet-si-tro-ve-channel86/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "'500 ngày đêm' đưa các liệt sĩ trở về"
+    },
+    {
+      "title": "Chính quyền 3 cấp",
+      "url": "https://nongnghiepmoitruong.vn/chinh-quyen-3-cap-channel85/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Chính quyền 3 cấp"
+    },
+    {
+      "title": "Giảm phát thải khí nhà kính và xây dựng thị trường các - bon",
+      "url": "https://nongnghiepmoitruong.vn/giam-phat-thai-khi-nha-kinh-va-xay-dung-thi-truong-cac--bon-channel75/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Giảm phát thải khí nhà kính và xây dựng thị trường các - bon"
+    },
+    {
+      "title": "Canh tác thông minh",
+      "url": "https://nongnghiepmoitruong.vn/canh-tac-thong-minh-channel8/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Canh tác thông minh"
+    },
+    {
+      "title": "Hai vòng tuần hoàn ở xứ sở Tràm Đước",
+      "url": "https://nongnghiepmoitruong.vn/hai-vong-tuan-hoan-o-xu-so-tram-duoc-d826541.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Hai vòng tuần hoàn ở xứ sở Tràm Đước"
+    },
+    {
+      "title": "An Giang đặt mục tiêu sản xuất hơn 446 ngàn tấn lúa trong vụ mùa",
+      "url": "https://nongnghiepmoitruong.vn/an-giang-dat-muc-tieu-san-xuat-hon-446-ngan-tan-lua-trong-vu-mua-d829077.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "An Giang đặt mục tiêu sản xuất hơn 446 ngàn tấn lúa trong vụ mùa"
+    },
+    {
+      "title": "Japfa định hình tương lai ngành chăn nuôi: [Bài 1] Nơi mỗi lao động sản xuất hơn 6.000 tấn cám/năm",
+      "url": "https://nongnghiepmoitruong.vn/japfa-dinh-hinh-tuong-lai-nganh-chan-nuoi-bai-1-noi-moi-lao-dong-san-xuat-hon-6000-tan-cam-nam-d829059.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Japfa định hình tương lai ngành chăn nuôi: [Bài 1] Nơi mỗi lao động sản xuất hơn 6.000 tấn cám/năm"
+    },
+    {
+      "title": "Mạch môn xanh mướt núi đồi",
+      "url": "https://nongnghiepmoitruong.vn/mach-mon-xanh-muot-nui-doi-d826639.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Mạch môn xanh mướt núi đồi"
+    },
+    {
+      "title": "Canh tác lúa thân thiện với môi trường, hiệu quả kép",
+      "url": "https://nongnghiepmoitruong.vn/canh-tac-lua-than-thien-voi-moi-truong-hieu-qua-kep-d828816.html",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Canh tác lúa thân thiện với môi trường, hiệu quả kép"
+    },
+    {
+      "title": "Chăn nuôi",
+      "url": "https://nongnghiepmoitruong.vn/chan-nuoi/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Chăn nuôi"
+    },
+    {
+      "title": "Thú y",
+      "url": "https://nongnghiepmoitruong.vn/thu-y/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Thú y"
+    },
+    {
+      "title": "Trồng trọt",
+      "url": "https://nongnghiepmoitruong.vn/trong-trot/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Trồng trọt"
+    },
+    {
+      "title": "Khuyến nông",
+      "url": "https://nongnghiepmoitruong.vn/khuyen-nong/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Khuyến nông"
+    },
+    {
+      "title": "Tái cơ cấu Nông nghiệp",
+      "url": "https://nongnghiepmoitruong.vn/tai-co-cau-nong-nghiep/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Tái cơ cấu Nông nghiệp"
+    },
+    {
+      "title": "Khoa học - Công nghệ",
+      "url": "https://nongnghiepmoitruong.vn/khoa-hoc---cong-nghe/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Khoa học - Công nghệ"
+    },
+    {
+      "title": "Thủy sản",
+      "url": "https://nongnghiepmoitruong.vn/thuy-san/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Thủy sản"
+    },
+    {
+      "title": "Lâm nghiệp",
+      "url": "https://nongnghiepmoitruong.vn/lam-nghiep/",
+      "source": "NN Moi Truong",
+      "is_drone": false,
+      "title_zh": "Lâm nghiệp"
+    }
+  ],
+  "drone_highlights": [],
+  "date_iso": "2026-09-02"
+}
